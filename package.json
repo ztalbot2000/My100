@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "link-checker": "^1.4.2",
+    "markdown-link-check": "^3.11.2"
+  },
+  "scripts": {
+    "testMarkDown": "markdown-link-check README.md && markdown-link-check docs/PrecisionBuildingWithMitreSawAndDrillPress.md",
+    "testMarkDown2": "markdown-link-check docs/PrecisionBuildingWithMitreSawAndADrillPress.md"
+  }
+}

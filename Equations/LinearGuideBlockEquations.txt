@@ -1,0 +1,15 @@
+﻿"LinearRailWidth"= 12mm'Spec
+"D1@BlockFace-Sketch1" = "LinearRailWidth"
+"LinearGBLengthWithBumpers"= 45.4mm'Spec
+"LinearGBMountHoleDiameter"= 2mm
+"LinearGBMountHolesXDistance"= 20mm'Spec
+"LinearGBMountHolesYDistance"= 20mm'Spec
+"D1@MountingHoles-Sketch1"="LinearGBMountHolesXDistance"
+"D2@MountingHoles-Sketch1"="LinearGBMountHolesYDistance"
+"D3@MountingHoles-Sketch1"=("LinearGBLengthWithBumpers"-"LinearGBMountHolesXDistance")/2
+"LinearGBMountHoleDepth"= 3.5mm
+"LinearGBWidth"= 27mm'Spec
+"D7@BlockFace-Sketch1"="LinearGBWidth"
+"D1@Boss-Extrude1"="LinearGBLengthWithBumpers"
+"D1@Cut-Extrude1"="LinearGBMountHoleDepth"
+"D5@MountingHoles-Sketch1"="LinearGBMountHoleDiameter"

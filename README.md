@@ -68,7 +68,7 @@
 ### Understanding the Equations
 &nbsp;&nbsp;&nbsp;To change the dimensions of this 3D printer or to know how it was designed, you must understand the underlying equations.
 
-####Vertical alignment
+#### Vertical alignment
 &nbsp;&nbsp;&nbsp;Each component is stacked relative to the other, in the following manner.
 
 <UL>
@@ -85,10 +85,10 @@
 <LI>The height of the hot end to the top of the frame.
 </UL>
 
-####Left to Right Alignment.
+#### Left to Right Alignment.
 &nbsp;&nbsp;&nbsp;It is not the build plate that dictates the width but the length of the X-Axis linear rail so it fits between the left and right gantry blocks. The bed and build plate are then centered between the steppers in this direction.
 
-####Front to Back Alignment
+#### Front to Back Alignment
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
 ## Current Build Status My100 1.0 Alpha 1

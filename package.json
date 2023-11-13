@@ -4,7 +4,7 @@
     "markdown-link-check": "^3.11.2"
   },
   "scripts": {
-    "testMarkDown": "markdown-link-check README.md && markdown-link-check docs/PrecisionBuildingWithMitreSawAndDrillPress.md",
+    "testMarkDown": "markdown-link-check README.md && markdown-link-check docs/PrecisionBuildingWithMitreSawAndADrillPress.md",
     "testMarkDown2": "markdown-link-check docs/PrecisionBuildingWithMitreSawAndADrillPress.md"
   }
 }

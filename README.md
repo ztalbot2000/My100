@@ -21,6 +21,7 @@
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
 * [**Current Build Status My100 1.0 Alpha 1**](#current-build-status-my100-10-alpha-1)
 * [**Precision Building With Mitre Saw and a Drill Press**](docs/PrecisionBuildingWithMitreSawAndADrillPress.md)
+* [**Bill of Materials**](docs/My100BOM.html)
 * [**Contributing**](#contributing)
 
 <BR><BR>
@@ -95,12 +96,11 @@
 &nbsp;&nbsp;&nbsp; The main SolidWorks design is complete. The electronics will be added later. Fastening holes for an enclosure are added by default. As the design has only been proven in SolidWorks, I had printed the Gantry blocks, Belt fasteners hotend and even the bed. putting them together i noticed that there was no way to push out the pins in the Gantry Block or Belt fastener and having a shelf to hat mated the bed center was not optimal for printing. These issues are fixed in the design, so I'll label this as 1.0Alpha 1.<BR>
 &nbsp;&nbsp;&nbsp; The aluminum has been pre-cut to near exact lengths. I may use my CNC for exactness or my mitre saw following the rules of cutting all the same lengths of pieces at the same time using stop blocks.
 
-
 <BR><BR>
 ## Contributing
 &nbsp;&nbsp;&nbsp; Best ways to contribute
-* Star it on [GitHub][https://github.com/ztalbot2000/my100] - if you use it and like it please at least star it :)
-* Follow the repo on [GitHub][https://github.com/ztalbot2000/my100]
+* Star it on [GitHub](https://github.com/ztalbot2000/My100) - if you use it and like it please at least star it :)
+* Follow the repo on [GitHub](https://github.com/ztalbot2000/My100)
 * Follow me [ztalbot2000](https://github.com/ztalbot2000)
 
 

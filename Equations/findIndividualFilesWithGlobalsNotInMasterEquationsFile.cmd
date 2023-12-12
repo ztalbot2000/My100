@@ -23,11 +23,11 @@ node SWECompare -v .\MidBackRailEquations.txt .\equations.txt
 node SWECompare -v .\MidLeftRailEquations.txt .\equations.txt
 node SWECompare -v .\MidRightRailEquations.txt .\equations.txt
 node SWECompare -v .\RightGantryBlockEquations.txt .\equations.txt
-node SWECompare -v .\TopBackRailEquations.txt .\equations.txt
-node SWECompare -v .\TopCornerBlockEquations.txt .\equations.txt
-node SWECompare -v .\TopFrontRailEquations.txt .\equations.txt
-node SWECompare -v .\TopLeftRailEquations.txt .\equations.txt
-node SWECompare -v .\TopRightRailEquations.txt .\equations.txt
+node SWECompare -v .\UpperBackRailEquations.txt .\equations.txt
+node SWECompare -v .\UpperCornerBlockEquations.txt .\equations.txt
+node SWECompare -v .\UpperFrontRailEquations.txt .\equations.txt
+node SWECompare -v .\UpperLeftRailEquations.txt .\equations.txt
+node SWECompare -v .\UpperRightRailEquations.txt .\equations.txt
 node SWECompare -v .\CarrierEquations.txt .\equations.txt
 node SWECompare -v .\RodStabilizerEquations.txt .\equations.txt
 node SWECompare -v .\VerticalSupportYardStickEquations.txt .\equations.txt

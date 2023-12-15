@@ -1,4 +1,4 @@
-(BackLeftVS-Left Machined right side)
+(BackRightVS-Rear Drilled .125in right side)
 G21
 M3 S5000
 G0X0.00Y0.00Z10.00
@@ -19,11 +19,11 @@ G0X14.2875Y81.1125
 G1Z-10.0F20.0
 G0Z10.00
 (Third bottom rail hole)
-G0X23.8125Y87.46
+G0X23.8125Y87.4625
 G1Z-10.0F20.0
 G0Z10.00
 (Fourth bottom rail hole)
-G0X14.2875Y87.46
+G0X14.2875Y87.4625
 G1Z-10.0F20.0
 G0Z10.00
 (First case hole)
@@ -35,19 +35,19 @@ G0X14.2875Y260.00
 G1Z-10.0F20.0
 G0Z10.00
 (First left mid rail hole)
-G0X14.2875Y319.90264
+G0X14.2875Y326.25264
 G1Z-10.0F20.0
 G0Z10.00
 (First right mid rail hole)
-G0X23.8125X319.90264
+G0X23.8125Y326.25264
 G1Z-10.0F20.0
 G0Z10.00
-(Second left mid rail hole)
-G0X14.2875Y332.60264
+(Second left mid rail hole)
+G0X14.2875Y332.60
 G1Z-10.0F20.0
 G0Z10.00
 (Second right mid rail hole)
-G0X23.8125Y332.60264
+G0X23.8125Y332.60
 G1Z-10.0F20.0
 G0Z10.00
 (Third case hole)
@@ -67,7 +67,7 @@ G0X14.2875Y438.8875
 G1Z-10.0F20.0
 G0Z10.00
 (First upper rail hole - right)
-G0X23.8125Y48.8875
+G0X23.8125Y438.8875
 G1Z-10.0F20.0
 G0Z10.00
 S0

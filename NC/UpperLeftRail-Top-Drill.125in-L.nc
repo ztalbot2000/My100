@@ -1,4 +1,4 @@
-(UpperLeftRail-Top Machined left side -X)
+(UpperLeftRail-Top Drilled .125in left side -X)
 G21
 M3 S5000
 G0X0.00Y0.00Z10.00

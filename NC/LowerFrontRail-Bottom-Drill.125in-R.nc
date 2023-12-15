@@ -1,4 +1,4 @@
-(LowerFrontRail-Bottom Machined right)
+(LowerFrontRail-Bottom Drilled .125in right)
 G21
 M3 S5000
 G0X0.00Y0.00Z10.00

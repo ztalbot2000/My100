@@ -1,4 +1,4 @@
-(MidBackRail-Top  Drilled .125in right side)
+(MidBackRail-Top Drilled .125in right side)
 G21
 M3 S5000
 G0X0.00Y0.00Z10.0
@@ -20,7 +20,7 @@ G0Z10.0
 (We pre-Drill the 1/4 inch hole based on where the circle will start)
 G0X21.0Y17.099
 G1Z-10F10.0
-(G0Z10.0)
+G0Z10.0
 (Right mount hole of first stepper - above)
 G0X5.5Y44.925
 G1Z-10F10.0

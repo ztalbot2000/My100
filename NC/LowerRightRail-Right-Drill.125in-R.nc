@@ -1,4 +1,4 @@
-(LowerRightRail-Right Drilled .125in right)
+(LowerRightRail-Right Drilled .125in right side)
 G21
 M3 S5000
 G0X0.00Y0.00Z10.00

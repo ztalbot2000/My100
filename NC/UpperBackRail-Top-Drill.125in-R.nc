@@ -12,7 +12,7 @@ G0X11.125Y58.7375
 G1Z-10.0F10.0
 G0Z10.0
 (Second Right hole - below)
-G0X11.1125Y58.7375
+G0X23.8125Y58.7375
 G1Z-10.0F10.0
 G0Z10.0
 (First case hole from right)

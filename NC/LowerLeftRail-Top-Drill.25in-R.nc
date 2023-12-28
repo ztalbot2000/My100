@@ -1,7 +1,7 @@
 (LowerLeftRail-Top Drilled .125in right side)
 G21
 M3 S5000
-G0X0.00Y0.00Z10.00
+G0X0.00Y0.00Z5.00
 (First right stepper X24.175 Y163.425  - CENTER)
 (Radius is 15.5. Minus half mill bit is 6.350/2 = 12.326)
 (We arc about the Y axis, so X remains the same and I=0)
@@ -11,7 +11,7 @@ G0X0.00Y0.00Z10.00
 (We Drill the 1/4 inch hole based on where the circle will start)
 G0X24.175Y151.099
 G1Z-10.0F10.0
-G0Z10.0
+G0Z5.0
 (First Left stepper X24.175 Y479.25 - CENTER)
 (Radius is 15.5. Minus half mill bit is 6.350/2 = 12.326)
 (We arc about the Y axis, so X remains the same and I=0)
@@ -21,7 +21,7 @@ G0Z10.0
 (We Drill the 1/4 inch hole based on where the circle will start)
 G0X24.175Y466.924
 G1Z-10.0F10.0
-G0Z10.0
+G0Z5.0
 S0
 M5
 M30

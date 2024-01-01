@@ -3,7 +3,7 @@ G21
 M3 S5000
 G0X0.00Y0.00Z5.0
 (First right support hole)
-G0X11.1125Y39.6875
+G0X-11.1125Y39.6875
 G1Z-10.0F10.0
 G0Z5.0
 (First case hole)

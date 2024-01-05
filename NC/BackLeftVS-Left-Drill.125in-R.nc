@@ -39,7 +39,7 @@ G0X14.2875Y319.90264
 G1Z-10.0F10.0
 G0Z5.0
 (First right mid rail hole)
-G0X23.8125X319.90264
+G0X23.8125Y319.90264
 G1Z-10.0F10.0
 G0Z5.0
 (Second left mid rail hole)

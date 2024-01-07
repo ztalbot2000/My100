@@ -44,5 +44,12 @@
 
 
 <BR><BR>
+## The First Assembly of the Frame
+&nbsp;&nbsp;&nbsp; Did I tell you I'm in Canada?  Well my CNC spindle does not like the cold.  Neither do I actually. Working with metal at -10 degrees Celcius or 14 degrees Fahrenheit is no fun.  All in all though, not a bad first try. I'll probably fill at least one of the vertical supports and try again.
+
+<img src="images/build/FirstAssemblyOfTheFrame.png" width="640" height="640">
+
+
+<BR><BR>
 ## License
 See [LICENSE](../LICENSE)

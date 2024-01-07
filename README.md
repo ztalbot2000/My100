@@ -8,7 +8,7 @@
 <BR><BR>
 ## &nbsp;&nbsp;&nbsp; As I do not have a 3D printer (Yet) but I do have a CNC that I built in 2007 using just a mitre saw and a drill press; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>
 ## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! You can see what I have created so far and are more than welcome to contribute.
-## &nbsp;&nbsp;&nbsp; At this time I have spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features.
+## &nbsp;&nbsp;&nbsp; At this time I have spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled.  Check out the build photos for more.
 ## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts except the hotend. I must admit though that the build is a very slow process.
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
@@ -94,8 +94,16 @@
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
 ## Current Build Status My100 1.0 Alpha 1
-&nbsp;&nbsp;&nbsp; The main SolidWorks design is complete. The electronics will be added later. Fastening holes for an enclosure are added by default. As the design has only been proven in SolidWorks, I had printed the Gantry blocks, Belt fasteners hotend and even the bed. putting them together i noticed that there was no way to push out the pins in the Gantry Block or Belt fastener and having a shelf to hat mated the bed center was not optimal for printing. These issues are fixed in the design, so I'll label this as 1.0Alpha 1.<BR>
-&nbsp;&nbsp;&nbsp; The aluminum has been pre-cut to near exact lengths. I may use my CNC for exactness or my mitre saw following the rules of cutting all the same lengths of pieces at the same time using stop blocks.
+&nbsp;&nbsp;&nbsp; The following main steps have been accomplished.
+<UL>
+<LI>The main SolidWorks design is complete. The electronics will be added later.
+<LI> Fastening holes for an enclosure are added by default. 
+<LI> As the design has partially only been proven in SolidWorks, I had printed the Gantry blocks, Belt fasteners hotend and even the bed. putting them together i noticed that there was no way to push out the pins in the Gantry Block or Belt fastener and having a shelf to hat mated the bed center was not optimal for printing. These issues are fixed in the design, so I'll label this as 1.0Alpha 1.
+<LI>The aluminum has been pre-cut to near exact lengths. I may use my CNC for exactness or my mitre saw following the rules of cutting all the same lengths of pieces at the same time using stop blocks.
+<LI>All the NC files for the frame were created.
+<LI>All the frame pieces except the mid back rail has been machined.
+<LI>The frame from the available parts were assembled.
+<UL>
 
 <BR><BR>
 ## Contributing

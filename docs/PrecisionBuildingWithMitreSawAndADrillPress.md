@@ -27,7 +27,7 @@
 &nbsp;&nbsp;&nbsp; If you measure, mark and cut more than 1 piece, you are gauranteed to introduce error. If you have just a mitre saw, use end stops to cut all the width, length and vertical pieces at the same time, gauranteeing their equal sizes.
 
 ## Drilling Opposing Holes At The Same Time
-&nbsp;&nbsp;&nbsp; When using a drill press, drill all the pieces corresponding holes from the front to the back, left to right and bottom to top or at least in such a manner that the mating hole on the opposite piece is drilled at the same time from the same end. Using this method, at least any error introduced will not cause any issues.
+&nbsp;&nbsp;&nbsp; When using a drill press, drill all the pieces corresponding holes from the bottom back left corner or at least in such a manner that the mating hole on the opposite piece is drilled at the same time from the same end. Using this method, at least any error introduced will not cause any issues.
 
 <BR><BR>
 ## License

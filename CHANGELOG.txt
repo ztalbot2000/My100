@@ -1,0 +1,25 @@
+This will be an incomplete change log until further notice.
+
+
+
+
+v1.0Alpha-1
+===========
+This was actually built! Here are the things I would/did improve on
+- I put 4 screw holes in each frame connection to the upper and lower
+  rails. Three should be used as the inner most screws collide.
+- The mid rail was made out of flat aluminum.  It bends to easily and
+  should be made out of steel or 90 degree aluminum.
+- The NC files are correct.  I did alter the feeds and Z-axis starting
+  position and depths during the runs.
+- During assembly, the rail corners needed to be filed to account for
+  the 90 degree inside bead of the vertical supports.
+- I used a 1/2 inch drill bit set to the appropriate depth on my drill
+  press to make a chamfer that accommodates the head of a flat head machine
+  screw.
+
+v1.0Alpha-0 (Untagged)
+======================
+- The 3d printed base should not contain a 90 contour to mount the inner
+  square as it causes the slicer to build a shelf to support it during
+  printing.  This was changed to a 45 degree angle.

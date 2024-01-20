@@ -51,5 +51,14 @@
 
 
 <BR><BR>
+## Second Assembly of the Frame. Alpha-1
+&nbsp;&nbsp;&nbsp; The frame is looking much better. It's almost perfect but not quite. The incorrect holes were filled and machined again.<BR>
+ I've identified screw collisions. I thought this was going to happen. I did not need CAD to see it was going to be so. I'll update the CAD files for a fix.<BR>
+The frame is sitting flatly on an old TV stand in my computer room and no longer in the shop. Progress!
+
+<img src="images/build/SecondAssemblyOfTheFrame.png" width="640" height="640">
+
+
+<BR><BR>
 ## License
 See [LICENSE](../LICENSE)

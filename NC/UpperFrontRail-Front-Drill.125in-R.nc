@@ -2,19 +2,20 @@
 G21
 M3 S5000
 G0X0.00Y0.00Z5.0
-(First Right screw hole - above)
+(First Right screw hole - closest to edge)
 G0X23.8125Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
-(First Right screw hole - below)
+(First Right screw hole - closest to side)
 G0X11.1125Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
-(Second Right screw hole - above)
-G0X23.8125Y20.6375
-G1Z-10.0F10.0
-G0Z5.0
-(Second Right screw hole - below)
+(Second Right screw hole - closest to edge)
+(Commented out to avoid screw collision)
+(G0X23.8125Y20.6375)
+(G1Z-10.0F10.0)
+(G0Z5.0)
+(Second Right screw hole - closest to side)
 G0X11.1125Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
@@ -30,19 +31,20 @@ G0Z5.0
 G0X11.1125Y382.5
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left screw hole - above)
+(Second Left screw hole - closest to edge)
 G0X23.8125Y489.3625
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left screw hole - below)
+(Second Left screw hole - closest to side)
 G0X11.1125Y489.3625
 G1Z-10.0F10.0
 G0Z5.0
-(First Left screw hole - above)
-G0X23.8125Y498.8875
-G1Z-10.0F10.0
-G0Z5.0
-(First Left screw hole - below)
+(First Left screw hole - closest to edge)
+(Commented out to avoid screw collision)
+(G0X23.8125Y498.8875)
+(G1Z-10.0F10.0)
+(G0Z5.0)
+(First Left screw hole - closest to side)
 G0X11.1125Y498.8875
 G1Z-10.0F10.0
 G0Z5.0

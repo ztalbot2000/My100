@@ -1,6 +1,9 @@
 This will be an incomplete change log until further notice.
 
 
+v1.0Alpha-2 (Work in progress)
+===========
+- Change to three screws in each frame connection to avoid screw collisions.
 
 
 v1.0Alpha-1

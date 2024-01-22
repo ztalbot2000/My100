@@ -2,19 +2,20 @@
 G21
 M3 S5000
 G0X0.00Y0.00Z5.0
-(First Right hole - above)
+(First Right hole - closest to the edge)
 G0X-23.8125Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
-(First Right hole - below)
-G0X-11.1125Y11.1125
-G1Z-10.0F10.0
-G0Z5.0
-(Second Right hole - above)
+(First Right hole - closest to the side)
+(Commented out to avoid screw collision)
+(G0X-11.1125Y11.1125)
+(G1Z-10.0F10.0)
+(G0Z5.0)
+(Second Right hole - closest to the edge)
 G0X-23.8125Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
-(Second Right hole - below)
+(Second Right hole - closest to the side)
 G0X-11.1125Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
@@ -30,22 +31,23 @@ G0Z5.0
 G0X-11.1125Y412.50
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left hole - above)
+(Second Left hole - closest to the edge)
 G0X-23.8125Y529.3675
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left hole - below)
+(Second Left hole - closest to the side)
 G0X-11.1125Y529.3675
 G1Z-10.0F10.0
 G0Z5.0
-(First Left hole - above)
+(First Left hole - closest to the edge)
 G0X-23.8125Y538.8875
 G1Z-10.0F10.0
 G0Z5.0
-(First Left hole - below)
-G0X-11.1125Y538.8875
-G1Z-10.0F10.0
-G0Z5.0
+(First Left hole - closest to the side)
+(Commented out to avoid screw collision)
+(G0X-11.1125Y538.8875)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 S0
 M5
 M30

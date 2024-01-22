@@ -2,24 +2,25 @@
 G21
 M3 S5000
 G0X0.00Y0.00Z5.0
-(First Right bottom rail hole - below)
-G0X-11.1125Y11.1125
-G1Z-10.0F10.0
-G0Z5.0
-(First Right bottom rail hole - above)
+(First Right bottom rail hole - closest to side)
+(Commented out to avoid screw collision)
+(G0X-11.1125Y11.1125)
+(G1Z-10.0F10.0)
+(G0Z5.0)
+(First Right bottom rail hole - closest to edge)
 G0X-17.4625Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
-(Second Right bottom rail hole - below)
+(Second Right bottom rail hole - closest to side)
 G0X-11.1125Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
-(Second Right bottom rail hole - above)
+(Second Right bottom rail hole - closest to edge)
 G0X-17.4625Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
 (First case hole)
-G0X-11.1125Y127.50 
+G0X-11.1125Y127.50
 G1Z-10.0F10.0
 G0Z5.0
 (Second case hole)
@@ -30,19 +31,20 @@ G0Z5.0
 G0X-11.1125Y382.50
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left bottom rail hole - below)
+(Second Left bottom rail hole - closest to side)
 G0X-11.1125Y489.3625
 G1Z-10.0F10.0
 G0Z5.0
-(Second Left bottom rail hole - above)
+(Second Left bottom rail hole - closest to edge)
 G0X-17.4625Y489.3625
 G1Z-10.0F10.0
 G0Z5.0
-(First Left bottom rail hole - below)
-G0X-11.1125Y498.8875
-G1Z-10.0F10.0
-G0Z5.0
-(First Left bottom rail hole - above)
+(First Left bottom rail hole - closest to side)
+(Commented out to avoid screw collision)
+(G0X-11.1125Y498.8875)
+(G1Z-10.0F10.0)
+(G0Z5.0)
+(First Left bottom rail hole - closest to edge)
 G0X-17.4625Y498.8875
 G1Z-10.0F10.0
 G0Z5.0

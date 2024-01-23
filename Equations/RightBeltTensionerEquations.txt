@@ -13,13 +13,13 @@
 "MidRailToAlignWithGantryBlock"= "LinearGBWithRailDepth" + "GABDistanceFromBackToFirstPulley"'All outside cogs must align
 "20TGT2PulleyDiameter"= 17.9mm'Spec
 "BeltTensionerSpaceBetweenPulleyAndWall"= 1.5mm
-"BeltTensionerMountingHoleDiameter"= 3.5mm'From the100
+"BeltTensionerMountingHoleDiameter"= 4.0mm
 "BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
 "1mmSpacer"= 1mm
 "SteelShaft5mmHoleDiameter"= 5mm
 "BeltTensionerMountingHoleOuterBoreDepth"= 2mm
-"BeltTensionerMountingHoleOuterBoreDiameter"= 5.5mm'From the100
+"BeltTensionerMountingHoleOuterBoreDiameter" = 7.75mm'From the100
 "7mmx1mmSpacerDiameter"= 7mm
 "7mmx1mmSpacerHeight"= 1mm
 "D1@MainBlock" = "BeltTensionerWidth"

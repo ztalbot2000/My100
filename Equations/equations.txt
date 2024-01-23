@@ -146,7 +146,7 @@
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
 "20TGT2PulleyDiameter"= 17.9mm'Spec
 "BeltTensionerSpaceBetweenPulleyAndWall"= 1.5mm
-"BeltTensionerMountingHoleDiameter"= 3.5mm'From the100
+"BeltTensionerMountingHoleDiameter"= 4.0mm
 "BeltTensionerMountingHoleOuterBoreDiameter"= 5.5mm'From the100
 "BeltTensionerMountingHoleOuterBoreDepth"= 2mm
 "1mmSpacer"= 1mm

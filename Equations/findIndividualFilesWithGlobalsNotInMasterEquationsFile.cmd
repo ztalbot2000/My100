@@ -15,7 +15,6 @@ node SWECompare -v .\LinearGuideBlockEquations.txt .\equations.txt
 node SWECompare -v .\LinearRailClampEquations.txt .\equations.txt
 node SWECompare -v .\LowerBackRailEquations.txt .\equations.txt
 node SWECompare -v .\LowerFrontRailEquations.txt .\equations.txt
-node SWECompare -v .\LowerCornerBlockEquations.txt .\equations.txt
 node SWECompare -v .\LowerLeftRailEquations.txt .\equations.txt
 node SWECompare -v .\LowerRightRailEquations.txt .\equations.txt
 node SWECompare -v .\MGN12H-450Equations.txt .\equations.txt
@@ -32,3 +31,4 @@ node SWECompare -v .\CarrierEquations.txt .\equations.txt
 node SWECompare -v .\RodStabilizerEquations.txt .\equations.txt
 node SWECompare -v .\VerticalSupportYardStickEquations.txt .\equations.txt
 node SWECompare -v .\BedToBuildPlateStandoffEquations.txt .\equations.txt
+node SWECompare -v .\LowerEnclosureEquations.txt .\equations.txt

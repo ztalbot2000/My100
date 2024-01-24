@@ -15,9 +15,6 @@
 "D2@LeftSideHoles-Sketch3"="VSSideRailHoleX1FromSide"
 "D1@Boss-Extrude1"="VSLength"
 "D4@BackSideHoles-Sketch4" = "FasteningHoleDiameter"
-"D3@BackSideHoles-Sketch4"="VSBottomSideRailHoleY1FromBottomOfLowerRail"
-"D2@BackSideHoles-Sketch4" = "VSSideRailHoleX1FromSide"
-"D8@LeftSideHoles-Sketch3"="VSTopSideRailHoleY1FromEdge"
 "VSMidSideRailHoleY1FromV8TopOfMidSideRail"= "V8 ToTopOfMidSideRail" - "HoleOffsetFromEdge"'Equals 308.2875
 "LowerRailHeight"= 1.00in
 "D1@Sketch2"="VSHeight"
@@ -27,8 +24,6 @@
 "TopRailHeight"= 1.25in
 "MidSideRailHeight"= 1.25in
 "D10@LeftSideHoles-Sketch3"="HoleOffsetFromEdge"
-"D5@LeftSideHoles-Sketch3"="VSBottomSideRailHoleY2FromY1"
-"D5@BackSideHoles-Sketch4"="VSBottomSideRailHoleY2FromY1"
 "VSMidBackRailHoleY2FromY1"= "MidBackRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
 "VSMidSideRailHoleY2FromY1"= "MidSideRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 12.7
 "D7@LeftSideHoles-Sketch3"="VSMidSideRailHoleY2FromY1"
@@ -36,16 +31,14 @@
 "D6@BackSideHoles-Sketch4"="VSTopSideRailHoleY1FromEdge"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
 "D7@BackSideHoles-Sketch4"="VSTopSideRailHoleY2FromY1"
-"D9@LeftSideHoles-Sketch3"="VSTopSideRailHoleY2FromY1"
 "VSBottomSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
 "D3@LeftSideHoles-Sketch3"="VSBottomSideRailHoleX2FromX1"
-"D9@BackSideHoles-Sketch4"="VSBottomSideRailHoleX2FromX1"
 "V1 BottomOfLowerRail"= "LegHeight"
 "V1 BottomOfLowerRail"= "LegHeight"
 "StepperShaftLength"= 24mm'Pulley will be attached to the end
 "ZAxisLeadScrewLength"= 200mm
 "LM8UUHeight"= 24mm'Spec
-"V2 ToBedAtTopOfZAxis"= "V1 BottomOfLowerRail" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2
+"V2 ToBedAtTopOfZAxis" = "V1 BottomOfLowerRail" - "LowerEnclosureThickness" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2
 "HotEndToTopOfXAxisGB"= 63.315144mm'Measured from the100.Should be 63.315144
 "TopOfGBToBottomOfLinearRail"= "LinearGBWidth" / 2 + "LinearRailWidth" / 2
 "LinearGBWidth"= 27mm'Spec
@@ -61,7 +54,7 @@
 "V7 ToTopOfMidBackRail"= "V6 ToBottomOfGantryPulley" + "StepperShaftLength"
 "D1@BackSideHoles-Sketch4" = "VSMidBackRailHoleY1FromV7TopOfMidBackRail"
 "D11@LeftSideHoles-Sketch3"="VSMidSideRailHoleY1FromV8TopOfMidSideRail"
-"V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
+"V4 ToTopOfBuildPlate/HotEndTip" = "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
 "BedToBuildPlateStandoffLength"= 15mm
 "BuildPlateHeight"= 8mm'Spec
 "V8 ToTopOfMidSideRail"= "V7 ToTopOfMidBackRail" - "RailThickness"
@@ -72,3 +65,11 @@
 "D10@BackSideHoles-Sketch4"="LegHeight" + "VSEnclosureOffsets"
 "D11@BackSideHoles-Sketch4"="VSEnclosureOffsets"
 "D12@BackSideHoles-Sketch4"="VSEnclosureOffsets"
+"D13@BackSideHoles-Sketch4"="HoleOffsetFromEdge"
+"D5@BackSideHoles-Sketch4"="VSBottomSideRailHoleY2FromY1"
+"D3@BackSideHoles-Sketch4"="VSBottomSideRailHoleY1FromBottomOfLowerRail"
+"D2@BackSideHoles-Sketch4"="VSSideRailHoleX1FromSide"
+"D5@LeftSideHoles-Sketch3"="VSBottomSideRailHoleY2FromY1"
+"D6@LeftSideHoles-Sketch3"="VSTopSideRailHoleY2FromY1"
+"D8@LeftSideHoles-Sketch3"="VSTopSideRailHoleY1FromEdge"
+"LowerEnclosureThickness"= 5mm

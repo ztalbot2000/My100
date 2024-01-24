@@ -19,7 +19,7 @@
 "1mmSpacer"= 1mm
 "SteelShaft5mmHoleDiameter"= 5mm
 "BeltTensionerMountingHoleOuterBoreDepth"= 2mm
-"BeltTensionerMountingHoleOuterBoreDiameter" = 7.75mm'From the100
+"BeltTensionerMountingHoleOuterBoreDiameter"= 7.75mm
 "7mmx1mmSpacerDiameter"= 7mm
 "7mmx1mmSpacerHeight"= 1mm
 "D1@MainBlock" = "BeltTensionerWidth"

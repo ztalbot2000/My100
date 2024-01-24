@@ -9,7 +9,7 @@
 "LowerRailHeight"= 1.00in
 "LowerRailWidth"= 2.00in
 "LowerCornerBlockWidth"= "LowerRailWidth" - "RailThickness" * 2'Room for left front stepper
-"LowerCornerBlockX1FromSide"= "LowerCornerBlockWidth" - "HoleOffsetFromEdge" + "RailThickness"
+"CornerEnclosureOffset"= "LowerCornerBlockWidth" - "HoleOffsetFromEdge" + "RailThickness"
 "LowerCornerBlockY1FromSide"= "HoleOffsetFromSide"
 "SideRailLength"= 550mm
 "LM8UUDiameter"= 15mm
@@ -147,7 +147,7 @@
 "20TGT2PulleyDiameter"= 17.9mm'Spec
 "BeltTensionerSpaceBetweenPulleyAndWall"= 1.5mm
 "BeltTensionerMountingHoleDiameter"= 4.0mm
-"BeltTensionerMountingHoleOuterBoreDiameter"= 5.5mm'From the100
+"BeltTensionerMountingHoleOuterBoreDiameter"= 7.75mm
 "BeltTensionerMountingHoleOuterBoreDepth"= 2mm
 "1mmSpacer"= 1mm
 "SteelShaft5mmHoleDiameter"= 5mm
@@ -199,10 +199,11 @@
 "HeightOfHotEndAssembly"= 140mm'From HotEndTip to top of shroud
 "TopOfGBToBottomOfLinearRail"= "LinearGBWidth" / 2 + "LinearRailWidth" / 2
 "LeftOrRightEnclosureOffsets"= "SideRailLength" / 4
+"LowerEnclosureThickness"= 5mm
 "FrontOrBackEnclosureOffsets"= "FrontBackRailLength" / 4
 "VSEnclosureOffsets"= ( "VSLength" - "LegHeight" ) / 4
 "V1 BottomOfLowerRail"= "LegHeight"
-"V2 ToBedAtTopOfZAxis"= "V1 BottomOfLowerRail" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2
+"V2 ToBedAtTopOfZAxis"= "V1 BottomOfLowerRail" - "LowerEnclosureThickness" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2
 "V3 ToTopOfZAxisLM8UUCollar"= "V2 ToBedAtTopOfZAxis" + "LM8UUHeight" - "LM8UUEndToStartOfCollar"
 "V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
 "V5 ToBottomOfXAxisLinearRail"= "V4 ToTopOfBuildPlate/HotEndTip" + "HotEndToTopOfXAxisGB" - "TopOfGBToBottomOfLinearRail"

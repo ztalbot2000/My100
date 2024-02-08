@@ -42,8 +42,6 @@
 "D6@FasteningHoleSketch3"="HoleOffsetFromEdge"
 "D2@LM8UUFasteningHoleSketch5"="LM8UUHeight"/2
 "V8 ToTopOfMidSideRail"= "V7 ToTopOfMidBackRail" - "RailThickness"
-"RodStabilizerMountingHoleOffsetInsideX"= 14.125mm'Backward compatible
-"RodStabilizerMountingHoleOffsetOutsideX"= 12mm
 "D5@Profile-Sketch1"="RodStabilizerWidthFromMidRailToZAxisRodCenter"
 "V3 ToTopOfZAxisLM8UU"= "V2 ToBedAtTopOfZAxis" + "LM8UUHeight"
 "RodStabilizerMountingHoleYOffsetFromBottom"= "RodStabilizerHeight" - ( "V3 ToTopOfZAxisLM8UU" - "V8 ToTopOfMidSideRail" + "MidLeftOrRightSideRailHeight" ) + "HoleOffsetFromEdge"

@@ -196,6 +196,7 @@
 "LeftOrRightEnclosureOffsets"= "SideRailLength" / 4
 "LowerEnclosureThickness"= 5mm
 "FrontOrBackEnclosureOffsets"= "FrontBackRailLength" / 4
+"FrontOrBackCornerEnclosureOffset"= "RailThickness" + "TopCBLength" - "HoleOffsetFromEdge"'Equals 58.7375
 "VSEnclosureOffsets"= ( "VSLength" - "LegHeight" ) / 4
 "24VPSUMountingHolesShortDistanceBetween"= 50mm'Yours may differ
 "24VPSUMountingHolesLongDistanceBetween"= 152mm'Yours may differ

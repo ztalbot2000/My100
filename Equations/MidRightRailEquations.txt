@@ -40,8 +40,6 @@
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
 "BedLWidth"= "BedThirdSize" + "BedOverlap"'Equals 90
 "BedIncreasedByLength"= 0mm
-"LM8UUDiameter"= 15mm
-"RodStabilizerDepth"= "LM8UUDiameter" * 2
 "D14@SideHoles-Sketch4"= "FasteningHoleDiameter"
 "D15@SideHoles-Sketch4"= "HoleOffsetFromEdge"
 "BedInnerSquareLength"= "BedInnerSquareWidth"
@@ -63,8 +61,6 @@
 "D17@SideHoles-Sketch4"="DistanceFromFrontSideToFirstLeftStabilizerMountingHole"
 "D18@SideHoles-Sketch4"="DistanceBetweenFrontToBackStepperHoles"
 "MidRailRodStabilizerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
-"RodStabilizerMountingHoleOffsetInsideX"= 14.125mm'Backward compatible
-"RodStabilizerMountingHoleOffsetOutsideX"= 12mm
 "RodStabilizerLength"= 50mm
 "DistanceFromStepperHoleToRodStabilizerMountingHole"= "RodStabilizerLength" / 2 - "HoleOffsetFromEdge"'Equals 17.0625
 "D13@SideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" * 2

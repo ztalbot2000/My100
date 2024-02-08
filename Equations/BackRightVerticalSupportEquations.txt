@@ -8,7 +8,7 @@
 "VSBottomSideRailHoleY1FromBottomOfLowerRail"= "V1 BottomOfLowerRail" + "HoleOffsetFromSide"'Equals 70.1125
 "VSSideRailHoleX1FromSide"= "HoleOffsetFromSide" + "RailThickness"
 "FasteningHoleDiameter"= .125in
-"VSBottomSideRailHoleY2FromY1" =  "LowerRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
+"VSBottomSideRailHoleY2FromY1" = "LowerRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
 "VSTopSideRailHoleY1FromEdge"= "HoleOffsetFromEdge" + "RailThickness"
 "D4@BackSideHoles-Sketch3" = "FasteningHoleDiameter"
 "D1@Boss-Extrude1"="VSLength"
@@ -25,7 +25,7 @@
 "MidLeftOrRightSideRailHeight"= 2.0in
 "D8@RightSideHoles-Sketch4"="HoleOffsetFromEdge"
 "VSMidBackRailHoleY2FromY1"= "MidBackRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
-"VSMidSideRailHoleY2FromY1"= "MidLeftOrRightSideRailHeight" - "HoleOffsetFromEdge" * 2'Equals 34.926
+"VSMidSideRailHoleY2FromY1"= "MidLeftOrRightSideRailHeight" - "HoleOffsetFromEdge" * 2'Equals 34.925
 "D7@BackSideHoles-Sketch3"="VSMidBackRailHoleY2FromY1"
 "D9@RightSideHoles-Sketch4"="VSMidSideRailHoleY2FromY1"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7

@@ -3,18 +3,20 @@ G21
 M3 S5000
 G0X0.00Y0.00Z5.0
 (First Right hole)
-G0X11.1125Y23.8125
-G1Z-10.0F10.0
-G0Z5.0
+(Commented out. Corner block no longer required)
+(G0X11.1125Y23.8125)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 (Second Right hole - above)
 (Y: 23.8125 + 34.925)
 G0X11.125Y58.7375
 G1Z-10.0F10.0
 G0Z5.0
 (Second Right hole - below)
-G0X23.8125Y58.7375
-G1Z-10.0F10.0
-G0Z5.0
+(Commented out. Corner block no longer required)
+(G0X23.8125Y58.7375)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 (First case hole from right)
 G0X11.125Y127.5
 G1Z-10.0F10.0
@@ -28,14 +30,16 @@ G0X11.125Y382.5
 G1Z-10.0F10.0
 G0Z5.0
 (Second Left hole - above)
-G0X23.8125Y451.2625
-G1Z-10.0F10.0
-G0Z5.0
-(Second Left hole - below)
 G0X11.125Y451.2625
 G1Z-10.0F10.0
 G0Z5.0
+(Second Left hole - below)
+(Commented out. Corner block no longer required)
+(G0X23.8125Y451.2625)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 (First Left hole)
+(Commented out. Corner block no longer required)
 G0X11.125Y486.1875
 G1Z-10.0F10.0
 G0Z5.0

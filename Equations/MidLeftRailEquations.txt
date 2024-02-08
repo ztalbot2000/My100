@@ -16,7 +16,7 @@
 "D6@LeftSideHoles-Sketch4"="SideRailHoleX2FromSide" 
 "D3@LeftSideHoles-Sketch4"="SideRailHoleX1FromSide" - "RailThickness"
 "D5@LeftSideHoles-Sketch4"="SideRailHoleX2FromSide" - "RailThickness"
-"D7@LeftSideHoles-Sketch4"="HoleOffsetFromSide"
+"D7@LeftSideHoles-Sketch4"="HoleOffsetFromEdge"
 "LinearRailXMountHole"= "StepperWidth" + "LinearRailFirstHoleOffsetFromEdge"
 "D8@LeftSideHoles-Sketch4"="LinearRailXMountHole"
 "D9@LeftSideHoles-Sketch4"="V6.3 GantryMiddleToToTopOfMidSideRail"
@@ -26,7 +26,6 @@
 "SideRailLength"= 550mm
 "MidLeftOrRightSideRailHeight"= 2.0in
 "StepperWidth"= 42mm'Spec
-"StepperHolePadSize"= "StepperHoleDiameter"
 "MidRailRodStabilizerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
 "D13@LeftSideHoles-Sketch4"="MidRailRodStabilizerMountingHoleOffsetFromEdge"
 "D14@LeftSideHoles-Sketch4"="FasteningHoleDiameter"
@@ -45,8 +44,6 @@
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
 "BedLWidth"= "BedThirdSize" + "BedOverlap"'Equals 90
 "BedIncreasedByLength"= 0mm
-"LM8UUDiameter"= 15mm
-"RodStabilizerDepth"= "LM8UUDiameter" * 2
 "BedInnerSquareLength"= "BedInnerSquareWidth"
 "DistanceFromFrontSideToFirstLeftRodStabilizerMountingHole"= "DistanceFromFrontSideToFirstLeftStepperHole" - "DistanceFromStepperHoleToRodStabilizerMountingHole"'Equals 53.5125
 "D15@LeftSideHoles-Sketch4"="DistanceFromFrontSideToFirstLeftRodStabilizerMountingHole"
@@ -64,8 +61,6 @@
 "V6.3 GantryMiddleToToTopOfMidSideRail"= "V6.2 GantryMiddleToTopOfMidBackRail" - "RailThickness"
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutPadSize"= "LeadScrewNutMountingHoleFlangeDiameter" + 2mm'Equals 24
-"RodStabilizerMountingHoleOffsetInsideX"= 14.125mm'Backward compatible
-"RodStabilizerMountingHoleOffsetOutsideX"= 12mm
 "D20@LeftSideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" * 2
 "DistanceFromStepperHoleToRodStabilizerMountingHole"= "RodStabilizerLength" / 2 - "HoleOffsetFromEdge"'Equals 17.0625
 "RodStabilizerLength"= 50mm

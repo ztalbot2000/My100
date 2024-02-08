@@ -19,9 +19,10 @@ G0X14.2875Y81.1125
 G1Z-10.0F10.0
 G0Z5.0
 (Third bottom rail hole)
-G0X14.2875Y87.46
-G1Z-10.0F10.0
-G0Z5.0
+(Commented out to avoid screw collision)
+(G0X14.2875Y87.46)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 (Fourth bottom rail hole)
 G0X23.8125Y87.46
 G1Z-10.0F10.0
@@ -35,11 +36,11 @@ G0X14.2875Y260.00
 G1Z-10.0F10.0
 G0Z5.0
 (First left mid rail hole)
-G0X14.2875Y314.90264
+G0X14.2875Y292.67764
 G1Z-10.0F10.0
 G0Z5.0
 (First right mid rail hole)
-G0X23.8125Y314.90264
+G0X23.8125Y292.67764
 G1Z-10.0F10.0
 G0Z5.0
 (Second left mid rail hole)
@@ -63,9 +64,10 @@ G0X23.8125Y426.1875
 G1Z-10.0F10.0
 G0Z5.0
 (First upper rail hole - left)
-G0X14.2875Y438.8875
-G1Z-10.0F10.0
-G0Z5.0
+(Commented out to avoid screw collision)
+(G0X14.2875Y438.8875)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 (First upper rail hole - right)
 G0X23.8125Y438.8875
 G1Z-10.0F10.0

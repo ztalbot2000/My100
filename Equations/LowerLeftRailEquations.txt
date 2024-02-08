@@ -53,7 +53,6 @@
 "BedIncreasedByLength"= 0mm
 "LowerCornerBlockWidth"= "LowerRailWidth" - "RailThickness" * 2'Room for left front stepper
 "D17@BotthomHoles-Sketch2"="CornerEnclosureOffset"
-"LowerCornerBlockY1FromSide"= "HoleOffsetFromSide"
 "CornerEnclosureOffset"= "LowerCornerBlockWidth" - "HoleOffsetFromEdge" + "RailThickness"
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutPadSize"= "LeadScrewNutMountingHoleFlangeDiameter" + 2mm'Equals 24

@@ -1,4 +1,4 @@
-﻿"MidSideRailHeight"= 1.25in
+﻿"MidLeftOrRightSideRailHeight"= 2.0in
 "RailThickness"= .125in'Spec
 "SideRailHoleY1FromEdge"= "HoleOffsetFromEdge"
 "SideRailHoleX1FromSide"= "HoleOffsetFromSide"
@@ -10,7 +10,7 @@
 "FasteningHoleDiameter"= .125in
 "StepperWidth"= 42mm'Spec
 "D2@SideHoles-Sketch4"="FasteningHoleDiameter"
-"LHeight@Sketch1"="MidSideRailHeight"
+"LHeight@Sketch1"="MidLeftOrRightSideRailHeight"
 "LMaterialThickness@Sketch1"="RailThickness"
 "D1@Boss-Extrude1"="MidSideRailLength"
 "D4@SideHoles-Sketch4"="SideRailHoleY1FromEdge"
@@ -25,7 +25,7 @@
 "D12@SideHoles-Sketch4"="LinearRailHoleDistance"
 "SideRailLength"= 550mm
 "LinearRailFirstHoleOffsetFromEdge"= 12.5mm'Spec
-"D7@SideHoles-Sketch4"="HoleOffsetFromSide"
+"D7@SideHoles-Sketch4"= "MidRailRodStabilizerMountingHoleOffsetFromEdge"
 "DistanceFromBedFrontToFirstLeftStepperHole"= "LeadScrewNutPadSize" + 10mm'Equals 34
 "BeltTensionerDepth"= "BeltTensionerBackWallThickness" + "BeltTensionerInnerDepth"'Equals 23.4
 "20TGT2PulleyDiameter"= 17.9mm'Spec
@@ -44,7 +44,6 @@
 "RodStabilizerDepth"= "LM8UUDiameter" * 2
 "D14@SideHoles-Sketch4"= "FasteningHoleDiameter"
 "D15@SideHoles-Sketch4"= "HoleOffsetFromEdge"
-"D16@SideHoles-Sketch4"="RodStabilizerDepth" - "HoleOffsetFromEdge" * 2
 "BedInnerSquareLength"= "BedInnerSquareWidth"
 "GABMidWallHeight"= 28mm'Must equal 28 or changes alignment
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
@@ -57,10 +56,16 @@
 "V6.1 FromGantryPulleyToGantryMiddle"= "GABHeight" / 2 - "GABMidShortRiserHeight" - "GABLowerHeight" + "GABRiserBossOffset" / 2
 "V6.2 GantryMiddleToTopOfMidBackRail"= "StepperShaftLength" - "V6.1 FromGantryPulleyToGantryMiddle"
 "V6.3 GantryMiddleToToTopOfMidSideRail"= "V6.2 GantryMiddleToTopOfMidBackRail" - "RailThickness"
-"DistanceFromFrontSideToFirstLeftStabilizerMountingHole"= "DistanceFromFrontSideToFirstLeftStepperHole" + "RodStabilizerDepth" / 2 - "HoleOffsetFromEdge"'Equals 77.6375
+"DistanceFromFrontSideToFirstLeftStabilizerMountingHole"= "DistanceFromFrontSideToFirstLeftStepperHole" - "DistanceFromStepperHoleToRodStabilizerMountingHole"'Equals 53.5125
 "DistanceFromFrontSideToFirstLeftStepperHole"= "DistanceFromFrontSideToBedFront" + "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 70.575
-"D13@SideHoles-Sketch4"="RodStabilizerDepth" - "HoleOffsetFromEdge" * 2
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutPadSize"= "LeadScrewNutMountingHoleFlangeDiameter" + 2mm'Equals 24
 "D17@SideHoles-Sketch4"="DistanceFromFrontSideToFirstLeftStabilizerMountingHole"
 "D18@SideHoles-Sketch4"="DistanceBetweenFrontToBackStepperHoles"
+"MidRailRodStabilizerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
+"RodStabilizerMountingHoleOffsetInsideX"= 14.125mm'Backward compatible
+"RodStabilizerMountingHoleOffsetOutsideX"= 12mm
+"RodStabilizerLength"= 50mm
+"DistanceFromStepperHoleToRodStabilizerMountingHole"= "RodStabilizerLength" / 2 - "HoleOffsetFromEdge"'Equals 17.0625
+"D13@SideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" * 2
+"D16@SideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" *2

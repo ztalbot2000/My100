@@ -18,9 +18,6 @@
 "D5@BackSideHoles-Sketch2" = "FasteningHoleDiameter"
 "LHeight@Sketch1"="LowerRailHeight"
 "LWidth@Sketch1"="LowerRailWidth"
-"24vPSUMountingHoleDistanceFromEdge"= 33.5mm
-"24vPSUMountingHoleDistance"= 150mm
-"24vPSUMountingHoleDiameter"= 2.5mm
 "LowerCornerBlockWidth"= "LowerRailWidth" - "RailThickness" * 2'Room for left front stepper
 "D2@BottomHoles-Sketch3"="CornerEnclosureOffset"
 "D3@BottomHoles-Sketch3"="CornerEnclosureOffset"

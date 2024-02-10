@@ -4,9 +4,22 @@ This will be an incomplete change log until further notice.
 v1.0Alpha-2 (Work in progress)
 ===========
 - Change to three screws in each frame connection to avoid screw collisions.
-- Increase diameter of BeltTensioner mounting hole
-- Add lower enclosure for mouting electronics
-- Remove lower corner gussrts as no longer needed.
+- Increase diameter of BeltTensioner mounting hole.
+- Add lower enclosure for mouting electronics.
+- Remove lower corner gussets as no longer needed.
+- Remove upper corner gussets as no longer needed.
+- Add lower enclosure to mount electronics.
+- Add mounting holes for PSU, Pi4 and Octopus V1,1 to lower enclosure.
+- Change MidRail width from 1.25in to 2in for strength and allow
+  for stronger Z-Axis rod stabilizers.
+- Beef up Z-Axis rod stabilizers for future increase of Z-Axis length.
+- Split assemblies so there is a MidFrame (Gantry) assembly.
+- Create NC file for lower enclosure
+- Add missing folder AcquiredParts
+- Add PSU to assembly
+- Add Pi4 to assembly
+- Add OctopusV1.1 to assembly. Note: Step file is broken. Used a picture
+  that mated to the enclosure instead of its standoffs.
 
 
 v1.0Alpha-1

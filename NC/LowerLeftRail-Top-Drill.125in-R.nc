@@ -61,9 +61,10 @@ G0X39.675Y494.925
 G1Z-10.0F10.0
 G0Z5.0
 (First Left hole)
-G0X11.1125Y510.3125
-G1Z-10.0F10.0
-G0Z5.0
+(Commented out. Corner block no longer required)
+(G0X11.1125Y510.3125)
+(G1Z-10.0F10.0)
+(G0Z5.0)
 S0
 M5
 M30

@@ -4,7 +4,7 @@
       <p style="text-align:center;">Latest Assembly Drawing</p>
    </div>
    <div style="float:left;margin-right:5px">
-      <img src="docs/images/build/LatestBuildOfTheFrame.png" width="300" height="300">
+      <img src="docs/images/build/ThirdAssemblyOfTheFrame.png" width="300" height="300">
       <p style="text-align:center;">Latest Build Progress</p>
    </div>
 </div>

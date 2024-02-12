@@ -1,7 +1,12 @@
 This will be an incomplete change log until further notice.
 
+v1.0Alpha-3 (Work in progress)
+===========
+- I want to rotate the Rear Mid Rail upside down so the steppers face upwards
+  so their cables will not have to be drilled through the rail.
+0 I'm putting in all the heat inserts for the hot end.
 
-v1.0Alpha-2 (Work in progress)
+v1.0Alpha-2 (Altered from Alpha-1 build)
 ===========
 - Change to three screws in each frame connection to avoid screw collisions.
 - Increase diameter of BeltTensioner mounting hole.

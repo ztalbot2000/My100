@@ -1,6 +1,13 @@
-<p align="center">
-<img src="Screenshots/My100Assembly.png" width="295" height="640">
-</p>
+<div class="topImages">
+   <div style="float:left;margin-right:5px">
+      <img src="Screenshots/My100Assembly.png" width="300" height="300">
+      <p style="text-align:center;">Latest Assembly Drawing</p>
+   </div>
+   <div style="float:left;margin-right:5px">
+      <img src="docs/images/build/LatestBuildOfTheFrame.png" width="300" height="300">
+      <p style="text-align:center;">Latest Build Progress</p>
+   </div>
+</div>
 
 
 # My100 - A version of the100 with a metal frame that is designed to be built using a CNC or mitre saw and a drill press.
@@ -9,7 +16,7 @@
 ## &nbsp;&nbsp;&nbsp; As I do not have a 3D printer (Yet) but I do have a CNC that I built in 2007 using just a mitre saw and a drill press; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>
 ## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! You can see what I have created so far and are more than welcome to contribute.
 ## &nbsp;&nbsp;&nbsp; At this time I have spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled.  Check out the build photos for more.
-## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts except the hotend. I must admit though that the build is a very slow process.
+## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts. I must admit though that the build is a very slow process.
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
 
@@ -21,6 +28,7 @@
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
 * [**Current Build Status My100 1.0 Alpha 1**](#current-build-status-my100-10-alpha-1)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
+* [**ChangeLog**](CHANGELOG.TXT)
 * [**Precision Building With Mitre Saw and a Drill Press**](docs/PrecisionBuildingWithMitreSawAndADrillPress.md)
 * [**Bill of Materials**](docs/My100BOM.md)
 * [**Contributing**](#contributing)

@@ -60,5 +60,11 @@ The frame is sitting flatly on an old TV stand in my computer room and no longer
 
 
 <BR><BR>
+## Third Assembly of the Frame. Alpha-2
+&nbsp;&nbsp;&nbsp; Some parts are just placed in the picture. It certainly is beginning to look like a 3D printer.<BR>
+
+<img src="images/build/ThirdAssemblyOfTheFrame.png" width="640" height="640">
+
+<BR><BR>
 ## License
 See [LICENSE](../LICENSE)

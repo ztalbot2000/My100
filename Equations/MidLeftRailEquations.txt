@@ -1,7 +1,7 @@
 ﻿"RailThickness"= .125in'Spec
 "SideRailHoleY1FromEdge"= "HoleOffsetFromEdge"
 "SideRailHoleX1FromSide"= "HoleOffsetFromSide"
-"MidSideRailLength"= "SideRailLength" - "RailThickness"'Equals 546.825 => MidSideRail buts up against MidBackRail
+"MidSideRailLength"= "SideRailLength"
 "VSWidth"= 1.25in'Spec
 "HoleOffsetFromEdge"= "RailThickness" * 2.5
 "HoleOffsetFromSide"= "RailThickness" * 3.5
@@ -14,18 +14,19 @@
 "D4@LeftSideHoles-Sketch4" = "SideRailHoleY1FromEdge"
 "D1@LeftSideHoles-Sketch4"="SideRailHoleX1FromSide"
 "D6@LeftSideHoles-Sketch4"="SideRailHoleX2FromSide" 
-"D3@LeftSideHoles-Sketch4"="SideRailHoleX1FromSide" - "RailThickness"
-"D5@LeftSideHoles-Sketch4"="SideRailHoleX2FromSide" - "RailThickness"
+"D3@LeftSideHoles-Sketch4"="SideRailHoleX1FromSide" 
+"D5@LeftSideHoles-Sketch4"="SideRailHoleX2FromSide" 
 "D7@LeftSideHoles-Sketch4"="HoleOffsetFromEdge"
 "LinearRailXMountHole"= "StepperWidth" + "LinearRailFirstHoleOffsetFromEdge"
 "D8@LeftSideHoles-Sketch4"="LinearRailXMountHole"
-"D9@LeftSideHoles-Sketch4"="V6.3 GantryMiddleToToTopOfMidSideRail"
+"D9@LeftSideHoles-Sketch4"="V6.3 GantryMiddleToTopOfMidSideRail"
 "LinearRailHoleDistance"= 25mm'Spec
 "D12@LeftSideHoles-Sketch4"="LinearRailHoleDistance"
 "LinearRailFirstHoleOffsetFromEdge"= 12.5mm'Spec
 "SideRailLength"= 550mm
 "MidLeftOrRightSideRailHeight"= 2.0in
 "StepperWidth"= 42mm'Spec
+"StepperHolePadSize"= "StepperHoleDiameter"
 "MidRailRodStabilizerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
 "D13@LeftSideHoles-Sketch4"="MidRailRodStabilizerMountingHoleOffsetFromEdge"
 "D14@LeftSideHoles-Sketch4"="FasteningHoleDiameter"
@@ -58,7 +59,7 @@
 "StepperShaftLength"= 24mm'Pulley will be attached to the end
 "V6.1 FromGantryPulleyToGantryMiddle"= "GABHeight" / 2 - "GABMidShortRiserHeight" - "GABLowerHeight" + "GABRiserBossOffset" / 2
 "V6.2 GantryMiddleToTopOfMidBackRail"= "StepperShaftLength" - "V6.1 FromGantryPulleyToGantryMiddle"
-"V6.3 GantryMiddleToToTopOfMidSideRail"= "V6.2 GantryMiddleToTopOfMidBackRail" - "RailThickness"
+"V6.3 GantryMiddleToTopOfMidSideRail"= "V6.2 GantryMiddleToTopOfMidBackRail" - "RailThickness"
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutPadSize"= "LeadScrewNutMountingHoleFlangeDiameter" + 2mm'Equals 24
 "D20@LeftSideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" * 2

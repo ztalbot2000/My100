@@ -2,7 +2,7 @@
 "RailThickness"= .125in'Spec
 "SideRailHoleY1FromEdge"= "HoleOffsetFromEdge"
 "SideRailHoleX1FromSide"= "HoleOffsetFromSide"
-"MidSideRailLength"= "SideRailLength" - "RailThickness"'Equals 546.825 => MidSideRail buts up against MidBackRail
+"MidSideRailLength"= "SideRailLength"
 "VSWidth"= 1.25in'Spec
 "HoleOffsetFromEdge"= "RailThickness" * 2.5
 "HoleOffsetFromSide"= "RailThickness" * 3.5
@@ -16,8 +16,8 @@
 "D4@SideHoles-Sketch4"="SideRailHoleY1FromEdge"
 "D3@SideHoles-Sketch4"="SideRailHoleX1FromSide" 
 "D5@SideHoles-Sketch4"="SideRailHoleX2FromSide" 
-"D1@SideHoles-Sketch4"="SideRailHoleX1FromSide" -"RailThickness"
-"D6@SideHoles-Sketch4"="SideRailHoleX2FromSide"-"RailThickness"
+"D1@SideHoles-Sketch4"="SideRailHoleX1FromSide" 
+"D6@SideHoles-Sketch4"="SideRailHoleX2FromSide"
 "LinearRailXMountHole"= "StepperWidth" + "LinearRailFirstHoleOffsetFromEdge"
 "D9@SideHoles-Sketch4"="V6.3 GantryMiddleToToTopOfMidSideRail"
 "D8@SideHoles-Sketch4"="LinearRailXMountHole"

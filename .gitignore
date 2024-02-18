@@ -17,5 +17,8 @@ npm-debug.log
 
 test/tmp/*
 
+# Solidworks swap files
+\~*
+
 # work in progress folder
 local

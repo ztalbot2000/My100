@@ -34,11 +34,10 @@
 "BeltTensionerInnerDepth"= "20TGT2PulleyDiameter" + "BeltTensionerSpaceBetweenPulleyAndWall"
 "DistanceFromFrontSideToBedFront"= "RailThickness" + "BeltTensionerDepth" + 10mm'Equals 36.575
 "DistanceBetweenFrontToBackStepperHoles"= "BedLength" - "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 316
-"BedLength"= "BedInnerSquareLength" + "BedLWidth" * 2 - "BedOverlap" * 2 + "BedIncreasedByLength"'Equals 350
-"BedOverlap"= 20mm
+"BedLength"= "BedInnerSquareLength" + "BedLWidth" * 2 + "BedIncreasedByLength"'Equals 350
 "BedThirdSize"= 70mm
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
-"BedLWidth"= "BedThirdSize" + "BedOverlap"'Equals 90
+"BedLWidth"= "BedThirdSize"'Equals 70
 "BedIncreasedByLength"= 0mm
 "D14@SideHoles-Sketch4"= "FasteningHoleDiameter"
 "D15@SideHoles-Sketch4"= "HoleOffsetFromEdge"

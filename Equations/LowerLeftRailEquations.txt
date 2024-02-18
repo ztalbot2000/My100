@@ -34,12 +34,11 @@
 "D1@Boss-Extrude1"="SideRailLength"
 "D6@LeftSideHoles-Sketch3"="SideRailHoleX2FromSide"
 "DistanceBetweenFrontToBackStepperHoles"= "BedLength" - "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 316
-"BedOverlap"= 20mm
 "BedThirdSize"= 70mm
-"BedLWidth"= "BedThirdSize" + "BedOverlap"'Equals 90
+"BedLWidth"= "BedThirdSize"'Equals 70
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
 "BedInnerSquareLength"= "BedInnerSquareWidth"
-"BedLength"= "BedInnerSquareLength" + "BedLWidth" * 2 - "BedOverlap" * 2 + "BedIncreasedByLength"'Equals 350
+"BedLength" = "BedInnerSquareLength" + "BedLWidth" * 2 + "BedIncreasedByLength"'Equals 350
 "D12@BotthomHoles-Sketch2"="DistanceBetweenFrontToBackStepperHoles"
 "DistanceFromFrontSideToFirstLeftStepperHole"= "DistanceFromFrontSideToBedFront" + "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 70.575
 "D13@BotthomHoles-Sketch2"="DistanceFromFrontSideToFirstLeftStepperHole"

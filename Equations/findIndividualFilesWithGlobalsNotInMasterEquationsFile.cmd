@@ -1,10 +1,10 @@
 node SWECompare -v .\BackLeftVerticalSupportEquations.txt .\equations.txt
 node SWECompare -v .\BackRightVerticalSupportEquations.txt .\equations.txt
 node SWECompare -v .\BedBLEquations.txt .\equations.txt
-node SWECompare -v .\BedBREquations.txt .\equations.txt
+node SWECompare -v .\BedFLEquations.txt .\equations.txt
 node SWECompare -v .\BedCEquations.txt .\equations.txt
-node SWECompare -v .\BedTLEquations.txt .\equations.txt
-node SWECompare -v .\BedTREquations.txt .\equations.txt
+node SWECompare -v .\BedBREquations.txt .\equations.txt
+node SWECompare -v .\BedFREquations.txt .\equations.txt
 node SWECompare -v .\LeftBeltTensionerEquations.txt .\equations.txt
 node SWECompare -v .\RightBeltTensionerEquations.txt .\equations.txt
 node SWECompare -v .\BuildPlateEquations.txt .\equations.txt

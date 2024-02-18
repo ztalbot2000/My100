@@ -2,9 +2,18 @@ This will be an incomplete change log until further notice.
 
 v1.0Alpha-3 (Work in progress)
 ===========
-- I want to rotate the Rear Mid Rail upside down so the steppers face upwards
-  so their cables will not have to be drilled through the rail.
-0 I'm putting in all the heat inserts for the hot end.
+- Rear Mid rail was rotated upside down so the steppers face upwards allowing
+  their cables to be more easily routed and to shift center of mass lower.
+- Modified belt fasteners to go around mid side rail mounting screws.
+- Corrected bed parts to reflect their correct position relative to their
+  part names.
+- Changed bed center from solid to a shell, reducing material required to
+  print it.
+- Changed bed center overlap from filet to peg/hole connections to make it
+  easier to print.
+
+Note: Actual build needs to catch up to most of these SolidWorks assembly
+      changes.
 
 v1.0Alpha-2 (Altered from Alpha-1 build)
 ===========

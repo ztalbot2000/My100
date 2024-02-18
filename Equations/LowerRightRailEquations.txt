@@ -31,12 +31,11 @@
 "D7@RightSideHoles-Sketch3" = "FasteningHoleDiameter"
 "D1@Boss-Extrude1"="SideRailLength"
 "D6@RightSideHoles-Sketch3"="SideRailHoleX2FromSide"
-"BedOverlap"= 20mm
 "BedThirdSize"= 70mm
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
 "BedInnerSquareLength"= "BedInnerSquareWidth"
-"BedLWidth"= "BedThirdSize" + "BedOverlap"'Equals 90
-"BedLength"= "BedInnerSquareLength" + "BedLWidth" * 2 - "BedOverlap" * 2 + "BedIncreasedByLength"'Equals 350
+"BedLWidth" = "BedThirdSize"'Equals 70
+"BedLength" = "BedInnerSquareLength" + "BedLWidth" * 2 + "BedIncreasedByLength"'Equals 350
 "DistanceBetweenFrontToBackStepperHoles"= "BedLength" - "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 316
 "D3@BotthomHoles-Sketch2"="DistanceFromFrontSideToFirstLeftStepperHole"
 "DistanceFromBedFrontToFirstLeftStepperHole"= "LeadScrewNutPadSize" + 10mm'Equals 34

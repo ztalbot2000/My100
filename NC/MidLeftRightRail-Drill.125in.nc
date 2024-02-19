@@ -3,19 +3,19 @@ G21
 M3 S5000
 G0X0.00Y0.00Z5.0
 (First Right hole - above)
-G0X42.8625Y7.9375
+G0X42.8625Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
 (First Right hole - below)
-G0X7.9375Y7.9375
+G0X7.9375Y11.1125
 G1Z-10.0F10.0
 G0Z5.0
 (Second Right hole - above)
-G0X42.8625Y17.4625
+G0X42.8625Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
 (Second Right hole - below)
-G0X7.9375Y17.4625
+G0X7.9375Y20.6375
 G1Z-10.0F10.0
 G0Z5.0
 (Linear rail hole 1  from right)
@@ -35,7 +35,7 @@ G0X40.575Y129.50
 G1Z-10.0F10.0
 G0Z5.0
 (First Rod Stabilizer from right)
-G0X7.9375Y143.1875
+G0X7.9375Y146.3625
 G1Z-10.0F10.0
 G0Z5.0
 (Linear rail hole 5  from right)
@@ -43,7 +43,7 @@ G0X40.575Y154.50
 G1Z-10.0F10.0
 G0Z5.0
 (Second Rod Stabilizer from right)
-G0X7.9375Y177.3125
+G0X7.9375Y180.4875
 G1Z-10.0F10.0
 G0Z5.0
 (Linear rail hole 6  from right)
@@ -95,7 +95,7 @@ G0X40.575Y454.50
 G1Z-10.0F10.0
 G0Z5.0
 (Third Rod Stabilizer - from right)
-G0X7.9375Y459.1875
+G0X7.9375Y462.3625
 G1Z-10.0F10.0
 G0Z5.0
 (Linear rail hole 18 from right)
@@ -103,23 +103,23 @@ G0X40.575Y479.50
 G1Z-10.0F10.0
 G0Z5.0
 (Fourth Rod Stabilizer - from right)
-G0X7.9375Y493.3125
+G0X7.9375Y496.4875
 G1Z-10.0F10.0
 G0Z5.0
 (Second Left hole - above)
-G0X42.8625Y526.1875
+G0X42.8625Y529.3625
 G1Z-10.0F10.0
 G0Z5.0
 (Second Left hole - below)
-G0X7.9375Y526.1875
+G0X7.9375Y529.3625
 G1Z-10.0F10.0
 G0Z5.0
 (First Left hole - above)
-G0X42.8625Y535.7125
+G0X42.8625Y538.8875
 G1Z-10.0F10.0
 G0Z5.0
 (First Left hole - below)
-G0X7.9375Y535.7125
+G0X7.9375Y538.8875
 G1Z-10.0F10.0
 G0Z5.0
 S0

@@ -1,4 +1,5 @@
-﻿"FasteningHoleDiameter"= .125in
+﻿"M3HeatInsertHoleDiameter"= 4mm'Spec
+"FasteningHoleDiameter"= .125in
 "FrontBackRailLength"= 510mm
 "RailThickness"= .125in'Spec
 "TopRailHeight"= 1.25in
@@ -188,7 +189,6 @@
 "BedToBuildPlateStandoffHolesDistanceFromLeftOrRight"= "BuildPlateStandoffHolesDistanceFromLeftOrRight" + "BedIncreasedByWidth" / 2'Equals 17
 "BedToBuildPlateStandoffHolesDistanceFromBack"= "BuildPlateStandoffHolesDistanceFromBack" + "BedIncreasedByLength" / 2'Equals 41
 "BedToBuildPlateStandoffHolesDistanceFromFront"= "BuildPlateStandoffHolesDistanceFromFront" + "BedIncreasedByLength" / 2'Equals 7
-"BedToBuildPlateStandoffHoleSize"= 3mm
 "HotEndToTopOfXAxisGB"= 63.315144mm'Measured from the100.Should be 63.315144
 "HeightOfHotEndAssembly"= 140mm'From HotEndTip to top of shroud
 "TopOfGBToBottomOfLinearRail"= "LinearGBWidth" / 2 + "LinearRailWidth" / 2

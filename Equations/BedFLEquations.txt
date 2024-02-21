@@ -1,6 +1,5 @@
 ﻿"BedThickness"= 20mm
 "BedToBuildPlateStandoffHolesDistanceFromLeftOrRight"= "BuildPlateStandoffHolesDistanceFromLeftOrRight" + "BedIncreasedByWidth" / 2'Equals 17
-"BedToBuildPlateStandoffHoleSize"= 3mm
 "BedLLongSide"= "BedThirdSize" * 3'Equals 210
 "BedLShortSide"= "BedThirdSize" * 2'Equals 140
 "BedLWidth"= "BedThirdSize"'Equals 70
@@ -44,7 +43,7 @@
 "LeadScrewNutPadSize"= "LeadScrewNutMountingHoleFlangeDiameter" + 2mm'Equals 24
 "D4@PadSketch1"="LeadScrewNutPadSize"
 "D1@StepperShaftCut-Sketch3"="LeadScrewNutInnerShaftFlangeDiameter"
-"D2@StepperShaftCut-Sketch3" = "BedToBuildPlateStandoffHoleSize"
+"D2@StepperShaftCut-Sketch3"="M3HeatInsertHoleDiameter"
 "LeadScrewNutInnerShaftFlangeDiameter"= 10.2mm'Spec
 "LeadScrewNutMountHoleDiameter"= 2mm'Spec is 4.1 but smaller for tapping
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
@@ -69,3 +68,4 @@
 "D3@BedCenterPegHoleCutSketch1" = "BedInnerSquareWidth" / 2 - "BedPegHoleWidth" / 2
 "D2@BedCenterPegHoleCutSketch1" = "BedPegHoleWidth"
 "D1@BedCenterPegHoleCut-Extrude1"="StandardWallThickness"
+"M3HeatInsertHoleDiameter"= 4mm'Spec

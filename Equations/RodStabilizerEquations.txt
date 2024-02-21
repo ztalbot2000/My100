@@ -24,7 +24,6 @@
 "BedToBuildPlateStandoffLength"= 15mm
 "BuildPlateHeight"= 8mm'Spec
 "V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
-"FasteningHoleDiameter"= .125in
 "RodStabilizerHeight"= "V8 ToBottomOfMidSideRail" - "V2 ToBedAtTopOfZAxis" + "HoleOffsetFromEdge" * 2
 "LowerEnclosureThickness"= 5mm
 "D1@Profile-Sketch1" = "LM8UUDiameter"
@@ -36,13 +35,14 @@
 "D1@Profile-Boss-Extrude2"= "RodStabilizerHeight"
 "D6@FasteningHoleSketch3"="HoleOffsetFromEdge"
 "D2@LM8UUFasteningHoleSketch5"="LM8UUHeight"/2
-"V8 ToTopOfMidSideRail" = "V6 ToMiddleOfYAxisGantryBlock" + "MidSideRailVerticalOffset"
+"V8 ToTopOfMidSideRail"= "V6 ToMiddleOfYAxisGantryBlock" + "MidSideRailVerticalOffset"
 "D5@Profile-Sketch1"="RodStabilizerWidthFromMidRailToZAxisRodCenter"
 "RodStabilizerMountingHoleYOffsetFromBottom"= "RodStabilizerHeight" - "HoleOffsetFromEdge"
 "D2@FasteningHoleSketch3"="RodStabilizerMountingHoleYOffsetFromBottom"
-"D3@FasteningHoleSketch3"="FasteningHoleDiameter"
+"D3@FasteningHoleSketch3"="M3HeatInsertHoleDiameter"
 "GABLowerHeight"= 3mm
 "GABHeight"= "GABLowerHeight" + "GABMidWallHeight" + "GABUpperHeight"
 "V8 ToBottomOfMidSideRail"= "V8 ToTopOfMidSideRail" - "MidLeftOrRightSideRailHeight"'Equals 289.51514
 "D1@LM8UUFasteningHoleSketch5"="RodStabilizerLength"/2
 "MidSideRailVerticalOffset"= "LinearRailWidth" + 3mm'Allows space for RodStabilizer to attach to bottom of MidSideRail
+"M3HeatInsertHoleDiameter"= 4mm'Spec

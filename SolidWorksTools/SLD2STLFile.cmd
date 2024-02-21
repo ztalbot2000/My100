@@ -39,5 +39,5 @@ IF "%entity%" == "BottomFrame" (
    Echo "Converting Hotend"
    PowerShell -NoProfile -ExecutionPolicy Bypass -File "SLD2STLFile.ps1" ..\SLD\Hotend\Carrier.SLDPRT ..\STL\Hotend\Carrier.STL
 ) ELSE (
-   Echo "Options are: BottomFrame | TopFrame | Gantry | HotEnd | Bed"
+   Echo "Options are: BottomFrame | TopFrame | Gantry | Hotend | Bed"
 )

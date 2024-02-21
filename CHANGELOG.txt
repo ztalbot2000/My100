@@ -10,7 +10,8 @@ v1.0Alpha-3 (Work in progress)
 - Changed bed center from solid to a shell, reducing material required to
   print it.
 - Changed bed center overlap from filet to peg/hole connections to make it
-  easier to print.
+- Change RodStabilizer and Bed/Build Plate fastening holes to be M3 Heat
+  Insert diameter.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

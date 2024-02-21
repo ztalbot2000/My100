@@ -5,7 +5,6 @@
 "FrontBackRailLength"= 510mm
 "DistanceBetweenLeftToRightStepperHoles"= "FrontBackRailLength" - "StepperMountingHoleOffsetFromLeftOrRightSide" * 2 - "StepperMountingHoleDistance"'Equals 461.65
 "BedThickness"= 20mm
-"BedToBuildPlateStandoffHoleSize"= 3mm
 "BedLLongSide"= "BedThirdSize" * 3'Equals 210
 "BedLShortSide"= "BedThirdSize" * 2'Equals 140
 "BedLWidth"= "BedThirdSize"'Equals 70
@@ -49,7 +48,7 @@
 "D3@PadSketch3"="BedToBuildPlateStandoffHolesDistanceFromFront"
 "BuildPlateWidth"= 350mm'Spec
 "D4@PadSketch3"="BedIncreasedByWidth"/2 + "BuildPlateWidth"/2
-"D2@StepperShaftHoleSketch4"="BedToBuildPlateStandoffHoleSize"
+"D2@StepperShaftHoleSketch4"="M3HeatInsertHoleDiameter"
 "BuildPlateStandoffHolesDistanceFromFront"= 7mm
 "BedToBuildPlateStandoffHolesDistanceFromFront"= "BuildPlateStandoffHolesDistanceFromFront" + "BedIncreasedByLength" / 2'Equals 7
 "BedPegHoleWidth"= 10mm
@@ -69,3 +68,4 @@
 "D2@BedCenterPegHoleCutSketch1" = "BedPegHoleWidth"
 "D3@BedCenterPegHoleCutSketch1" = "BedInnerSquareWidth" / 2 - "BedPegHoleWidth" / 2
 "D1@BedCenterPegHoleCut-Extrude1"="StandardWallThickness"
+"M3HeatInsertHoleDiameter"= 4mm'Spec

@@ -26,13 +26,10 @@
 "D9@TopHoles-Sketch2" = "StepperMountingHoleDiameter"
 "D10@TopHoles-Sketch2" = "StepperHoleDiameter"
 "D4@BackSideHoles-Sketch3" = "SideRailHoleY2FromSide"
-"D7@BackSideHoles-Sketch3" = "FasteningHoleDiameter"
 "D1@Boss-Extrude1"= "MidBackRailLength"
 "D3@BackSideHoles-Sketch3"="SideRailHoleY1FromEdge"
-"D1@BackSideHoles-Sketch3"="SideRailHoleX1FromSide" - "RailThickness"
-"D2@BackSideHoles-Sketch3"="SideRailHoleX2FromSide" - "RailThickness"
-"D6@BackSideHoles-Sketch3"="SideRailHoleX2FromSide" - "RailThickness"
-"D5@BackSideHoles-Sketch3"="SideRailHoleX1FromSide" - "RailThickness"
+"D1@BackSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness" - "RailThickness"
+"D5@BackSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness" - "RailThickness"
 "StepperHoleToAlignHorizontallyWithGantryBlock"= "LinearGBWithRailDepth" + "GABDistanceFromBackToFirstPulley"'Equals 26.25
 "D13@TopHoles-Sketch2"="StepperHoleToAlignHorizontallyWithGantryBlock" 
 "D8@TopHoles-Sketch2"="StepperMountingHoleDistance"
@@ -40,3 +37,9 @@
 "LinearGBWithRailDepth"= 12.75mm'Spec
 "GABDistanceFromBackToFirstPulley"= 13.5mm
 "MidBackRailLength"= "FrontBackRailLength" - "RailThickness" * 2'MidBackRail buts up against MidSideRail
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D8@BackSideHoles-Sketch3"="SideRailHoleX2FromSide" - "RailThickness"
+"D6@BackSideHoles-Sketch3"="SideRailHoleX1FromSide" - "RailThickness"
+"D7@BackSideHoles-Sketch3"="SideRailHoleX2FromSide" - "RailThickness"
+"D2@BackSideHoles-Sketch3"="SideRailHoleX1FromSide" - "RailThickness"
+"D9@BackSideHoles-Sketch3"="FasteningHoleDiameter"

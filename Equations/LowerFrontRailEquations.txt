@@ -36,3 +36,6 @@
 "D9@FrontSideHoles-Sketch2"="FrontOrBackEnclosureOffsets"
 "D10@FrontSideHoles-Sketch2"="FrontOrBackEnclosureOffsets"
 "D7@FrontSideHoles-Sketch2"="SideRailHoleY2FromSide"
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D11@FrontSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
+"D12@FrontSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"

@@ -17,8 +17,8 @@
 "D7@BackHoles-Sketch4"="SideRailHoleY2FromSide"
 "D1@Chamfer6"="TopRailWidth"
 "D1@Chamfer7"="TopRailWidth"
-"D6@BackHoles-Sketch4"="SideRailHoleX2FromSide"
-"D5@BackHoles-Sketch4"="SideRailHoleX2FromSide"
+"D6@BackHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
+"D5@BackHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
 "D8@BackHoles-Sketch4"="FrontBackRailLength"/2 - 40mm
 "TopHoleY1FromSide"= "HoleOffsetFromSide"
 "TopCBLength"= "TopRailWidth" * 2'Equals 63.5
@@ -37,3 +37,6 @@
 "D3@TopHoles-Sketch3"="FrontOrBackCornerEnclosureOffset"
 "D4@TopHoles-Sketch3"="FrontOrBackCornerEnclosureOffset"
 "D5@TopHoles-Sketch3"="FasteningHoleDiameter"
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D16@BackHoles-Sketch4"="SideRailHoleX2FromSide"
+"D17@BackHoles-Sketch4"="SideRailHoleX2FromSide"

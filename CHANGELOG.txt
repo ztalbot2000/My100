@@ -2,7 +2,7 @@ This will be an incomplete change log until further notice.
 
 v1.0Alpha-3 (Work in progress)
 ===========
-- Rear Mid rail was rotated upside down so the steppers face upwards allowing
+- Back Mid rail was rotated upside down so the steppers face upwards allowing
   their cables to be more easily routed and to shift center of mass lower.
 - Modified belt fasteners to go around mid side rail mounting screws.
 - Corrected bed parts to reflect their correct position relative to their
@@ -10,8 +10,14 @@ v1.0Alpha-3 (Work in progress)
 - Changed bed center from solid to a shell, reducing material required to
   print it.
 - Changed bed center overlap from filet to peg/hole connections to make it
+  easier to assemble.
 - Change RodStabilizer and Bed/Build Plate fastening holes to be M3 Heat
-  Insert diameter.
+  insert diameter.
+- Proof equations so that all parts that ribbon touch align exacly which was
+  required after turning Mid Back rail upside down so steppers face upwards.
+- Change four fastening holes to three to better accomodate screw heads.
+- Add chamfer to fastening holes for screw heads on verticals.
+- Add 24V DC to 5V DC converter onto enclosure bottom.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

@@ -28,17 +28,17 @@
 "D8@BotthomHoles-Sketch2" = "StepperMountingHoleDistance"
 "D9@BotthomHoles-Sketch2" = "StepperMountingHoleDiameter"
 "D10@BotthomHoles-Sketch2" = "StepperHoleDiameter"
-"D2@LeftSideHoles-Sketch3" = "SideRailHoleX2FromSide"
+"D2@LeftSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
 "D4@LeftSideHoles-Sketch3" = "SideRailHoleY2FromSide"
 "D7@LeftSideHoles-Sketch3" = "FasteningHoleDiameter"
 "D1@Boss-Extrude1"="SideRailLength"
-"D6@LeftSideHoles-Sketch3"="SideRailHoleX2FromSide"
+"D6@LeftSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
 "DistanceBetweenFrontToBackStepperHoles"= "BedLength" - "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 316
 "BedThirdSize"= 70mm
 "BedLWidth"= "BedThirdSize"'Equals 70
 "BedInnerSquareWidth"= "BedThirdSize" * 3'Equals 210
 "BedInnerSquareLength"= "BedInnerSquareWidth"
-"BedLength" = "BedInnerSquareLength" + "BedLWidth" * 2 + "BedIncreasedByLength"'Equals 350
+"BedLength"= "BedInnerSquareLength" + "BedLWidth" * 2 + "BedIncreasedByLength"'Equals 350
 "D12@BotthomHoles-Sketch2"="DistanceBetweenFrontToBackStepperHoles"
 "DistanceFromFrontSideToFirstLeftStepperHole"= "DistanceFromFrontSideToBedFront" + "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 70.575
 "D13@BotthomHoles-Sketch2"="DistanceFromFrontSideToFirstLeftStepperHole"
@@ -62,3 +62,6 @@
 "D5@LeftSideHoles-Sketch3"="SideRailHoleX1FromSide"
 "D11@LeftSideHoles-Sketch3"="SideRailHoleX1FromSide"
 "D3@LeftSideHoles-Sketch3"="SideRailHoleY1FromEdge"
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D12@LeftSideHoles-Sketch3"="SideRailHoleX2FromSide"
+"D13@LeftSideHoles-Sketch3"="SideRailHoleX2FromSide"

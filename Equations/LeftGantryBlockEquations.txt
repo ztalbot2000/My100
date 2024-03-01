@@ -1,7 +1,7 @@
 ﻿"GABDepth"= "GABDistanceFromBackToFirstPulley" + "GABPulleyDDistanceBetween" + "GABDistanceFromPulleyToFront"
 "GABWidth"= "StandardWallThickness" + "GABDistanceFromLSideToPulley" + "GABPulleyWDistanceBetween" + "GABDistanceFromPulleyToRSide"
-"GABLowerHeight"= 3mm
-"GABUpperHeight"= 6mm
+"GABLowerHeight"= 4mm
+"GABUpperHeight"= 4mm
 "GABMidWallHeight"= 28mm'Must equal 28 or changes alignment
 "StandardWallThickness"= 3mm
 "GABMidShortRiserHeight"= "GABMidWallHeight" / 2 - "20TGT2PulleyWidth"'Equals 5.3
@@ -21,7 +21,7 @@
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
 "7mmx1mmSpacerDiameter"= 7mm
 "7mmx1mmSpacerHeight"= 1mm
-"GABRiserBossOffset"= 0.8mm'Aligns Pulleys
+"GABRiserBossOffset" = 0.4mm'Aligns Pulleys inside edges to be 2.5mm (.5mm apart top to bottom)
 "D1@Top-Sketch1" = "GABDistanceFromBackToFirstPulley"
 "D2@Top-Sketch1" = "GABPulleyDDistanceBetween"
 "D3@Top-Sketch1" = "SteelShaft5mmHoleDiameter"
@@ -32,13 +32,13 @@
 "D10@Top-Sketch1" = "GABLRClampHoleOffsetFromSide"
 "D11@Top-Sketch1" = "GABWidth"
 "D1@Boss-Extrude4"="GABUpperHeight"
-"D1@TopRightRiserBoss-Extrude5" = "GABMidLongRiserHeight" + "GABRiserBossOffset" / 2
-"D1@TopLeftBoss-Extrude6" = "GABMidShortRiserHeight" - "GABRiserBossOffset" / 2
+"D1@TopRightRiserBoss-Extrude5" = "GABMidLongRiserHeight" + "GABRiserBossOffset"
+"D1@TopLeftBoss-Extrude6" = "GABMidShortRiserHeight" - "GABRiserBossOffset"
 "D1@MidWall" = "StandardWallThickness"
 "D1@MidWallBoss-Extrude7" = "GABMidWallHeight"
 "D1@BottomBoss-Extrude8" = "GABLowerHeight"
-"D1@LowerLeftBoss-Extrude9"="GABMidLongRiserHeight" + "GABRiserBossOffset"/2
-"D1@LowerRightBoss-Extrude10"="GABMidShortRiserHeight" - "GABRiserBossOffset" / 2
+"D1@LowerLeftBoss-Extrude9" = "GABMidLongRiserHeight" + "GABRiserBossOffset"
+"D1@LowerRightBoss-Extrude10" = "GABMidShortRiserHeight" - "GABRiserBossOffset"
 "D1@LinearRailMountingHoles-Sketch10" =  ( "GABHeight" - "LinearGBMountHolesXDistance" )  / 2
 "D2@LinearRailMountingHoles-Sketch10"="LinearGBMountHolesYDistance"
 "D3@LinearRailMountingHoles-Sketch10" = "LinearGBMountHolesXDistance"
@@ -53,3 +53,5 @@
 "LinearGBMountHolesYDistance"= 20mm'Spec
 "D1@PushPinHoleSketch1" = "StealPinPushHoleDiameter"
 "StealPinPushHoleDiameter"= 2mm
+"M3HeatInsertHoleDiameter"= 4mm'Spec
+"D5@Top-Sketch1"="M3HeatInsertHoleDiameter"

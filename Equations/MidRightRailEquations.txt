@@ -19,7 +19,6 @@
 "D1@SideHoles-Sketch4"="SideRailHoleX1FromSide" 
 "D6@SideHoles-Sketch4"="SideRailHoleX2FromSide"
 "LinearRailXMountHole"= "StepperWidth" + "LinearRailFirstHoleOffsetFromEdge"
-"D9@SideHoles-Sketch4"="V6.3 GantryMiddleToToTopOfMidSideRail"
 "D8@SideHoles-Sketch4"="LinearRailXMountHole"
 "LinearRailHoleDistance"= 25mm'Spec
 "D12@SideHoles-Sketch4"="LinearRailHoleDistance"
@@ -42,17 +41,6 @@
 "D14@SideHoles-Sketch4"= "FasteningHoleDiameter"
 "D15@SideHoles-Sketch4"= "HoleOffsetFromEdge"
 "BedInnerSquareLength"= "BedInnerSquareWidth"
-"GABMidWallHeight"= 28mm'Must equal 28 or changes alignment
-"20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
-"GABMidShortRiserHeight"= "GABMidWallHeight" / 2 - "20TGT2PulleyWidth"'Equals 5.3
-"GABUpperHeight"= 6mm
-"GABLowerHeight"= 3mm
-"GABRiserBossOffset"= 0.8mm'Aligns Pulleys
-"GABHeight"= "GABLowerHeight" + "GABMidWallHeight" + "GABUpperHeight"
-"StepperShaftLength"= 24mm'Pulley will be attached to the end
-"V6.1 FromGantryPulleyToGantryMiddle"= "GABHeight" / 2 - "GABMidShortRiserHeight" - "GABLowerHeight" + "GABRiserBossOffset" / 2
-"V6.2 GantryMiddleToTopOfMidBackRail"= "StepperShaftLength" - "V6.1 FromGantryPulleyToGantryMiddle"
-"V6.3 GantryMiddleToToTopOfMidSideRail"= "V6.2 GantryMiddleToTopOfMidBackRail" - "RailThickness"
 "DistanceFromFrontSideToFirstLeftStabilizerMountingHole"= "DistanceFromFrontSideToFirstLeftStepperHole" - "DistanceFromStepperHoleToRodStabilizerMountingHole"'Equals 53.5125
 "DistanceFromFrontSideToFirstLeftStepperHole"= "DistanceFromFrontSideToBedFront" + "DistanceFromBedFrontToFirstLeftStepperHole"'Equals 70.575
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
@@ -64,3 +52,6 @@
 "DistanceFromStepperHoleToRodStabilizerMountingHole"= "RodStabilizerLength" / 2 - "HoleOffsetFromEdge"'Equals 17.0625
 "D13@SideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" * 2
 "D16@SideHoles-Sketch4"="RodStabilizerLength" - "HoleOffsetFromEdge" *2
+"LinearRailWidth"= 12mm'Spec
+"MidSideRailVerticalOffset"= "LinearRailWidth" + 3mm'Allows space for RodStabilizer to attach to bottom of MidSideRail
+"D9@SideHoles-Sketch4"="MidSideRailVerticalOffset"

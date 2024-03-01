@@ -36,3 +36,6 @@
 "D6@BackSideHoles-Sketch2"="SideRailHoleY1FromEdge"
 "D7@BackSideHoles-Sketch2"="SideRailHoleY2FromSide"
 "D3@BackSideHoles-Sketch2"="SideRailHoleX1FromSide"
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D12@BackSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
+"D13@BackSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"

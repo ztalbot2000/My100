@@ -37,3 +37,6 @@
 "D3@TopHoles-Sketch3"="LeftOrRightCornerEnclosureOffset"
 "D4@TopHoles-Sketch3"="LeftOrRightCornerEnclosureOffset"
 "D5@TopHoles-Sketch3"="FasteningHoleDiameter"
+"VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
+"D11@RightHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
+"D12@RightHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"

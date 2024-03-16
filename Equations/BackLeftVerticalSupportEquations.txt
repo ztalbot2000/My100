@@ -23,7 +23,6 @@
 "VSMidBackRailHoleY1FromV7TopOfMidBackRail"= "V7 ToTopOfMidBackRail" - "HoleOffsetFromEdge"'Equals 339.64737
 "TopRailHeight"= 1.25in
 "MidLeftOrRightSideRailHeight"= 2.0in
-"D10@LeftSideHoles-Sketch3"="HoleOffsetFromEdge"
 "VSMidBackRailHoleY2FromY1"= "MidBackRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
 "VSMidSideRailHoleY2FromY1"= "MidLeftOrRightSideRailHeight" - "HoleOffsetFromEdge" * 2'Equals 34.925
 "D7@LeftSideHoles-Sketch3"="VSMidSideRailHoleY2FromY1"
@@ -31,8 +30,7 @@
 "D6@BackSideHoles-Sketch4"="VSTopSideRailHoleY1FromEdge"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
 "D7@BackSideHoles-Sketch4"="VSTopSideRailHoleY2FromY1"
-"VSBottomSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
-"D3@LeftSideHoles-Sketch3"="VSBottomSideRailHoleX2FromX1"
+"VSSideRailHoleX2FromSide"= "VSWidth" - "HoleOffsetFromEdge"
 "V1 BottomOfLowerRail"= "LegHeight"
 "V1 BottomOfLowerRail"= "LegHeight"
 "StepperShaftLength"= 24mm'Pulley will be attached to the end
@@ -46,7 +44,7 @@
 "LinearRailWidth"= 12mm'Spec
 "GABUpperHeight"= 4mm
 "GABMidWallHeight"= 28mm'Must equal 28 or changes alignment
-"V7 ToBottomOfMidBackRail"=   "V5 ToBottomOfXAxisLinearRail" - "GABUpperHeight" - "GABMidShortRiserHeight" + "GABRiserBossOffset" - "StepperShaftLength"'Equals 319.28487
+"V7 ToBottomOfMidBackRail"= "V5 ToBottomOfXAxisLinearRail" - "GABUpperHeight" - "GABMidShortRiserHeight" + "GABRiserBossOffset" - "StepperShaftLength"'Equals 319.28487
 "D1@BackSideHoles-Sketch4" = "VSMidBackRailHoleY1FromV7TopOfMidBackRail"
 "D11@LeftSideHoles-Sketch3"="VSMidSideRailHoleY1FromV8TopOfMidSideRail"
 "V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
@@ -79,4 +77,6 @@
 "VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
 "D14@LeftSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter"
 "D14@BackSideHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter"
-"D9@BackSideHoles-Sketch4"="VSBottomSideRailHoleX2FromX1"
+"D10@LeftSideHoles-Sketch3"="HoleOffsetFromEdge"
+"D3@LeftSideHoles-Sketch3"="VSSideRailHoleX2FromSide"
+"D9@BackSideHoles-Sketch4"="VSSideRailHoleX2FromSide"

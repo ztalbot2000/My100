@@ -22,13 +22,11 @@
 "D1@Sketch2"="VSHeight"
 "TopRailHeight"= 1.25in
 "MidLeftOrRightSideRailHeight"= 2.0in
-"D12@RightSideHoles-Sketch3"="HoleOffsetFromEdge"
 "VSMidSideRailHoleY2FromY1"= "MidLeftOrRightSideRailHeight" - "HoleOffsetFromEdge" * 2'Equals 34.925
 "D7@RightSideHoles-Sketch3"="VSMidSideRailHoleY2FromY1"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
 "D7@FrontSideHoles-Sketch4"="VSTopSideRailHoleY2FromY1"
-"VSSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
-"D3@RightSideHoles-Sketch3"="VSSideRailHoleX2FromX1"
+"VSSideRailHoleX2FromSide"= "VSWidth" - "HoleOffsetFromEdge"
 "1mmSpacer"= 1mm
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
 "BeltTensionerInnerHeight"= "20TGT2PulleyWidth" * 2 + "1mmSpacer" * 3
@@ -85,7 +83,9 @@
 "DistanceFromXAxisLinearRailBottomAndTopGantryPulley"= "GABUpperHeight" + "GABMidShortRiserHeight" - "GABRiserBossOffset"'Equals 8.9
 "DistanceFromBeltTensionerTopPulleyToBeltTensionerTop"= "7mmx1mmSpacerHeight" + "BeltTensionerTopHeight"'Equals 20.8
 "BeltTensionerTopHeight"= ( "BeltTensionerHeight" - "BeltTensionerInnerHeight" ) / 2'Equals 19.8
-"D14@RightSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter"
 "VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
 "D14@FrontSideHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter"
-"D11@FrontSideHoles-Sketch4"="VSSideRailHoleX2FromX1"
+"D3@RightSideHoles-Sketch3"="HoleOffsetFromEdge"
+"D14@RightSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter"
+"D12@RightSideHoles-Sketch3"="VSSideRailHoleX2FromSide"
+"D11@FrontSideHoles-Sketch4"="VSSideRailHoleX2FromSide"

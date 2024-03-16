@@ -1,7 +1,7 @@
 (LowerRightRail-Top Milled .25in left side -X)
 G21
 M3 S5000
-G0X0.00Y0.00Z5.0
+G0X0.00Y0.00Z3.0
 (First right stepper X-24.175 Y163.425  - CENTER)
 (Radius is 15.5. Minus half mill bit is 6.350/2 = 12.326)
 (We arc about the Y axis, so X remains the same and I=0)
@@ -32,6 +32,7 @@ G02X-24.175Y151.099I0J12.326F10
 G1Z-5.0F10.0
 G02X-24.175Y151.099I0J12.326F10
 G0Z10.0
+
 (First Left stepper X-24.175 Y479.25 - CENTER)
 (Radius is 15.5. Minus half mill bit is 6.350/2 = 12.326)
 (We arc about the Y axis, so X remains the same and I=0)

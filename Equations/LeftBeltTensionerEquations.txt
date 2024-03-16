@@ -42,7 +42,6 @@
 "BeltTensionerSteelShaftHoleDepthFromTop"= ( "SteelShaftLength" - "BeltTensionerInnerHeight" ) / 2 + ( "BeltTensionerHeight" - "BeltTensionerInnerHeight" ) / 2 + "BeltTensionerInnerHeight"'Equals 45
 "SteelShaftLength"= 30mm
 "D1@TopHoleCut-Extrude1"="BeltTensionerSteelShaftHoleDepthFromTop"
-"D1@ScrewCollisionSketch1" = "BeltTensionerDepth" * .8
 "MidSideRailVerticalOffset"= "LinearRailWidth" + 3mm'Allows space for RodStabilizer to attach to bottom of MidSideRail
 "LinearRailWidth"= 12mm'Spec
 "D2@MidRailInsetSketch1"="DistanceAboveMidSideRailToTopOfBeltTensioner"

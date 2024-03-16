@@ -18,6 +18,8 @@ v1.0Alpha-3 (Work in progress)
 - Change four fastening holes to three to better accomodate screw heads.
 - Add chamfer to fastening holes for screw heads on verticals.
 - Add 24V DC to 5V DC converter onto enclosure bottom.
+- Change to 1 foot mount hole on each side of vertical rail.
+- Add fastening screws to frame.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

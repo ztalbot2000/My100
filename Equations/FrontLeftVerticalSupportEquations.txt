@@ -25,8 +25,7 @@
 "D10@LeftSideHoles-Sketch4"="HoleOffsetFromEdge"
 "VSMidSideRailHoleY2FromY1"= "MidLeftOrRightSideRailHeight" - "HoleOffsetFromEdge" * 2'Equals 34.925
 "D9@LeftSideHoles-Sketch4"="VSMidSideRailHoleY2FromY1"
-"VSSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
-"D11@LeftSideHoles-Sketch4"="VSSideRailHoleX2FromX1"
+"VSSideRailHoleX2FromSide"= "VSWidth" - "HoleOffsetFromEdge"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
 "D7@LeftSideHoles-Sketch4"="VSTopSideRailHoleY2FromY1"
 "BeltTensionerInnerHeight"= "20TGT2PulleyWidth" * 2 + "1mmSpacer" * 3
@@ -59,7 +58,6 @@
 "VSEnclosureOffsets"= ( "VSLength" - "LegHeight" ) / 4
 "D6@FrontSideHoles-Sketch3"="LegHeight" + "VSEnclosureOffsets"
 "D10@FrontSideHoles-Sketch3"="VSEnclosureOffsets"
-"D12@FrontSideHoles-Sketch3"="HoleOffsetFromEdge"
 "D13@LeftSideHoles-Sketch4"="VSEnclosureOffsets"
 "D12@LeftSideHoles-Sketch4"="LegHeight" + "VSEnclosureOffsets"
 "D2@FrontSideHoles-Sketch3"="VSSideRailHoleX1FromSide"
@@ -87,6 +85,9 @@
 "DistanceFromBeltTensionerTopPulleyToBeltTensionertop"= "7mmx1mmSpacerHeight" + "BeltTensionerTopHeight"'Equals 20.8
 "BeltTensionerTopHeight"= ( "BeltTensionerHeight" - "BeltTensionerInnerHeight" ) / 2'Equals 19.8
 "VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
-"D3@FrontSideHoles-Sketch3"="VSSideRailHoleX2FromX1"
 "D17@FrontSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter"
 "D2@LeftSideHoles-Sketch4"="VSSideRailHoleX1FromSide"
+"D3@FrontSideHoles-Sketch3"="VSSideRailHoleX2FromSide"
+"D12@FrontSideHoles-Sketch3"="HoleOffsetFromEdge"
+"D11@LeftSideHoles-Sketch4"="VSSideRailHoleX2FromSide"
+"D15@LeftSideHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter"

@@ -29,7 +29,7 @@
 "D7@BackSideHoles-Sketch3"="VSMidBackRailHoleY2FromY1"
 "D9@RightSideHoles-Sketch4"="VSMidSideRailHoleY2FromY1"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
-"VSSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
+"VSSideRailHoleX2FromSide"= "VSWidth" - "HoleOffsetFromEdge"
 "D7@RightSideHoles-Sketch4"="VSTopSideRailHoleY2FromY1"
 "V1 BottomOfLowerRail"= "LegHeight"
 "V1 BottomOfLowerRail"= "LegHeight"
@@ -57,7 +57,6 @@
 "D12@BackSideHoles-Sketch3"="VSEnclosureOffsets"
 "D12@RightSideHoles-Sketch4"="LegHeight" + "VSEnclosureOffsets"
 "D13@RightSideHoles-Sketch4"="VSEnclosureOffsets"
-"D6@BackSideHoles-Sketch3"="HoleOffsetFromEdge"
 "D5@BackSideHoles-Sketch3"="VSBottomSideRailHoleY2FromY1"
 "D14@BackSideHoles-Sketch3"="VSBottomSideRailHoleY1FromBottomOfLowerRail"
 "D2@BackSideHoles-Sketch3"="VSSideRailHoleX1FromSide"
@@ -65,7 +64,6 @@
 "D3@RightSideHoles-Sketch4"="VSBottomSideRailHoleY1FromBottomOfLowerRail"
 "D5@RightSideHoles-Sketch4"="VSBottomSideRailHoleY2FromY1"
 "D2@RightSideHoles-Sketch4"="VSSideRailHoleX1FromSide"
-"D11@RightSideHoles-Sketch4"="VSSideRailHoleX2FromX1"
 "LowerEnclosureThickness"= 5mm
 "V7 ToTopOfMidBackRail"= "V7 ToBottomOfMidBackRail" + "MidBackRailHeight"
 "GABLowerHeight"= 4mm
@@ -76,7 +74,9 @@
 "20TGT2PulleyWidth"= 8.7mm'The STL of the Pulley in the diagram is a bit larger
 "GABRiserBossOffset"= 0.4mm'Aligns Pulleys inside edges to be 2.5mm (.5mm apart top to bottom)
 "GABMidShortRiserHeight"= "GABMidWallHeight" / 2 - "20TGT2PulleyWidth"'Equals 5.3
-"D3@BackSideHoles-Sketch3"="VSSideRailHoleX2FromX1"
 "VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
 "D15@BackSideHoles-Sketch3"="VSMidSideRailHoleXFromSideToCenter"
 "D15@RightSideHoles-Sketch4"="VSMidSideRailHoleXFromSideToCenter"
+"D6@BackSideHoles-Sketch3"="HoleOffsetFromEdge"
+"D3@BackSideHoles-Sketch3"="VSSideRailHoleX2FromSide"
+"D11@RightSideHoles-Sketch4"="VSSideRailHoleX2FromSide"

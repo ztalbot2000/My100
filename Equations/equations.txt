@@ -55,9 +55,8 @@
 "StepperMountingHoleOffsetFromLeftRightEdge"= "StepperMountingHoleOffsetFromItsSide"
 "VSBottomSideRailHoleY1FromBottomOfLowerRail"= "V1 BottomOfLowerRail" + "HoleOffsetFromSide"'Equals 81.1125
 "VSBottomSideRailHoleY2FromY1"= "LowerRailHeight" - "HoleOffsetFromSide" - "HoleOffsetFromEdge"'Equals 6.35
-"VSBottomSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
 "VSSideRailHoleX1FromSide"= "HoleOffsetFromSide" + "RailThickness"
-"VSSideRailHoleX2FromX1"= "VSWidth" - "VSSideRailHoleX1FromSide" - "HoleOffsetFromEdge"
+"VSSideRailHoleX2FromSide"= "VSWidth" - "HoleOffsetFromEdge"
 "VSTopSideRailHoleY1FromEdge"= "HoleOffsetFromEdge" + "RailThickness"
 "VSTopSideRailHoleY2FromY1"= "TopRailHeight" - "VSTopSideRailHoleY1FromEdge" - "HoleOffsetFromEdge"'Equals 12.7
 "VSMidBackRailHoleY1FromV7TopOfMidBackRail"= "V7 ToTopOfMidBackRail" - "HoleOffsetFromEdge"'Equals 339.64737

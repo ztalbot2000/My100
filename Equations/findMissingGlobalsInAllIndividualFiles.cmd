@@ -23,7 +23,6 @@ node SWECompare -v .\MidLeftRailEquations.txt
 node SWECompare -v .\MidRightRailEquations.txt
 node SWECompare -v .\RightGantryBlockEquations.txt
 node SWECompare -v .\UpperBackRailEquations.txt
-node SWECompare -v .\UpperCornerBlockEquations.txt
 node SWECompare -v .\UpperFrontRailEquations.txt
 node SWECompare -v .\UpperLeftRailEquations.txt
 node SWECompare -v .\UpperRightRailEquations.txt

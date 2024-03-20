@@ -29,19 +29,19 @@ G0X14.2875Y260.00
 G1Z-4.0F10.0
 G0Z3.0
 
-(First left mid rail hole)
+(First left mid side rail hole)
 G0X14.2875Y306.32247
 G1Z-4.0F10.0
 G0Z3.0
-(First right mid rail hole)
+(First right mid side rail hole)
 G0X23.8125Y306.32247
 G1Z-4.0F10.0
 G0Z3.0
-(Second left mid rail hole)
+(Second left mid side rail hole)
 G0X14.2875Y340.13941
 G1Z-4.0F10.0
 G0Z3.0
-(Second right mid rail hole)
+(Second right mid side rail hole)
 G0X23.8125Y340.13941
 G1Z-4.0F10.0
 G0Z3.0

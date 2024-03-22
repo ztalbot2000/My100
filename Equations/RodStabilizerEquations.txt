@@ -13,7 +13,7 @@
 "StepperShaftLength"= 24mm'Pulley will be attached to the end
 "V1 BottomOfLowerRail"= "LegHeight"
 "V2 ToBedAtTopOfZAxis"= "V1 BottomOfLowerRail" - "LowerEnclosureThickness" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2'Equals 277
-"HotEndToTopOfXAxisGB"= 71.68487mm'Equals 71.68487. Measured after installed onto X-Axis linear rail guide block
+"HotEndToTopOfXAxisGB"= 71.68487'Equals 71.68487mm.  Measured after install onto X-Axis linear rail guide block
 "TopOfGBToBottomOfLinearRail"= "LinearGBWidth" / 2 + "LinearRailWidth" / 2'Equals 19.5
 "LinearGBWidth"= 27mm'Spec
 "V5 ToBottomOfXAxisLinearRail"= "V4 ToTopOfBuildPlate/HotEndTip" + "HotEndToTopOfXAxisGB" - "TopOfGBToBottomOfLinearRail"'Equals 352.18487

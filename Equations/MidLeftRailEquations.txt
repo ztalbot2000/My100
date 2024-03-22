@@ -25,7 +25,6 @@
 "SideRailLength"= 550mm
 "MidLeftOrRightSideRailHeight"= 2.0in
 "StepperWidth"= 42mm'Spec
-"StepperHolePadSize"= "StepperHoleDiameter"
 "MidRailRodStabilizerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
 "D13@LeftSideHoles-Sketch4"="MidRailRodStabilizerMountingHoleOffsetFromEdge"
 "D14@LeftSideHoles-Sketch4"="FasteningHoleDiameter"

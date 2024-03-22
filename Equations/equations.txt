@@ -40,7 +40,7 @@
 "StepperMountingHoleDiameter"= 3.175mm
 "StepperMountingHoleDistance"= 31mm'Spec
 "LeadScrewNutInnerShaftFlangeDiameter"= 10.2mm'Spec
-"LeadScrewNutMountHoleDiameter"= 2mm'Spec is 4.1 but smaller for tapping
+"LeadScrewNutMountHoleDiameter"= "M3HeatInsertHoleDiameter"
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutMountingHoleDistance"= 16mm'Spec
 "ZAxisLeadScrewLength"= 200mm

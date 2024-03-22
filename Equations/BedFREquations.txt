@@ -42,7 +42,7 @@
 "D3@CornerSketch1"="DistanceFromBedFrontToStepperHole"
 "D5@CornerSketch1"="BedLShortSide" +"BedIncreasedByWidth"/2
 "LeadScrewNutInnerShaftFlangeDiameter"= 10.2mm'Spec
-"LeadScrewNutMountHoleDiameter" = "M3HeatInsertHoleDiameter"'Spec is 4.1 but smaller for tapping
+"LeadScrewNutMountHoleDiameter"= "M3HeatInsertHoleDiameter"
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutMountingHoleDistance"= 16mm'Spec
 "D3@ThreadedNutMountHolesSketch4"="LeadScrewNutMountingHoleDistance"

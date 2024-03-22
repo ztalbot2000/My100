@@ -45,7 +45,7 @@
 "D1@StepperShaftCut-Sketch3"="LeadScrewNutInnerShaftFlangeDiameter"
 "D2@StepperShaftCut-Sketch3"="M3HeatInsertHoleDiameter"
 "LeadScrewNutInnerShaftFlangeDiameter"= 10.2mm'Spec
-"LeadScrewNutMountHoleDiameter"= 2mm'Spec is 4.1 but smaller for tapping
+"LeadScrewNutMountHoleDiameter" = "M3HeatInsertHoleDiameter"'Spec is 4.1 but smaller for tapping
 "LeadScrewNutMountingHoleFlangeDiameter"= 22mm'Spec
 "LeadScrewNutMountingHoleDistance"= 16mm'Spec
 "D1@ThreadedNutMountHolesSketch5"="LeadScrewNutMountingHoleDistance"/2

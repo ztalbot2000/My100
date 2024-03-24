@@ -20,6 +20,7 @@ v1.0Alpha-3 (Work in progress)
 - Add 24V DC to 5V DC converter onto enclosure bottom.
 - Change to 1 foot mount hole on each side of vertical rail.
 - Add fastening screws to frame.
+- Move MidBackRail X&Y steppers forward to allow space for rear stepper screws.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

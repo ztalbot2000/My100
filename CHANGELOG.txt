@@ -21,6 +21,7 @@ v1.0Alpha-3 (Work in progress)
 - Change to 1 foot mount hole on each side of vertical rail.
 - Add fastening screws to frame.
 - Move MidBackRail X&Y steppers forward to allow space for rear stepper screws.
+- Add chamfer to corner of belt tensioners so they fit inside verticals.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

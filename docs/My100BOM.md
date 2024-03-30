@@ -17,6 +17,11 @@
          <TR><TD>M3 x 20 standard head screw<TD>4<TD>$.15<TD><TD>X Axis guide block fastener</TR>
          <TR><TD>M4 x 25 standard head screw<TD>4<TD>$.15<TD><TD>Belt tightener fastener screws</TR>
          <TR><TD>M4 nylon nut<TD>4<TD>$.15<TD><TD>Belt tightener fastener screws</TR>
+         <TR><TD>6-32 x 5/8 Cap Screw Socket Head<TD>14<TD>$.10<TD><TD>Bottom Frame Enclosure screws</TR>
+         <TR><TD>6-32 Nylon Insert Hex lock nuts<TD>1<TD>$16.81 per 110<TD>https://www.amazon.ca/dp/B0CFHSM134?ref=ppx_yo2ov_dt_b_product_details&th=1<TD>Bottom Frame Enclosure screws</TR>
+         <TR><TD>M6x16 Bolt<TD>2<TD>$.35 each<TD><TD>24v to 5V Power converter mounting bolts</TR>
+         <TR><TD>M6 Nylon nut<TD>2<TD>$.30 each<TD><TD>24v to 5V Power converter mounting nuts</TR>
+         <TR><TD>M4x10 Socket Cap screws<TD>4<TD>$.35 each<TD><TD>24v Power Supply mounting screws</TR>
       </TABLE>
    </BODY>
 </HTML>

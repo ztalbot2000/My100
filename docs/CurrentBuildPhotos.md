@@ -66,5 +66,11 @@ The frame is sitting flatly on an old TV stand in my computer room and no longer
 <img src="images/build/ThirdAssemblyOfTheFrame.png" width="640" height="640">
 
 <BR><BR>
+## Latest Assembly of the Frame. Alpha-3
+&nbsp;&nbsp;&nbsp; Looking good! There is enough to get started on the wiring and configuration of the octopus. See Changelog for more build details. <BR>
+
+<img src="images/build/LatestBuildOfTheFrame.png" width="640" height="640">
+
+<BR><BR>
 ## License
 See [LICENSE](../LICENSE)

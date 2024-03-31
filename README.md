@@ -4,7 +4,7 @@
       <p style="text-align:center;">Latest Assembly Drawing</p>
    </div>
    <div style="float:left;margin-right:5px;">
-      <img src="docs/images/build/ThirdAssemblyOfTheFrame.png" width="300" height="300" />
+      <img src="docs/images/build/LatestBuildOfTheFrame.png" width="300" height="300" />
       <p style="text-align:center;">Latest Build Progress</p>
    </div>
 </div>
@@ -26,7 +26,8 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
-* [**Current Build Status My100 1.0 Alpha 1**](#current-build-status-my100-10-alpha-1)
+* [**Current Build Status My100 1.0 Alpha 1**](#current-build-status-my100-10-alpha-3)
+* [**Previous Build Status My100 1.0 Alpha 1**](#previous-build-status-my100-10-alpha-1)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
 * [**ChangeLog**](CHANGELOG.TXT)
 * [**Precision Building With Mitre Saw and a Drill Press**](docs/PrecisionBuildingWithMitreSawAndADrillPress.md)
@@ -101,7 +102,10 @@
 #### Front to Back Alignment
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
-## Current Build Status My100 1.0 Alpha 1
+## Current Build Status My100 1.0 Alpha 3
+&nbsp;&nbsp;&nbsp; It is time to work on the electronics! This is still alpha though. I don't like the flimsyness of the X-Axis. Matt pointed this out early in the design and he was right.  There is still lots more that can be completed and learned even without this fix.
+<BR><BR>
+## Previous Build Status My100 1.0 Alpha 1
 &nbsp;&nbsp;&nbsp; The following main steps have been accomplished.
 <UL>
 <LI>The main SolidWorks design is complete. The electronics will be added later.

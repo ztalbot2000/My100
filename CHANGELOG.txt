@@ -22,6 +22,7 @@ v1.0Alpha-3 (Work in progress)
 - Add fastening screws to frame.
 - Move MidBackRail X&Y steppers forward to allow space for rear stepper screws.
 - Add chamfer to corner of belt tensioners so they fit inside verticals.
+- Add counter sink to gantry block mounting holes
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

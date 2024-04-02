@@ -86,7 +86,7 @@
 "GBMountingHoleDiameter"= 2mm
 "7mmx1mmSpacerHeight"= 1mm
 "7mmx1mmSpacerDiameter"= 7mm
-"GABDistanceToFrontClampHoles"= 8.5mm
+"GABDistanceToFrontRearClampHoles"= 8.5mm
 "GABRiserBossOffset"= 0.4mm'Aligns Pulleys inside edges to be 2.5mm (.5mm apart top to bottom)
 "GABLowerHeight"= 4mm
 "GABMidLongRiserHeight"= "GABMidWallHeight" - "GABMidShortRiserHeight" - "20TGT2PulleyWidth"'Equals 14

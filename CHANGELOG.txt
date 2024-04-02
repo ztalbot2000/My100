@@ -23,6 +23,8 @@ v1.0Alpha-3 (Work in progress)
 - Move MidBackRail X&Y steppers forward to allow space for rear stepper screws.
 - Add chamfer to corner of belt tensioners so they fit inside verticals.
 - Add counter sink to gantry block mounting holes
+- Increase size of Gantry block access holes.
+- Add third Gantry block clamp hole for future X-Axis Linear Rail support.
 
 Note: Actual build needs to catch up to most of these SolidWorks assembly
       changes.

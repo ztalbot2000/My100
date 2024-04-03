@@ -12,6 +12,9 @@
 "LowerRailHeight"= 1.00in
 "LowerRailWidth"= 2.00in
 "LowerCornerBlockWidth"= "LowerRailWidth" - "RailThickness" * 2'Room for left front stepper
+"LowerRailCableHoleDiameter"= 8mm
+"LowerRailCableHoleOffsetFromSide"= 8mm
+"LowerRailCableHoleOffsetFromEdge"= 16mm
 "CornerEnclosureOffset"= "LowerCornerBlockWidth" - "HoleOffsetFromEdge" + "RailThickness"
 "SideRailLength"= 550mm
 "LM8UUDiameter"= 15mm

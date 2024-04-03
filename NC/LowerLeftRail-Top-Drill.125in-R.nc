@@ -2,6 +2,12 @@
 G21
 M3 S5000
 G0X0.00Y0.00Z3.0
+
+(Cable Hole - Not milled so this is just a spot drill)
+G0X8.0Y16.0
+G1Z-4.0F10.0
+G0Z3.0
+
 (First right hole)
 G0X11.1125Y39.6875
 G1Z-4.0F10.0

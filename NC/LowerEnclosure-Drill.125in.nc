@@ -1,10 +1,29 @@
 (Enclosure-Top Drilled .125in right side)
+(Note: I never used this NC file. It was easier to put the piece onto the frame and drill through it)
+
 G21
 M3 S5000
 G0X0.00Y0.00Z3.0
 
 
 (FROM LowerLeftRail-Top Drilled .125in right side)
+(Cable Mount Hole 1)
+G0X16.0Y8.0 
+G1Z-4.0F10.0
+G0Z3.0
+(Cable Mount Hole 2)
+G0X8.0Y16.0 
+G1Z-4.0F10.0
+G0Z3.0
+(Cable Mount Hole 3)
+G0X484.0Y8.0 
+G1Z-4.0F10.0
+G0Z3.0
+(Cable Mount Hole 4)
+G0X502.0Y16.0 
+G1Z-4.0F10.0
+G0Z3.0
+
 (First right hole)
 G0X11.1125Y39.6875
 G1Z-4.0F10.0

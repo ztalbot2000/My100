@@ -39,3 +39,10 @@
 "VSMidSideRailHoleXFromSideToCenter"= "RailThickness" * 6
 "D12@BackSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
 "D13@BackSideHoles-Sketch2"="VSMidSideRailHoleXFromSideToCenter" - "RailThickness"
+"LowerRailCableHoleDiameter"= 8mm
+"LowerRailCableHoleOffsetFromSide"= 8mm
+"LowerRailCableHoleOffsetFromEdge"= 16mm
+"D8@BottomHoles-Sketch3"="LowerRailCableHoleOffsetFromEdge"
+"D9@BottomHoles-Sketch3"="LowerRailCableHoleOffsetFromSide"
+"D10@BottomHoles-Sketch3"="LowerRailCableHoleOffsetFromEdge"
+"D11@BottomHoles-Sketch3"="LowerRailCableHoleDiameter"

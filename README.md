@@ -26,7 +26,7 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
-* [**Current Build Status My100 1.0 Alpha 1**](#current-build-status-my100-10-alpha-3)
+* [**Current Build Status My100 1.0 Alpha 3**](#current-build-status-my100-10-alpha-3)
 * [**Previous Build Status My100 1.0 Alpha 1**](#previous-build-status-my100-10-alpha-1)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
 * [**ChangeLog**](CHANGELOG.TXT)

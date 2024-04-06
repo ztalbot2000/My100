@@ -1,6 +1,6 @@
 This will be an incomplete change log until further notice.
 
-v1.0Alpha-3 (Work in progress)
+v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)
 ===========
 - Back Mid rail was rotated upside down so the steppers face upwards allowing
   their cables to be more easily routed and to shift center of mass lower.
@@ -25,9 +25,8 @@ v1.0Alpha-3 (Work in progress)
 - Add counter sink to gantry block mounting holes
 - Increase size of Gantry block access holes.
 - Add third Gantry block clamp hole for future X-Axis Linear Rail support.
+- Add cable holes to lower frame
 
-Note: Actual build needs to catch up to most of these SolidWorks assembly
-      changes.
 
 v1.0Alpha-2 (Altered from Alpha-1 build)
 ===========

@@ -1,5 +1,17 @@
 This will be an incomplete change log until further notice.
 
+v1.0Alpha-4 (Work in progress)
+===========
+Note: The electronics will continue from Alpha-3. There are some design
+changes I want to make that may only be refeclected in the build much
+later. Specifically orientating the X-Axis so that the Hot End faces
+backwards. This will potentially allow multiple Hot Ends to handle
+multiple colors.
+
+- Mount X-Axis linear rail on its own printed bar so that the X-Axis is
+  more rigid.
+
+
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)
 ===========
 - Back Mid rail was rotated upside down so the steppers face upwards allowing

@@ -1,0 +1,11 @@
+﻿"LinearRailHoleDistance"= 25mm'Spec
+"D5@Sketch1"="LinearRailHoleDistance"
+"D2@Sketch1"="LinearRailHoleDistance" * 2
+"D4@Sketch1"="LinearRailHoleDistance"/2
+"LinearRailHoleDiameter"= 3.5mm'Spec
+"D3@Sketch1"="LinearRailHoleDiameter"
+"LinearRailHeight"= 8mm'Spec
+"LinearRailWidth"= 12mm'Spec
+"D1@Sketch1"="LinearRailWidth"+2mm
+"D1@Boss-Extrude1"="LinearRailHeight"/2
+"D7@Sketch1"="LinearRailWidth"/2

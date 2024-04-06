@@ -12,7 +12,9 @@ node SWECompare -v .\FrontLeftVerticalSupportEquations.txt .\equations.txt
 node SWECompare -v .\FrontRightVerticalSupportEquations.txt .\equations.txt
 node SWECompare -v .\LeftGantryBlockEquations.txt .\equations.txt
 node SWECompare -v .\LinearGuideBlockEquations.txt .\equations.txt
-node SWECompare -v .\LinearRailClampEquations.txt .\equations.txt
+node SWECompare -v .\LeftXAxisLinearRailSupportEquations.txt .\equations.txt
+node SWECompare -v .\RightXAxisLinearRailSupportEquations.txt .\equations.txt
+node SWECompare -v .\XAxisLinearRailConnectingPlateEquations.txt .\equations.txt
 node SWECompare -v .\LowerBackRailEquations.txt .\equations.txt
 node SWECompare -v .\LowerFrontRailEquations.txt .\equations.txt
 node SWECompare -v .\LowerLeftRailEquations.txt .\equations.txt

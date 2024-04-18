@@ -31,3 +31,7 @@
 "D1@ConnectingPlateSketch1" = "LinearRailHoleDistance"
 "D1@ConnectingPlateCut-Extrude1" = "LinearRailHeight" / 2
 "D1@Fillet2"="RailThickness"
+"LinearRailSupportNutWidth"= 6.2mm
+"D1@NutHoleSketch1" = "LinearRailSupportNutWidth"
+"LinearRailSupportNutHoleDepth" = "LinearRailHeight" / 4
+"D1@NutHoleSketcjCut-Extrude1"="LinearRailSupportNutHoleDepth"

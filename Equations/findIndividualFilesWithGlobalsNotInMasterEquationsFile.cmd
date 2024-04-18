@@ -25,7 +25,6 @@ node SWECompare -v .\MidLeftRailEquations.txt .\equations.txt
 node SWECompare -v .\MidRightRailEquations.txt .\equations.txt
 node SWECompare -v .\RightGantryBlockEquations.txt .\equations.txt
 node SWECompare -v .\UpperBackRailEquations.txt .\equations.txt
-node SWECompare -v .\UpperCornerBlockEquations.txt .\equations.txt
 node SWECompare -v .\UpperFrontRailEquations.txt .\equations.txt
 node SWECompare -v .\UpperLeftRailEquations.txt .\equations.txt
 node SWECompare -v .\UpperRightRailEquations.txt .\equations.txt

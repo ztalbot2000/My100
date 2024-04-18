@@ -7,5 +7,10 @@
 "LinearRailHeight"= 8mm'Spec
 "LinearRailWidth"= 12mm'Spec
 "D1@Sketch1"="LinearRailWidth"+2mm
-"D1@Boss-Extrude1"="LinearRailHeight"/2
+"D1@Boss-Extrude1"="ConnectingPlateHeight"
 "D7@Sketch1"="LinearRailWidth"/2
+"ConnectingPlateHeight"= "LinearRailHeight" / 2
+"D1@NutHoleCut-Extrude1"="LinearRailSupportNutHoleDepth"
+"LinearRailSupportNutWidth"= 6.2mm
+"D1@NutHoleSketch7" = "LinearRailSupportNutWidth"
+"LinearRailSupportNutHoleDepth"= "LinearRailHeight" / 4

@@ -77,6 +77,8 @@
 "LinearRailXMountHole"= "StepperWidth" + "LinearRailFirstHoleOffsetFromEdge"
 "LinearGBWidthWithBumpers"= 45.4mm
 "LinearGBWithRailDepth"= 12.75mm'Spec
+"LinearRailSupportNutWidth"= 6.2mm
+"LinearRailSupportNutHoleDepth"= "LinearRailHeight" / 4
 "StandardWallThickness"= 3mm
 "LinearGBWidth"= 27mm'Spec
 "LinearGBLengthWithBumpers"= 45.4mm'Spec

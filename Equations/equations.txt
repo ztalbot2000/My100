@@ -1,5 +1,7 @@
 ﻿"M3HeatInsertHoleDiameter"= 4mm'Spec
 "M3HeatInsertHoleDepth"= 4.1mm'Spec
+"M3ScrewHoleDiameter"= 3mm
+"M3ButtonHeadDiameter"= 5.5mm
 "FasteningHoleDiameter"= .125in
 "FrontBackRailLength"= 510mm
 "RailThickness"= .125in'Spec
@@ -110,7 +112,7 @@
 "GABHeight"= "GABLowerHeight" + "GABMidWallHeight" + "GABUpperHeight"
 "GABLRClampHoleOffsetFromSide"= 5mm
 "GABClampBaseHeight"= 2mm
-"CarrierDepth"= 20mm
+"CarrierDepth"= 19mm
 "CarrierWidth"= "LinearGBWidthWithBumpers" - 2mm
 "CarrierRibbonHoleWidth"= 7mm
 "CarrierRibbonHoleHeight"= 2.7mm
@@ -219,8 +221,6 @@
 "V2 ToBedAtTopOfZAxis"= "V1 BottomOfLowerRail" - "LowerEnclosureThickness" + "StepperShaftLength" + "ZAxisLeadScrewLength" - "LM8UUHeight" / 2'Equals 277
 "V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
 "V5 ToBottomOfXAxisLinearRail"= "V4 ToTopOfBuildPlate/HotEndTip" + "HotEndToTopOfXAxisGB" - "TopOfGBToBottomOfLinearRail"'Equals 352.18487
-"V5.1 ToBottomXAxisGBMountingHole"= "V4 ToTopOfBuildPlate/HotEndTip" + "HotEndToTopOfXAxisGB" - "LinearGBWidth" / 2 - "LinearGBMountHolesYDistance" / 2
-"DistanceFromBottomXAxisGBMountingHoleAndMiddleOfGantryBlock"= "V5.1 ToBottomXAxisGBMountingHole" - "V6 ToMiddleOfYAxisGantryBlock" - "CarrierRibbonHoleDistance" / 2
 "V6 ToMiddleOfYAxisGantryBlock"= "V5 ToBottomOfXAxisLinearRail" - "GABHeight" / 2'Equals 334.18487
 "V6 ToBottomCarrierBeltHole"= "V5 ToBottomOfXAxisLinearRail" + "TopOfGBToBottomOfLinearRail" - "TopOfXAxisGBToBottomCarrierBeltHole"
 "V7 ToBottomOfMidBackRail"= "V5 ToBottomOfXAxisLinearRail" - "GABUpperHeight" - "GABMidShortRiserHeight" + "GABRiserBossOffset" - "StepperShaftLength"'Equals 319.28487

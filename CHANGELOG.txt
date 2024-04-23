@@ -11,6 +11,7 @@ multiple colors.
 - Mount X-Axis linear rail on its own printed bar so that the X-Axis is
   more rigid.
 - Begin wiring.
+- Reduce weight of Carrier
 
 
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)

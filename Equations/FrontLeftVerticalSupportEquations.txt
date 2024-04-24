@@ -73,8 +73,8 @@
 "D14@LeftSideHoles-Sketch4"="VSEnclosureOffsets"
 "BeltTensionerMountingHoleOffsetFromTopOrBottom"= ( "BeltTensionerHeight" - "BeltTensionerInnerHeight" ) / 4
 "D13@FrontSideHoles-Sketch3"="FasteningHoleDiameter"
-"VSBeltTensionerXMountingHoleOffsetFromSide"= "BeltTensionerMountingHoleOffsetFromEdge" + "RailThickness" * 2
-"BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
+"VSBeltTensionerXMountingHoleOffsetFromSide" = "BeltTensionerMountingHoleOffsetFromEdge" + "RailThickness"
+"BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge" + "RailThickness" * 2
 "D16@FrontSideHoles-Sketch3"="VSBeltTensionerXMountingHoleOffsetFromSide"
 "MidSideRailVerticalOffset"= "LinearRailWidth" + 3mm'Allows space for RodStabilizer to attach to bottom of MidSideRail
 "GABRiserBossOffset"= 0.4mm'Aligns Pulleys inside edges to be 2.5mm (.5mm apart top to bottom)

@@ -29,7 +29,9 @@ node SWECompare -v .\UpperFrontRailEquations.txt .\equations.txt
 node SWECompare -v .\UpperLeftRailEquations.txt .\equations.txt
 node SWECompare -v .\UpperRightRailEquations.txt .\equations.txt
 node SWECompare -v .\CarrierEquations.txt .\equations.txt
+node SWECompare -v .\MicroSwitchEquations.txt .\equations.txt
 node SWECompare -v .\RodStabilizerEquations.txt .\equations.txt
+node SWECompare -v .\RodStabilizerPlusZStopEquations.txt .\equations.txt
 node SWECompare -v .\VerticalSupportYardStickEquations.txt .\equations.txt
 node SWECompare -v .\BedToBuildPlateStandoffEquations.txt .\equations.txt
 node SWECompare -v .\LowerEnclosureEquations.txt .\equations.txt

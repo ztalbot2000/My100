@@ -24,7 +24,8 @@
 "D1@MainBlock" = "BeltTensionerWidth"
 "D4@MainBlock" = "BeltTensionerMountingHoleDiameter"
 "D5@MainBlock" = "BeltTensionerInnerWidth"
-"D6@MainBlock"="HoleOffsetFromEdge" + "RailThickness"
+"BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge" + "RailThickness" * 2
+"D6@MainBlock"="BeltTensionerMountingHoleOffsetFromEdge"
 "D7@MainBlock"="BeltTensionerMountingHoleOffsetFromTopOrBottom"
 "D8@MainBlock"="BeltTensionerMountingHoleOffsetFromTopOrBottom"
 "D1@MainBlockBoss-Extrude1" = "BeltTensionerDepth"
@@ -74,3 +75,5 @@
 "DistanceFromXAxisLinearRailBottomAndTopOfGantryPulley"= "GABUpperHeight" + "GABMidShortRiserHeight" - "GABRiserBossOffset"'Equals 8.9
 "GABMidShortRiserHeight"= "GABMidWallHeight" / 2 - "20TGT2PulleyWidth"'Equals 5.3
 "GABRiserBossOffset"= 0.4mm'Aligns Pulleys inside edges to be 2.5mm (.5mm apart top to bottom)
+"D1@VerticalSupportFillet1"="RailThickness"
+"D3@MidRailIndentSketch1"="HoleOffsetFromEdge"

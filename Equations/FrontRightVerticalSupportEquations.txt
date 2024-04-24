@@ -53,8 +53,8 @@
 "BuildPlateHeight"= 8mm'Spec
 "V4 ToTopOfBuildPlate/HotEndTip"= "V2 ToBedAtTopOfZAxis" + "BedToBuildPlateStandoffLength" + "BuildPlateHeight"
 "V8 ToTopOfMidSideRail"= "V6 ToMiddleOfYAxisGantryBlock" + "MidSideRailVerticalOffset"'Equals 349.18487
-"BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge"
-"VSBeltTensionerXMountingHoleOffsetFromSide"= "BeltTensionerMountingHoleOffsetFromEdge" + "RailThickness" * 2
+"BeltTensionerMountingHoleOffsetFromEdge"= "HoleOffsetFromEdge" + "RailThickness" * 2
+"VSBeltTensionerXMountingHoleOffsetFromSide"= "BeltTensionerMountingHoleOffsetFromEdge" + "RailThickness"
 "D10@FrontSideHoles-Sketch4"="VSBeltTensionerXMountingHoleOffsetFromSide"
 "VSEnclosureOffsets"= ( "VSLength" - "LegHeight" ) / 4
 "D11@RightSideHoles-Sketch3"="LegHeight" + "VSEnclosureOffsets"

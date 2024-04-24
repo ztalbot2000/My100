@@ -15,6 +15,7 @@ multiple colors.
 - Add Z Stop to rear left RodStabilizer. Not in main assembly yet.
 - Instead of large bed, create build plate lifters to each Z Axis rod.
   Not in main assembly yet.
+- Change BeltFasteners to have more space for MidRail fasteners.
 
 
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)

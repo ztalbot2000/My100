@@ -144,5 +144,5 @@ Link References (Not Local)
 
 [ncviewer]:https://ncviewer.com
 [viewstl]:https://viewstl.com/classic/
-[MeshCAM]:https://www.grzsoftware.com
+[Clicky Installation]:https://3dpblog.com/klicky-probe-installation-voron/
 [ztalbot2000]:https://github.com/ztalbot2000

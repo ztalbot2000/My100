@@ -35,3 +35,4 @@ node SWECompare -v .\RodStabilizerPlusXZStopsEquations.txt .\equations.txt
 node SWECompare -v .\VerticalSupportYardStickEquations.txt .\equations.txt
 node SWECompare -v .\BedToBuildPlateStandoffEquations.txt .\equations.txt
 node SWECompare -v .\LowerEnclosureEquations.txt .\equations.txt
+node SWECompare -v .\PowerCableEquations.txt .\equations.txt

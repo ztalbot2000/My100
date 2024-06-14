@@ -31,7 +31,8 @@ node SWECompare -v .\UpperRightRailEquations.txt
 node SWECompare -v .\CarrierEquations.txt
 node SWECompare -v .\MicroSwitchEquations.txt
 node SWECompare -v .\RodStabilizerEquations.txt
-node SWECompare -v .\RodStabilizerPlusXZStopsEquations.txt .\equations.txt
+node SWECompare -v .\RodStabilizerPlusXZStopsEquations.txt
 node SWECompare -v .\VerticalSupportYardStickEquations.txt
 node SWECompare -v .\BedToBuildPlateStandoffEquations.txt
 node SWECompare -v .\LowerEnclosureEquations.txt
+node SWECompare -v .\PowerCableEquations.txt 

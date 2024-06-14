@@ -229,29 +229,29 @@ G0Z3.0
 
 (Octopus V1.1 mounting holes)
 (First mounting hole - below)
-G0X180.0Y278.5
+G0X129.8Y162.3
 G1Z-4.0F10.0
 G0Z3.0
 (First mounting hole - above)
-G0X330.0Y278.5
+G0X279.8Y252.3
 G1Z-4.0F10.0
 G0Z3.0
 (Second mounting hole - below)
-G0X180.0Y368.5
+G0X129.8Y152.3
 G1Z-4.0F10.0
 G0Z3.0
 (Second mounting hole - above)
-G0X330.0Y368.5
+G0X279.8Y252.3
 G1Z-4.0F10.0
 G0Z3.0
 
 
 (Raspberry Pi4 mounting holes)
 (First mounting hole - below)
-G0X236.0Y436.7
+G0X236.0Y426.7
 G1Z-4.0F10.0
 (First mounting hole - above)
-G0X294.0Y436.7
+G0X294.0Y426.7
 G1Z-4.0F10.0
 (Second mounting hole - below)
 G0X236.0Y485.7

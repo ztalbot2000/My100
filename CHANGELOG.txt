@@ -17,6 +17,10 @@ multiple colors.
   Not in main assembly yet.
 - Change BeltFasteners to have more space for MidRail fasteners.
 - Add X Stop to rear left RodStabilizer. Not in main assembly yet.
+- Add in Wiring clamps, guides, grommets.
+- Add BigTreeHDMI7 case. It has a better fit, speaker mount and changes
+  HDMI and USBC connectors to go out the back (Elbows required).
+- Add drawio schematic. Duplicated some images, I should resolve this later.
 
 
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)

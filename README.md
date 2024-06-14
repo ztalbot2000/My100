@@ -15,7 +15,7 @@
 <BR><BR>
 ## &nbsp;&nbsp;&nbsp; As I do not have a 3D printer (Yet) but I do have a CNC that I built in 2007 using just a mitre saw and a drill press; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>
 ## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! You can see what I have created so far and are more than welcome to contribute.
-## &nbsp;&nbsp;&nbsp; At this time I have spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled.  Check out the build photos for more.
+## &nbsp;&nbsp;&nbsp; I spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled. The electronics are well under way. Check out the build photos for more.
 ## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts. I must admit though that the build is a very slow process.
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
@@ -103,7 +103,7 @@
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
 ## Current Build Status My100 1.0 Alpha 3
-&nbsp;&nbsp;&nbsp; It is time to work on the electronics! This is still alpha though. I don't like the flimsyness of the X-Axis. Matt pointed this out early in the design and he was right.  There is still lots more that can be completed and learned even without this fix.
+&nbsp;&nbsp;&nbsp; The Electronics are well under way. The controller is a BigTree Octopus V1.1. It has an STM32F407 and I'm using RATOS. I wish I had bought TMC2209 drivers to start with as there are unsupported versions of RATOS with various controller boards and stepper drivers. Creating the JST-XH cables were a learning experience. To save on cable ends, it would have been wiser to buy steppers with the male ends already attached. Hmm, Maybe I should create a section on what not to do?
 <BR><BR>
 ## Previous Build Status My100 1.0 Alpha 1
 &nbsp;&nbsp;&nbsp; The following main steps have been accomplished.

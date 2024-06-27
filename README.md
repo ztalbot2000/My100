@@ -15,7 +15,7 @@
 <BR><BR>
 ## &nbsp;&nbsp;&nbsp; As I do not have a 3D printer (Yet) but I do have a CNC that I built in 2007 using just a mitre saw and a drill press; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>
 ## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! You can see what I have created so far and are more than welcome to contribute.
-## &nbsp;&nbsp;&nbsp; I spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled. The electronics are well under way. Check out the build photos for more.
+## &nbsp;&nbsp;&nbsp; I spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled. The electronics are well under way. The steppers are moving!!! Check out the build photos for more.
 ## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts. I must admit though that the build is a very slow process.
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
@@ -32,6 +32,7 @@
 * [**ChangeLog**](CHANGELOG.TXT)
 * [**Precision Building With Mitre Saw and a Drill Press**](docs/PrecisionBuildingWithMitreSawAndADrillPress.md)
 * [**Bill of Materials**](docs/My100BOM.md)
+* [**Gotchas of building your own 3D printer**](docs/Gotchas.md)
 * [**Contributing**](#contributing)
 
 <BR><BR>

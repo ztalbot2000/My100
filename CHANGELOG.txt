@@ -8,19 +8,25 @@ later. Specifically orientating the X-Axis so that the Hot End faces
 backwards. This will potentially allow multiple Hot Ends to handle
 multiple colors.
 
-- Mount X-Axis linear rail on its own printed bar so that the X-Axis is
-  more rigid.
-- Begin wiring.
-- Reduce weight of Carrier.
-- Add Z Stop to rear left RodStabilizer if Clicky not used. Not in main assembly yet.
+- Updated wiring clamps and created a endstop wiring clamp.
+- Created a Gotcha document. If you build any 3D printer on your own, this
+  would have been nice to know first.
+- Need to create documentation on how to compile Marlin for components used.
+- Steppers are operational.
+- Had fun trying to figure out RATOS, Pronterface, OctoPi. Klipper and Marlin
+  trying to get steppers tested. Most tools think you must have the printer
+  fully assembled before it will move a stepper.
+- Add drawio schematic. Duplicated some images, I should resolve this later.
+- Add in Wiring clamps, guides, grommets.
+  HDMI and USBC connectors to go out the back (Elbows required).
+- Add X Stop to rear left RodStabilizer. Not in main assembly yet.
+- Change BeltFasteners to have more space for MidRail fasteners.
 - Instead of large bed, create build plate lifters to each Z Axis rod.
   Not in main assembly yet.
-- Change BeltFasteners to have more space for MidRail fasteners.
-- Add X Stop to rear left RodStabilizer. Not in main assembly yet.
-- Add in Wiring clamps, guides, grommets.
-- Add BigTreeHDMI7 case. It has a better fit, speaker mount and changes
-  HDMI and USBC connectors to go out the back (Elbows required).
-- Add drawio schematic. Duplicated some images, I should resolve this later.
+- Add Z Stop to rear left RodStabilizer if Clicky not used. Not in main assembly yet.
+- Reduce weight of Carrier.
+- Mount X-Axis linear rail on its own printed bar so that the X-Axis is
+  more rigid.
 
 
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)

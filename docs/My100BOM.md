@@ -22,6 +22,7 @@
          <TR><TD>M6x16 Bolt<TD>2<TD>$.35 each<TD><TD>24v to 5V Power converter mounting bolts</TR>
          <TR><TD>M6 Nylon nut<TD>2<TD>$.30 each<TD><TD>24v to 5V Power converter mounting nuts</TR>
          <TR><TD>M4x10 Socket Cap screws<TD>4<TD>$.35 each<TD><TD>24v Power Supply mounting screws</TR>
+         <TR><TD>Nema 17 42m Stepper Motor<TD>7<TD>$33.35 for 5<TD><TD></TR>
       </TABLE>
    </BODY>
 </HTML>

@@ -1,0 +1,6 @@
+﻿"BallJointDiameter"=25
+"D1@SEmiCircleSketch1" = "BallJointDiameter"
+"D2@SEmiCircleSketch1" = "BallJointDiameter" / 2
+"M4ScrewDiameter"=4
+"D1@Sketch2"="M4ScrewDiameter"
+"D1@Cut-Extrude1"="BallJointDiameter"/2

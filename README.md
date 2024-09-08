@@ -26,6 +26,7 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
+* [**Current Build Status My100 1.0 Alpha 4**](#current-build-status-my100-10-alpha-4)
 * [**Current Build Status My100 1.0 Alpha 3**](#current-build-status-my100-10-alpha-3)
 * [**Previous Build Status My100 1.0 Alpha 1**](#previous-build-status-my100-10-alpha-1)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
@@ -56,7 +57,7 @@
 
 
 ## Design Strategy
-&nbsp;&nbsp;&nbsp; the100 is a great 3D printer otherwise I would not want to attempt to create one in the first place. It is also open source, as is the Voron. An inexpensive but precise metal frame is the first goal. 
+&nbsp;&nbsp;&nbsp; the100 is a great 3D printer otherwise I would not want to attempt to create one in the first place. It is also open source, as is the Voron. An inexpensive but precise metal frame is the first goal.
 
 &nbsp;&nbsp;&nbsp;20/20 extruded aluminum is expensive. Using more common 6061 "L" shaped aluminum is 50% cheaper. Just printing the100 with a 265x265mm bed was going to cost as of Oct 6/2023 $823 Cdn + tax. The aluminum for the frame of the My100 was $172 Cdn, including tax, plus $362 including tax for the Gantry blocks, larger 350 X 350mm bed, rod stabilizers and belt tensioners. Overall a much cheaper option with strength benefits. Further cost savings could be obtained if you created the bed out of metal too, but I splurged on a colorful bed. 
 
@@ -103,6 +104,11 @@
 #### Front to Back Alignment
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
+<BR><BR>
+## Current Build Status My100 1.0 Alpha 4
+&nbsp;&nbsp;&nbsp; It moves!!! Well at least the hot end does. The CAD drawings are not up to date with what I built.  I changed to lifters to hold up the build plate. We will see if it plans out. Figuring out RatOS and Klipper was a real learning experience.
+
+<BR><BR>
 ## Current Build Status My100 1.0 Alpha 3
 &nbsp;&nbsp;&nbsp; The Electronics are well under way. The controller is a BigTree Octopus V1.1. It has an STM32F407 and I'm using RATOS. I wish I had bought TMC2209 drivers to start with as there are unsupported versions of RATOS with various controller boards and stepper drivers. Creating the JST-XH cables were a learning experience. To save on cable ends, it would have been wiser to buy steppers with the male ends already attached. Hmm, Maybe I should create a section on what not to do?
 <BR><BR>
@@ -146,4 +152,9 @@ Link References (Not Local)
 [ncviewer]:https://ncviewer.com
 [viewstl]:https://viewstl.com/classic/
 [Clicky Installation]:https://3dpblog.com/klicky-probe-installation-voron/
+[Heater Pad installation]:https://www.youtube.com/watch?v=RnCW7-_G2dI
+[Heater Pad installation]:https://www.youtube.com/watch?v=-fMPnBuyxy8
+[Heater Pad installation]:https://www.youtube.com/watch?v=BE1rW7XyXqw
+[Heater Pad installation]:https://www.youtube.com/watch?v=yhzWj-oaikk
+[Hot End Wiring Guide]:https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c
 [ztalbot2000]:https://github.com/ztalbot2000

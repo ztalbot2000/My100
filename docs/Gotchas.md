@@ -13,6 +13,13 @@
 <LI> JST-XH connectors are very tiny. Buy a good crimping tool and practice practice practice.
 <LI> Buying steppers with connectors built into them will save you crimping some of the tiny JST-XH connectors.
 <LI> A large 3D printer seems like the way to go, but it is correct that most things you will want to print can be done on a 235x235mm printer.
+<LI> CoreXY printers do not have an X stepper and Y stepper because both steppers are needed to move the hot end in a single direction.
+</UL>
+
+<BR><BR>
+## Wiring Gotchas
+<UL>
+<LI> I'll repeat this again. CoreXY printers do not have an X stepper and Y stepper because both steppers are needed to move the hot end in a single direction. So the steppers are actually Gantry Left and Gantry Right. Gantry left is Motor 1 and Gantry Right is Motor 0. Klipper still refers them to as stepper_x and stepper_y as Klipper supports many different 3D printer motion movement, but they are actually Gantry Right and Gantry Left.
 </UL>
 
 <BR><BR>

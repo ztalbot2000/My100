@@ -1,11 +1,16 @@
 This will be an incomplete change log until further notice.
 
-v1.0Alpha-4 (Work in progress)
+v1.0Alpha-5 (Work in progress)
 ===========
-Note: The electronics will continue from Alpha-3. There are some design
-changes I want to make that may only be refeclected in the build much
-later. Specifically orientating the X-Axis so that the Hot End faces
-backwards. This will potentially allow multiple Hot Ends to handle
+- Will try to update CAD drawings and create a video of what is operational.
+
+v1.0Alpha-4
+===========
+Note: The electronics will continue from Alpha-3. I actually have gantry
+moving.!!!
+There are some design changes I want to make that may only be refeclected
+in the build much later. Specifically orientating the X-Axis so that the Hot
+End faces backwards. This will potentially allow multiple Hot Ends to handle
 multiple colors.
 
 - Updated wiring clamps and created a endstop wiring clamp.
@@ -27,6 +32,12 @@ multiple colors.
 - Reduce weight of Carrier.
 - Mount X-Axis linear rail on its own printed bar so that the X-Axis is
   more rigid.
+- Added endstops to bottom of Left Gantry block and left rear rod stabilizer.
+  This is wrong and is being fixed as homing is back right.
+- Added ball joint models for build plate to use short bed supports.
+- This will all be merged as Alpha-4 but my actual build as many features yet
+  not implemented in CAD.
+
 
 
 v1.0Alpha-3 (Built, except Lower Rails re-used from Alpha 2)

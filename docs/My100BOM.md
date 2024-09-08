@@ -7,6 +7,7 @@
          <TR><TD>Steel Shaft 5mm - 30mm<TD>6<TD>$2.95 each<TD>https://www.3dlabtech.ca/product/steel-shaft-5mm/<TD></TR>
          <TR><TD>Silicone Heater Mat 300mmx300mm-650w<TD>1<TD>$64.95<TD>https://www.3dlabtech.ca/product/silicone-heater-mat/<TD></TR>
          <TR><TD>PCB Klicky Probe kit<TD>1<TD>$29.95<TD>https://www.3dlabtech.ca/product/pcb-klicky-probe-kit/<TD></TR>
+         <TR><TD>RJ4JP-01-08 Drylands<TD>4<TD>$4.58<TD>https://s.click.aliexpress.com/e/_DkZVosj<TD></TR>
          <TR><TD>Smooth Idler 6mm wide<TD>8<TD>$4.45 each<TD>https://www.3dlabtech.ca/product/smooth-idler-6mm-wide/<TD></TR>
          <TR><TD>Voron Trident Cast Aluminum 8mm Build Plate - 350x350mm<TD>1<TD>$164.95<TD>https://www.3dlabtech.ca/product/smooth-idler-6mm-wide/<TD></TR>
          <TR><TD>6-32 x 5/8 standard screws<TD>104<TD>$.05<TD><TD>Frame fastener</TR>

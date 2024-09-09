@@ -84,7 +84,6 @@
 "OctopusV1.1BoardMountingHoleDiameter"= 2.7mm'Spec
 "D8@RPIHolesSketch2" =  ( "FrontBackRailLength" - "RPi4BoardLength" )  / 2 + "RPi4BoardMountingHoleOffsetFromEdge"
 "D10@RPIHolesSketch2" = "LowerRailWidth" + "RPi4BoardMountingHoleOffsetFromEdge" + "EnclosurePartsOffsetFromFrameInnerEdge"
-"RCNUN5VMountingHoleDiameter"= 6.5mm'Spec
 "RCNUN5VHeight"= 57mm'Spec
 "RCNUN5VMountingHoleWidthDistance"= 54mm'Spec. STL Is incorrect?
 "D7@BottomPSUHolesSketch2"="RCNUN5VMountingHoleWidthDistance"

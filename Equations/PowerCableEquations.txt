@@ -14,7 +14,6 @@
 "D9@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads" - "PowerCableDiameter"
 "D7@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads" - "PowerCableDiameter"
 "D10@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"-"PowerCableDiameter"
-"PowerCableGuideMountingTabWidth"= 10mm
 "NumperOfOctopusLeads"= 4
 "DistanceBetweenPowerSupplyAndOctopus"= 95mm
 "D3@Cable GuidesSketch2"=2mm
@@ -27,13 +26,9 @@
 "D21@Cable GuidesSketch2"="PowerCableDiameter"
 "PowerGuideBridgeHeight"= 2mm
 "PowerGuidebaseThickness"= "PowerGuideBridgeHeight" + 2mm
-"D17@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"-"PowerCableDiameter"
-"D23@Cable GuidesSketch2"="PowerCableDiameter"
-"D25@Cable GuidesSketch2"="PowerCableDiameter"
-"D27@Cable GuidesSketch2"="PowerCableDiameter"
-"D30@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"-"PowerCableDiameter"
 "D31@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"-"PowerCableDiameter"
-"D29@Cable GuidesSketch2"="PowerCableDiameter"*2
 "D33@Cable GuidesSketch2"="M3HoleDiameter"*1.5
 "D1@MountHolesSketch4" = "M3HoleDiameter" * 1.5 / 2
 "D2@MountHolesSketch4" = "M3HoleDiameter" * 1.5 / 2
+"D17@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"*2 - "PowerCableDiameter"
+"D22@Cable GuidesSketch2"="DistanceBetweenPowerSupplyLeads"+"PowerCableDiameter"

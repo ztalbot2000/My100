@@ -218,7 +218,6 @@
 "24VPSUMountingHoleOffsetFromEdge"= "24VPSUMountingHoleOffsetFromEitherSide" + "LowerRailWidth" + 10mm'Yours may differ
 "24VPSUMountingHoleDiameter"= 3mm'Yours may differ
 "24VPSULength"= 213mm'Spec
-"RCNUN5VMountingHoleDiameter"= 6.5mm'Spec
 "RCNUN5VHeight"= 57mm'Spec
 "RCNUN5VMountingHoleWidthDistance"= 54mm'Spec. STL Is incorrect?
 "RPi4BoardLength"= 85mm'Spec

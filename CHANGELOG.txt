@@ -3,6 +3,13 @@ This will be an incomplete change log until further notice.
 v1.0Alpha-5 (Work in progress)
 ===========
 - Will try to update CAD drawings and create a video of what is operational.
+- Backed out LeftGantryBlock X stop as it does not touch hot end to trigger
+it.
+- Moved Z stop on RodStabilizer to right side so when it is moved to back
+right it will trigger.
+- Changed build plate to M4 screw size on each corner for move to
+shortBedSupport.
+- Added bedAssembly2, which will be a newer bed assembly.
 
 v1.0Alpha-4
 ===========

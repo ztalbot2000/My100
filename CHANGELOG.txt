@@ -9,7 +9,10 @@ it.
 right it will trigger.
 - Changed build plate to M4 screw size on each corner for move to
 shortBedSupport.
-- Added bedAssembly2, which will be a newer bed assembly.
+- Added bedAssembly2, which will be a newer bed assembly. Still not sure about
+this.
+- Modified X & Y endstops for better fit.
+
 
 v1.0Alpha-4
 ===========

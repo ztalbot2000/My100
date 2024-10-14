@@ -12,6 +12,8 @@ shortBedSupport.
 - Added bedAssembly2, which will be a newer bed assembly. Still not sure about
 this.
 - Modified X & Y endstops for better fit.
+- Added Probe holders. Not sure if I'll use Inductive or BLTouch. Inductive
+  seems easier to configure.
 
 
 v1.0Alpha-4

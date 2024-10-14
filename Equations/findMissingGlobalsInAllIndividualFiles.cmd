@@ -36,4 +36,7 @@ node SWECompare -v .\VerticalSupportYardStickEquations.txt
 node SWECompare -v .\BedToBuildPlateStandoffEquations.txt
 node SWECompare -v .\LowerEnclosureEquations.txt
 node SWECompare -v .\PowerCableEquations.txt 
-node SWECompare -v .\BallJointEquations.txt .\equations.txt
+node SWECompare -v .\BallJointEquations.txt
+node SWECompare -v .\BuildPlateZEndStopHolderEquations.txt
+node SWECompare -v .\BLTouchProbeMountEquations.txt
+node SWECompare -v .\InductiveProbeMountEquations.txt

@@ -152,9 +152,12 @@ Link References (Not Local)
 [ncviewer]:https://ncviewer.com
 [viewstl]:https://viewstl.com/classic/
 [Clicky Installation]:https://3dpblog.com/klicky-probe-installation-voron/
+[BLTouch Installation]:https://www.klipper3d.org/BLTouch.html
 [Heater Pad installation]:https://www.youtube.com/watch?v=RnCW7-_G2dI
 [Heater Pad installation]:https://www.youtube.com/watch?v=-fMPnBuyxy8
 [Heater Pad installation]:https://www.youtube.com/watch?v=BE1rW7XyXqw
 [Heater Pad installation]:https://www.youtube.com/watch?v=yhzWj-oaikk
 [Hot End Wiring Guide]:https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c
+[Understanding End Stops]:https://www.youtube.com/watch?v=Q2uBK5XzX4I
+[Macros - Ellis Tuning Guide]:https://ellis3dp.com/Print-Tuning-Guide
 [ztalbot2000]:https://github.com/ztalbot2000

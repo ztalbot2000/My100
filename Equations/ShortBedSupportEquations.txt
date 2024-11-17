@@ -25,7 +25,7 @@
 "D3@DomeIndentSketch6" = "BedSupportLeadScrewPadSize" / 2
 "BedSpringHoleSize"= 3mm
 "BuildPlateWidth"= 350mm'Spec
-"BuildPlateLength"= 350mm'Spec
+"BuildPlateLength" = 352mm'Spec
 "BuildPlateBoreDiameter"= 5mm'Spec
 "BuildPlateBoreDepth"= 3mm'Spec
 "BuildPlateDepth"= 8mm'Spec
@@ -36,7 +36,7 @@
 "BuildPlateBallDiameter"= 12mm
 "BedSupportBuildPlatePadSize"= "BuildPlateBallDiameter" + 20mm
 "D4@ProfileSketch1"="BedSupportBuildPlatePadSize"
-"D3@ProfileSketch1"="HypotonusOfStepperAndBuildPlateHoles"+3mm
+"D3@ProfileSketch1"="HypotonusOfStepperAndBuildPlateHoles"
 "D1@Fillet3"="BedSupportLeadScrewPadSize"/2
 "D1@Fillet4"="BedSupportLeadScrewPadSize"/2
 "HypotonusOfStepperAndBuildPlateHoles"= sqr ( ( "DistanceFromBuildPlateSideToStepperHole" + "BuildPlateStandoffHolesDistanceFromLeftOrRight" ) ^ 2 + ( "BuildPlateStandoffHolesDistanceFromFrontOrBack" - "BedSupportLeadScrewPadSize" / 2 ) ^ 2 )

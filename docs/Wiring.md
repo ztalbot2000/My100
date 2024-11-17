@@ -28,6 +28,16 @@ PCF - Print/Part Cooling Fan
 HEF - Hot End Fan
 
 <BR><BR>
+# Probe Wiring
+## &nbsp;&nbsp;&nbsp; Inductive Probe
+I found this article interesting recommending changes for drift and back EMF.<BR>
+https://www.reddit.com/r/VORONDesign/comments/xo3475/voron_24_instructions_inductive_probe_need/<BR>
+With that in mind you need to change the octopus probe output voltage to 12v, which means that on
+https://docs.vorondesign.com/build/electrical/v2_octopus_wiring.html do not do step 5, Inserting the jumper into V_FUSED to set the probe voltage to the system supply voltage. Where it is red in the diagram is the correct position for 12v.
+
+
+
+<BR><BR>
 ## License
 See [LICENSE](LICENSE)
 

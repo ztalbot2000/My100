@@ -156,8 +156,8 @@
 "BeltTensionerMountingHoleOuterBoreDepth"= 2mm
 "1mmSpacer"= 1mm
 "SteelShaft5mmHoleDiameter"= 5mm
-"BuildPlateWidth"= 350mm'Spec
-"BuildPlateLength"= 350mm'Spec
+"BuildPlateWidth"= 352mm'Spec
+"BuildPlateLength"= 352mm'Spec
 "BuildPlateHeight"= 8mm'Spec
 "BuildPlateBoreDepth"= 3mm'Spec
 "BuildPlateBoreDiameter"= 5mm'Spec

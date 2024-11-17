@@ -14,6 +14,14 @@ this.
 - Modified X & Y endstops for better fit.
 - Added Probe holders. Not sure if I'll use Inductive or BLTouch. Inductive
   seems easier to configure.
+- Removed M3 heat insert hole for LM8UU fastener and replaced it with block
+  at bottom of RodStabilizer to remove any possible tightness on the LM8UU
+  to the 8mm screw.
+- Shrunk size of RodStabilizer front to size of LM8UU only.
+- Stupid build plate is not 350x350 but 352x352mm.
+- Changed bed to be aluminum as printed base was to flimsy and levers caused
+  to much stress on the Z Axis threaded rods. At least this is what I believed
+  was causing QGL to fail.
 
 
 v1.0Alpha-4

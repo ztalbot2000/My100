@@ -46,7 +46,7 @@
 "D1@ThreadedNutMountHolesCut-Extrude4"="LeadScrewNutPadDepth"
 "D2@PadSketch3"="BedToBuildPlateStandoffPadSize"
 "D3@PadSketch3"="BedToBuildPlateStandoffHolesDistanceFromFront"
-"BuildPlateWidth"= 350mm'Spec
+"BuildPlateWidth" = 352mm'Spec
 "D4@PadSketch3"="BedIncreasedByWidth"/2 + "BuildPlateWidth"/2
 "D2@StepperShaftHoleSketch4"="M3HeatInsertHoleDiameter"
 "BuildPlateStandoffHolesDistanceFromFront"= 7mm

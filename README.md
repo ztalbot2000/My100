@@ -26,6 +26,7 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
+* [**Current Build Status My100 1.0 Alpha 5**](#current-build-status-my100-10-alpha-5)
 * [**Current Build Status My100 1.0 Alpha 4**](#current-build-status-my100-10-alpha-4)
 * [**Current Build Status My100 1.0 Alpha 3**](#current-build-status-my100-10-alpha-3)
 * [**Previous Build Status My100 1.0 Alpha 1**](#previous-build-status-my100-10-alpha-1)
@@ -41,7 +42,7 @@
 &nbsp;&nbsp;&nbsp; Here are some of what I believe to be My100 improvements.
 <UL>
 <LI>Use cheaper 6061 "L" shaped aluminum for the frame.
-<LI>Linear rails for the X&Y axis for faster operation (Possibly).
+<LI>Linear rails for the X&Y axis for faster operation (Possibly. Hmmm seems this is not so and was a bad idea).
 <LI>Four steppers for Z Axis for self leveling as in the Voron.
 <LI>Wider 350 X 350mm build plate.
 <LI>Keep threaded rod for Z-Axis so bed remains at height when powered off and is a less complicated assembly than gears/belts and pulleys.
@@ -59,7 +60,7 @@
 ## Design Strategy
 &nbsp;&nbsp;&nbsp; the100 is a great 3D printer otherwise I would not want to attempt to create one in the first place. It is also open source, as is the Voron. An inexpensive but precise metal frame is the first goal.
 
-&nbsp;&nbsp;&nbsp;20/20 extruded aluminum is expensive. Using more common 6061 "L" shaped aluminum is 50% cheaper. Just printing the100 with a 265x265mm bed was going to cost as of Oct 6/2023 $823 Cdn + tax. The aluminum for the frame of the My100 was $172 Cdn, including tax, plus $362 including tax for the Gantry blocks, larger 350 X 350mm bed, rod stabilizers and belt tensioners. Overall a much cheaper option with strength benefits. Further cost savings could be obtained if you created the bed out of metal too, but I splurged on a colorful bed. 
+&nbsp;&nbsp;&nbsp;20/20 extruded aluminum is expensive. Using more common 6061 "L" shaped aluminum is 50% cheaper. Just printing the100 with a 265x265mm bed was going to cost as of Oct 6/2023 $823 Cdn + tax. The aluminum for the frame of the My100 was $172 Cdn, including tax, plus $362 including tax for the Gantry blocks, larger 350 X 350mm bed, rod stabilizers and belt tensioners. Overall a much cheaper option with strength benefits. Further cost savings could be obtained if you created the bed out of metal too, but I splurged on a colorful bed.
 
 &nbsp;&nbsp;&nbsp;To maintain precision, with just a mitre saw and a drill press, there are certain tricks that can be used that are discussed below. Otherwise i olan to use my CNC.
 
@@ -103,6 +104,10 @@
 
 #### Front to Back Alignment
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
+
+<BR><BR>
+## Current Build Status My100 1.0 Alpha 5
+&nbsp;&nbsp;&nbsp; The X,Y & Z axis all home! Quad Gantry Levelling (QGL) fails. The printed bed was too flimsy and a change to lifters was unsuccessful. The CAD drawing now uses a metal bed and I'm in the process of installing it to fix QGL.
 
 <BR><BR>
 ## Current Build Status My100 1.0 Alpha 4

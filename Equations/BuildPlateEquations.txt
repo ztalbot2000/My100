@@ -1,11 +1,11 @@
 ﻿"BuildPlateStandoffHolesDistanceFromLeftOrRightSide"= 7mm
 "BuildPlateStandoffHolesDistanceFromBackSide"= 41mm
-"BedSpringHoleSize"= 3mm
-"BuildPlateWidth"= 350mm'Spec
-"BuildPlateLength"= 350mm'Spec
+"BedSpringHoleSize"= "M4HoleDiameter"
+"BuildPlateWidth"= 352mm'Spec
+"BuildPlateLength"= 352mm'Spec
 "D5@PlateSketch2" = "BedSpringHoleSize"
 "D10@PlateSketch2" = "BedSpringHoleSize"
-"BuildPlateBoreDiameter"= 5mm'Spec
+"BuildPlateBoreDiameter"= "M4BoreDiameter"'Spec
 "D1@BoreSketch1" = "BuildPlateBoreDiameter"
 "BuildPlateBoreDepth"= 3mm'Spec
 "D1@BoreCut-Extrude1" = "BuildPlateBoreDepth"
@@ -21,3 +21,7 @@
 "D4@PlateSketch2"="BuildPlateStandoffHolesDistanceFromLeftOrRightSide"
 "BuildPlateStandoffHolesDistanceFromFront"= 7mm
 "D11@PlateSketch2"="BuildPlateStandoffHolesDistanceFromFront"
+"D12@PlateSketch2"="BuildPlateStandoffHolesDistanceFromBackSide"
+"M4HoleDiameter"= 4mm
+"M4FlatHeadBoreDepth"= .65mm
+"M4BoreDiameter"= 5.5mm

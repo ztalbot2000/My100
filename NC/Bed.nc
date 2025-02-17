@@ -1,0 +1,95 @@
+(LowerLeftRail Drilled .125in)
+G21
+M3 S5000
+G0X0.00Y0.00Z3.0
+
+(Stepper Z hole)
+G0X-41Y13
+G1Z-4.0F10.0
+G0Z3.0
+
+(Flange Z hole -L )
+G0X-49Y13
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z hole -R )
+G0X-33Y13
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z hole -U )
+G0X-41Y21
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z hole -D )
+G0X-41Y5
+G1Z-4.0F10.0
+G0Z3.0
+
+
+(Stepper Z1 hole)
+G0X-311Y13
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z1 hole -L )
+G0X-319Y13
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z1 hole -R )
+G0X-303Y13
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z1 hole -U )
+G0X-311Y21
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z1 hole -D )
+G0X-311Y05
+G1Z-4.0F10.0
+G0Z3.0
+
+(Stepper Z2 hole)
+G0X-176Y480.05
+G1Z-4.0F10.0
+G0Z3.0
+
+(Flange Z2 hole -L )
+G0X-184Y480.05
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z2 hole -R )
+G0X-168Y480.05
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z2 hole -U )
+G0X-176Y488.05
+G1Z-4.0F10.0
+G0Z3.0
+(Flange Z2 hole -D )
+G0X-176Y472.05
+G1Z-4.0F10.0
+G0Z3.0
+
+
+(Build Plate - LR)
+G0X-41Y77.525
+G1Z-4.0F10.0
+G0Z3.0
+(Build Plate - LL)
+G0X-311Y77.525
+G1Z-4.0F10.0
+G0Z3.0
+(Build Plate - UR)
+G0X-41Y415.525
+G1Z-4.0F10.0
+G0Z3.0
+(Build Plate - UL)
+G0X-311Y415.525
+G1Z-4.0F10.0
+G0Z3.0
+
+
+S0
+M5
+M30
+(END)
+(OF PROGRAM)

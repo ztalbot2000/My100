@@ -1,41 +1,44 @@
-node SWECompare -v .\BackLeftVerticalSupportEquations.txt
-node SWECompare -v .\BackRightVerticalSupportEquations.txt
-node SWECompare -v .\BedBLEquations.txt
-node SWECompare -v .\BedFLEquations.txt
-node SWECompare -v .\BedCEquations.txt
-node SWECompare -v .\BedBREquations.txt
-node SWECompare -v .\BedFREquations.txt
-node SWECompare -v .\LeftBeltTensionerEquations.txt
-node SWECompare -v .\RightBeltTensionerEquations.txt
-node SWECompare -v .\BuildPlateEquations.txt
-node SWECompare -v .\FrontLeftVerticalSupportEquations.txt
-node SWECompare -v .\FrontRightVerticalSupportEquations.txt
-node SWECompare -v .\LeftGantryBlockEquations.txt
-node SWECompare -v .\LinearGuideBlockEquations.txt
-node SWECompare -v .\LeftXAxisLinearRailSupportEquations.txt
-node SWECompare -v .\RightXAxisLinearRailSupportEquations.txt
-node SWECompare -v .\XAxisLinearRailConnectingPlateEquations.txt
-node SWECompare -v .\LowerBackRailEquations.txt
-node SWECompare -v .\LowerFrontRailEquations.txt
-node SWECompare -v .\LowerLeftRailEquations.txt
-node SWECompare -v .\LowerRightRailEquations.txt
-node SWECompare -v .\MGN12H-450Equations.txt
-node SWECompare -v .\MidBackRailEquations.txt
-node SWECompare -v .\MidLeftRailEquations.txt
-node SWECompare -v .\MidRightRailEquations.txt
-node SWECompare -v .\RightGantryBlockEquations.txt
-node SWECompare -v .\UpperBackRailEquations.txt
-node SWECompare -v .\UpperFrontRailEquations.txt
-node SWECompare -v .\UpperLeftRailEquations.txt
-node SWECompare -v .\UpperRightRailEquations.txt
-node SWECompare -v .\CarrierEquations.txt
-node SWECompare -v .\MicroSwitchEquations.txt
-node SWECompare -v .\RodStabilizerEquations.txt
-node SWECompare -v .\VerticalSupportYardStickEquations.txt
-node SWECompare -v .\BedToBuildPlateStandoffEquations.txt
-node SWECompare -v .\LowerEnclosureEquations.txt
-node SWECompare -v .\PowerCableEquations.txt 
-node SWECompare -v .\BallJointEquations.txt
-node SWECompare -v .\BuildPlateZEndStopHolderEquations.txt
-node SWECompare -v .\BLTouchProbeMountEquations.txt
-node SWECompare -v .\InductiveProbeMountEquations.txt
+node SWECompare -v -lv .\MicroSwitchEquations.txt
+node SWECompare -v -lv .\AngleBracketEquations.txt
+node SWECompare -v -lv .\SK8LinearShaftSupportEquations.txt
+node SWECompare -v -lv .\SK8RiserPlusYEndStopEquations.txt
+node SWECompare -v -lv .\RodShaft-440mmX8mmEquations.txt
+node SWECompare -v -lv .\RodShaft-500mmX8mmEquations.txt
+node SWECompare -v -lv .\Nema17MountEquations.txt
+node SWECompare -v -lv .\BuildPlateEquations.txt
+
+node SWECompare -v -lv .\LeftGantryBlockEquations.txt
+node SWECompare -v -lv .\RightGantryBlockEquations.txt
+node SWECompare -v -lv .\XAxisEndStopForRightGantryBlockEquations.txt
+
+node SWECompare -v -lv .\BackLeftVerticalSupportEquations.txt
+node SWECompare -v -lv .\BackRightVerticalSupportEquations.txt
+node SWECompare -v -lv .\FrontLeftVerticalSupportEquations.txt
+node SWECompare -v -lv .\FrontRightVerticalSupportEquations.txt
+
+node SWECompare -v -lv .\UpperBackRailEquations.txt
+node SWECompare -v -lv .\UpperFrontRailEquations.txt
+node SWECompare -v -lv .\UpperLeftRailEquations.txt
+node SWECompare -v -lv .\UpperRightRailEquations.txt
+
+node SWECompare -v -lv .\LowerBackRailEquations.txt
+node SWECompare -v -lv .\LowerFrontRailEquations.txt
+node SWECompare -v -lv .\LowerLeftRailEquations.txt
+node SWECompare -v -lv .\LowerRightRailEquations.txt
+
+node SWECompare -v -lv .\MidLeftRailEquations.txt
+node SWECompare -v -lv .\MidRightRailEquations.txt
+
+node SWECompare -v -lv .\RodStabilizerEquations.txt
+
+node SWECompare -v -lv .\LeftBeltTensionerEquations.txt
+node SWECompare -v -lv .\RightBeltTensionerEquations.txt
+
+node SWECompare -v -lv .\BedEquations.txt
+
+node SWECompare -v -lv .\LowerEnclosureEquations.txt
+
+node SWECompare -v -lv .\CarrierEquations.txt
+
+node SWECompare -v -lv .\VerticalSupportYardStickEquations.txt
+node SWECompare -v -lv .\HorizontalYardStickEquations.txt

@@ -1,6 +1,0 @@
-﻿"BedToBuildPlateStandoffDiameter"= 7.5mm
-"D1@SpringAsCircleSketch1" = "BedToBuildPlateStandoffInnerDiameter"
-"D2@SpringAsCircleSketch1" = "BedToBuildPlateStandoffDiameter"
-"BedToBuildPlateStandoffInnerDiameter"= 4mm
-"BedToBuildPlateStandoffLength" = 15mm
-"D1@Boss-Extrude1"="BedToBuildPlateStandoffLength"

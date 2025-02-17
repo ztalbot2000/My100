@@ -1,0 +1,4 @@
+﻿"RodShaft8mmDiameter"= 8mm
+"RodShaft500mmLength"= 500mm
+"D1@ProfileBoss-Extrude1" = "RodShaft500mmLength"
+"D1@ProfileSketch1"="RodShaft8mmDiameter"

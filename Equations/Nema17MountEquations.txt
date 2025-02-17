@@ -1,0 +1,17 @@
+﻿"Nema17MountLength"= 50mm'Spec
+"D3@BaseSketch1"="Nema17MountLength"
+"Nema17MountWidth"= 50mm'Spec
+"D9@BaseSketch1"="Nema17MountWidth"
+"Nema17MountSlotHeight"= 29.6mm'Spec
+"D1@BaseSketch1"="Nema17MountDistanceBetweenMountHoles"
+"Nema17MountHeight"= 53mm'Spec
+"D1@HeightBoss-Extrude2"="Nema17MountHeight" - "Nema17MountThickness"
+"Nema17MountStepperHoleDistanceFromBack"= 30mm'Spec
+"D10@BaseSketch1"="Nema17MountStepperHoleDistanceFromBack"
+"Nema17MountSlotDiameter"= 4.2mm'Spec
+"Nema17MountThickness"= 3mm'Spec
+"D2@Sketch3"="Nema17MountSlotDiameter"
+"Nema17MountDistanceBetweenMountHoles"= 31mm'Spec
+"D3@Sketch3"="Nema17MountSlotHeight"
+"Nema17MountStepperHoleDiameter"= 24mm'Spec
+"D5@BaseSketch1"="Nema17MountStepperHoleDiameter"

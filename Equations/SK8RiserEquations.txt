@@ -1,0 +1,12 @@
+﻿"SK8RodShaftSupportHeight"= 42mm
+"SK8RodShaftSupportLength"= 15mm
+"SK8MountHoldeDiameter"= 5mm
+"SK8RiserWidth"= 6.75mm'Measured to meet Nema17 Mount Hole Center axis
+"D2@Sketch2"="SK8MountHoleFromEitherEnd"
+"D1@Sketch2"="SK8MountHoldeDiameter"
+"D4@Sketch1"="SK8RiserWidth"
+"D2@Sketch1"="SK8RodShaftSupportHeight"
+"SK8MountHoleFromSide"= "SK8RodShaftSupportLength" / 2
+"D4@Sketch2"="SK8MountHoleFromSide"
+"SK8MountHoleFromEitherEnd"= 5.5mm
+"D3@Sketch2"="SK8MountHoleFromEitherEnd"

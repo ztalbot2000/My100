@@ -1,6 +1,12 @@
 This will be an incomplete change log until further notice.
 
-v1.0Alpha-5 (Work in progress)
+v1.0Alpha-6 (Rebuild checkpoints)
+===========
+- Lets just say that so far this was a total rebuild to fix bed leveling.
+There are too many things to list that were done. I'm now at the same stage of
+testing bed leveling as was in the previous release that failed.
+
+v1.0Alpha-5 (Will start over because of QGL failing )
 ===========
 - Will try to update CAD drawings and create a video of what is operational.
 - Backed out LeftGantryBlock X stop as it does not touch hot end to trigger

@@ -14,6 +14,8 @@
 <LI> Buying steppers with connectors built into them will save you crimping some of the tiny JST-XH connectors.
 <LI> A large 3D printer seems like the way to go, but it is correct that most things you will want to print can be done on a 235x235mm printer.
 <LI> CoreXY printers do not have an X stepper and Y stepper because both steppers are needed to move the hot end in a single direction.
+<LI> Quad Gantry Leveling refers to 4 point leveling where Z-Tilt referes to 3 points.
+<LI> Trying to save money by putting the mounting holes directly into "L" shaped aluminum seemed like a good idea, but does not allow you to adjust the positioning later.
 </UL>
 
 <BR><BR>

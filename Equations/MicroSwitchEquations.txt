@@ -5,7 +5,6 @@
 "MicroSwitchMountHoleOffsetFromBottom"= 1.5mm
 "MicroSwitchMountHoleOffsetFromSide"= 3.25mm
 "D4@BodySketch1" = "MicroSwitchMountHoleOffsetFromSide"
-"D5@BodySketch1" = "MicroSwitchMountHoleOffsetFromSide"
 "MicroSwitchMountHoleDiameter"= 2mm
 "D6@BodySketch1" = "MicroSwitchMountHoleDiameter"
 "MicroSwitchDepth"= 2.8mm
@@ -23,3 +22,5 @@
 "D1@Sketch3"="MicroSwitchLeverDepth"
 "D3@BodySketch1"="MicroSwitchMountHoleOffsetFromBottom"
 "D5@Sketch5"="MicroSwitchTerminalWidth"
+"MicroSwitchDistanceBetweenMountingHoles" = 6.35mm
+"D5@BodySketch1"="MicroSwitchDistanceBetweenMountingHoles"

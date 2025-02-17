@@ -14,14 +14,19 @@ let fs = require("fs");
 //                    }
 //                   ];
 var nodes=[];
-var includeComments = false;  // default
+var includeComments = true;   // default
 var includeEquations = false; // default
 var doReverse = false;        // default
-var doVariables = false;
-var doDiff = false;
+var doLinkedValues = false;   // default
+var doDebug = false;          // default
+
+var command = "";
 
 var foundCount = 0;
 var errorCount = 0;
+const FILECOMMENT = "FILECOMMENT";
+const LINKEDVALUE = "LINKEDVALUE";
+const ALREADYMATCHED = "ALREADYMATCHED";
 
 // A great regex debugger site:
 // https://regex101.com/r/bE3c0x/5
@@ -33,8 +38,8 @@ function processOpts()
    {
       switch (process.argv[index])
       {
-        case '-ic':
-          includeComments = true;
+        case '-nc':
+          includeComments = false;
           break;
         case '-ie':
           includeEquations = true;
@@ -43,51 +48,80 @@ function processOpts()
           doReverse = true;
           break;
         case '-v':
-          if ( doDiff == true )
+          if ( command != "" )
           {
-             console.error( `-v and -d are mutually exclusive` );
+             console.error( `-v and ${command} are mutually exclusive` );
              process.exit( 1 );
           }
-          doVariables = true;
-          doDiff = false;
+          command = process.argv[index];
+          break;
+        case '-lv':
+          doLinkedValues = true;
+          break;
+        case '-dup':
+          if ( command != "" )
+          {
+             console.error( `-dup and ${ command}  are mutually exclusive` );
+             process.exit( 1 );
+          }
+          command = process.argv[index];
           break;
         case '-d':
-          if ( doVariables == true )
+          if ( command != "" )
           {
-             console.error( `-v and -d are mutually exclusive` );
+             console.error( `-d and ${ command} are mutually exclusive` );
              process.exit( 1 );
           }
-          doDiff = true;
-          doVariables = false;
+          command = process.argv[index];
+          break;
+        case '-debug':
+          doDebug = true;
           break;
         case '-h':
+        case '-help':
           console.log(`Description:`);
           console.log(`  Check SolidWorks global equation files for differences OR`);
           console.log(`  find unused variables in an equation file.`);
           console.log(``);
           console.log(`Usage:`);
-          console.log(`${process.argv[0]} [-d] [-v] [-ie] [-ic] [-nr] file1 file2 file3 ...`);
+          console.log(`${process.argv[0]} [-d|-v|-dup] [-ne] [-nc] [-lv] [-r] file1 file2 file3 ...`);
+          console.log(`Default is ${process.argv[0]} -v`);
+          console.log(`Options:`);
+          console.log(`   -ie -Include equations (Variables like "d1@Something"`);
+          console.log(`   -nc -No comments differences will be considered.`);
+          console.log(`   -r  -Check file1 vs file2 and file2 vs file1`);
+          console.log(`        Valid with -d only.`);
+          console.log(`   -lv -find missing linked variables in a single file.`);
+          console.log(`        Tries to solve stuff like "var1= var2" and var2 is not`);
+          console.log(`        defined in the same file.`);
           console.log(`   Where:`);
-          console.log(`     -d  -find variables from file1 not in other files with different values (default)`);
-          console.log(`        Options that affect -d only`);
-          console.log(`           -ie -Include equations (Variables like "d1@Something"`);
-          console.log(`           -ic -Include comments in differences`);
+          console.log(``);
+          console.log(`     -d  -find variables from file1 not in other files with different values.`);
+          console.log(`        Options that affect -d only:`);
           console.log(`           -r  -Check file1 vs file2 and file2 vs file1`);
           console.log(`                Valid for when only two files are specified`);
           console.log(`     -v  -find missing variables from file1 not in other files`);
+          console.log(`        Options that affect -v only:`);
+          console.log(`           -lv -find missing linked variables in a single file.`);
+          console.log(`    -dup -find duplicate variables in a single file.`);
           console.log(``);
-          console.log(`Example1: Find global variable differences between files`);
-          console.log(`${process.argv[0]} file1 file2`);
-          console.log(``);
-          console.log(`Example2: Find global variable differences between multiple files`);
-          console.log(`${process.argv[0]} file1 file2 file2`);
-          console.log(``);
-          console.log(`Example3: Find unused variables in an equation file`);
+          console.log(`Example1: Find unused variables in an equation file`);
           console.log(`${process.argv[0]} -v file1`);
+          console.log(`Or just`);
+          console.log(`${process.argv[0]}    file1`);
           console.log(``);
-          console.log(`Example2: Find unused variables in file1 that are not in file2 or file3`);
-          console.log(`${process.argv[0]} -v file1 file2 file3`);
-          process.exit(0);
+          console.log(`Example2: Find unused variables in equation file1 that are not in file2 or file3`);
+          console.log(`${process.argv[0]} -v file1 file2 file2`);
+          console.log(``);
+          console.log(`Example3: Find differences between equation files`);
+          console.log(`${process.argv[0]} -d file1 file2`);
+          console.log(``);
+          console.log(`Example4: Find differences in file1 and multiple files`);
+          console.log(`${process.argv[0]} -d file1 file2 file3`);
+          console.log(``);
+          console.log(`Example5: Find duplicate variables in a file ignoring comment differences`);
+          console.log(`${process.argv[0]} -dup -nc file`);
+          console.log(``);
           process.exit(0);
           break;
         default:
@@ -96,20 +130,18 @@ function processOpts()
       }
    }
 
-   // backward compability
-   if ( doVariables == false && doDiff == false && nodes.length == 1)
+   if ( command == "" && nodes.length == 1 )
    {
-      doVariables = true;
+      command = "-v";
    }
 
-   // Set the default if not specified
-   if ( doVariables == false && doDiff == false )
+   if ( command == "" )
    {
-      doDiff = true;
+      command = "-d";
    }
 
    // diff has certain options, check them
-   if ( doDiff == true )
+   if ( command == "-d" )
    {
       if ( nodes.length < 2 )
       {
@@ -122,11 +154,29 @@ function processOpts()
          process.exit( 1 );
       }
    }
-   if ( doVariables == true )
+   if ( command == "-v" )
    {
       if ( nodes.length < 1 )
       {
          console.error( `-v must specify at least one file`);
+         process.exit( 1 );
+      }
+      if ( doReverse == true )
+      {
+         console.error( `-r only valid with -d`);
+         process.exit( 1 );
+      }
+   }
+   if ( command == "-dup" )
+   {
+      if ( nodes.length != 1 )
+      {
+         console.error( `-dup must specify only one file`);
+         process.exit( 1 );
+      }
+      if ( doReverse == true )
+      {
+         console.error( `-r only valid with -d`);
          process.exit( 1 );
       }
    }
@@ -181,19 +231,67 @@ function readInFile()
 
       lines.forEach( function( line, lineIndex)
       {
-         if (line === "")
+         if ( line === "" )
             return;
 
-         const regexp = /^.*?("[^"]*").*?=.*?([^']*)(.*)/;
-         const arrayMatch = line.match(regexp);
-         if ( !arrayMatch || !arrayMatch.length )
+         // Okay this is weird. Windows puts a funny character at the very
+         // first line if it starts with A "#". This is supposedly fixed
+         // by reading in the file as utf8-16le, but this did not work for me.
+         // So the following Kludge works.
+         if ( lineIndex == 0 && line.charCodeAt(0) == 65279 )
          {
-            console.warn( `Line ${ lineIndex } not a valid value ${ line }` );
-            process.exit(1);
+            if ( doDebug == true )
+               console.debug( `shifting nodes[${fileIndex}] a file comment line` );
+
+            line = line.substr(1);
          }
-         nodes[ fileIndex ].GLOBALS.push(
-            { VARIABLE: arrayMatch[1], VALUE: arrayMatch[2].replace(/[\n\r]+$/, ""), COMMENT: arrayMatch[3].replace(/\n+$/, "")}
-         );
+
+         if ( line.startsWith( "#" ) )
+         {
+            if ( doDebug == true )
+               console.debug( `pushing nodes[${fileIndex}] a file comment line` );
+
+            // Ignore comment lines. These are not added by SolidWorks, but are
+            // ice to add in your own equation files.
+            nodes[ fileIndex ].GLOBALS.push(
+               { VARIABLE: FILECOMMENT, VALUE: lineIndex , COMMENT: line});
+         } else
+         {
+            const regexp = /^.*?("[^"]*").*?=.*?([^']*)(.*)/;
+            const arrayMatch = line.match(regexp);
+            if ( !arrayMatch || !arrayMatch.length )
+            {
+               console.warn( `Line ${ lineIndex } not a valid value "${ line }"` );
+               process.exit(1);
+            }
+            let v1 = arrayMatch[1];
+            let v2 = arrayMatch[2].replace(/[\n\r]+$/, "");
+            let v3 = arrayMatch[3].replace(/\n+$/, "");
+
+            if ( doDebug == true )
+               console.debug( `pushing nodes[${fileIndex}] VARIABLE: ${ v1 }, VALUE: ${ v2 }, COMMENT: ${ v3 }`);
+
+            nodes[ fileIndex ].GLOBALS.push(
+               { VARIABLE: v1, VALUE: v2, COMMENT: v3 }
+            );
+
+            // This is experimental.  Trying to find stuff like:
+            // someVariable = someOtherVariable
+            const equationMatch = v1.match(/([@])/);
+            if ( doLinkedValues == true &&
+                 equationMatch == null &&
+                !v2.endsWith("mm") && !v2.endsWith("in") &&
+                 v2.split(" ").length == 2 )
+            {
+               if ( doDebug == true )
+                  console.debug( `pushing linked value nodes[${fileIndex}] VARIABLE: ${ v2 }, VALUE: ${ LINKEDVALUE }, COMMENT: " "`);
+               nodes[ fileIndex ].GLOBALS.push(
+                  { VARIABLE: v2, VALUE: LINKEDVALUE, COMMENT: " " }
+               );
+
+            }
+
+         }
       });
    }
 }
@@ -204,6 +302,16 @@ function compareEquation( node1GlobalsIndex, node1, node2 )
    let variable1 = node1.GLOBALS[ node1GlobalsIndex ].VARIABLE;
    let value1 = node1.GLOBALS[ node1GlobalsIndex ].VALUE;
    let comment1 = node1.GLOBALS[ node1GlobalsIndex ].COMMENT;
+
+   if ( variable1 == FILECOMMENT )
+   {
+      if ( doDebug == true )
+         console.debug(`compareEquation: Ignoring ${ variable1 }`);
+
+      // We say this is found
+      foundCount++;
+      return;
+   }
 
    // Only check if variable is an equation like "d1@whatever" if asked.
    if ( includeEquations == false )
@@ -225,6 +333,9 @@ function compareEquation( node1GlobalsIndex, node1, node2 )
          break;
       }
    }
+   if ( doDebug == true )
+      console.debug(`compareEquation: ${ variable1 } found at ${dataFoundAtIndex}`);
+
    if ( dataFoundAtIndex == -1 )
    {
       return;
@@ -236,7 +347,8 @@ function compareEquation( node1GlobalsIndex, node1, node2 )
    if ( findFirstDiffPos( node2.GLOBALS[ dataFoundAtIndex ].VALUE, value1 ) != -1 )
    {
       // The line number happens to be the GLOBALS index but start from zero
-      console.warn( `Line number: ${ node1GlobalsIndex + 1 } of ${ node1.FILENAME }`);
+      // With -lv this is not true as we push linked variables
+      console.warn( `Around line number: ${ node1GlobalsIndex + 1 } of ${ node1.FILENAME }`);
       console.warn( `variable: ${ variable1 } matches but not the value at line number ${ dataFoundAtIndex + 1 } of ${ node2.FILENAME }`);
       indicateStringDifference( value1, node2.GLOBALS[ dataFoundAtIndex ].VALUE );
 
@@ -248,7 +360,8 @@ function compareEquation( node1GlobalsIndex, node1, node2 )
       if ( findFirstDiffPos( node2.GLOBALS[ dataFoundAtIndex].COMMENT, comment1 ) != -1 )
       {
          // The line number happens to be the GLOBALS index but start from zero
-         console.warn( `Line number: ${ node1GlobalsIndex + 1 } of ${ node1.FILENAME }`);
+         // With -lv this is not true as we push linked variables
+         console.warn( `Around line number: ${ node1GlobalsIndex + 1 } of ${ node1.FILENAME }`);
          console.warn( `variable: ${ variable1 } matches but not the comment at line number ${ dataFoundAtIndex + 1 } of ${ node2.FILENAME }`);
          indicateStringDifference( comment1, node2.GLOBALS[ dataFoundAtIndex ].COMMENT );
 
@@ -287,7 +400,8 @@ function compareFiles()
          errorCount++;
 
          // The line number happens to be the GLOBALS index but start from zero
-         console.warn( `Line number: ${ node0GlobalsIndex + 1 } of ${ node0.FILENAME }`);
+         // With -lv this is not true as we push linked variables
+         console.warn( `Around line number: ${ node0GlobalsIndex + 1 } of ${ node0.FILENAME }`);
          if ( nodes.length == 2 )
             console.warn( `variable: ${ node0.GLOBALS[ node0GlobalsIndex ].VARIABLE } not found in ${ nodes[ 1 ].FILENAME }`);
          else
@@ -320,7 +434,8 @@ function compareFiles()
             errorCount++;
 
             // The line number happens to be the GLOBALS index but start from zero
-            console.warn( `Line number: ${ node1GlobalsIndex + 1 } of ${ node0.FILENAME }`);
+            // With -lv this is not true as we push linked variables
+            console.warn( `Around line number: ${ node1GlobalsIndex + 1 } of ${ node0.FILENAME }`);
             console.warn( `variable: ${ node1.GLOBALS[ node1GlobalsIndex ].VARIABLE } not found in ${ node0.FILENAME }`);
 
             console.warn( `expected value: ${ node1.GLOBALS[ node1GlobalsIndex ].VALUE }`);
@@ -340,22 +455,116 @@ function compareFiles()
       console.log(`Differences detected: ${ errorCount }`);
 }
 
-function searchForUnusedGlobal( node1GlobalsIndex, node1, node2 )
+function findDuplicates()
+{
+   let node0 = nodes[ 0 ];
+   let node0Globals = nodes[ 0 ].GLOBALS;
+   let foundDuplicates = 0;
+
+   // do the first file to
+   for ( let primaryIndex = 0; primaryIndex < node0Globals.length; primaryIndex++ )
+   {
+      // Get the stuff to find from the primary search
+      let primaryVariable = node0.GLOBALS[ primaryIndex ].VARIABLE;
+      let primaryValue = node0.GLOBALS[ primaryIndex ].VALUE;
+      let primaryComment = node0.GLOBALS[ primaryIndex ].COMMENT;
+
+      if ( primaryVariable == FILECOMMENT )
+         continue;
+
+      // Get the stuff from the secondary search
+      for ( let secondaryIndex = 0; secondaryIndex < node0Globals.length; secondaryIndex++ )
+      {
+         if ( primaryIndex == secondaryIndex)
+            continue;
+
+         // Get the stuff to find from the secondary search
+         let secondaryVariable = node0.GLOBALS[ secondaryIndex ].VARIABLE;
+         let secondaryValue = node0.GLOBALS[ secondaryIndex ].VALUE;
+         let secondaryComment = node0.GLOBALS[ secondaryIndex ].COMMENT;
+
+         if ( secondaryVariable == FILECOMMENT )
+            continue;
+
+         if ( secondaryVariable == ALREADYMATCHED )
+            continue;
+
+         if ( primaryVariable == secondaryVariable )
+         {
+            foundDuplicates++;
+
+            console.warn( `${ primaryVariable } from line ${ primaryIndex +1 } duplicated on line ${ secondaryIndex +1 }` );
+            if ( includeEquations == true && primaryValue != secondaryValue )
+            {
+               console.warn( `${ primaryVariable } Equation on line ${ primaryIndex +1 } differs from line ${ secondaryIndex +1 }.`);
+               console.warn( `"${ primaryValue }" != "${ secondaryValue }"` );
+            }
+            if ( includeComments == true && primaryComment != secondaryComment )
+            {
+               console.warn( `${ primaryVariable } Comment on line ${ primaryIndex +1 } differs from line ${ secondaryIndex +1 }.`);
+               console.warn( `"${ primaryComment }" != "${ secondaryComment }"` );
+            }
+
+            node0.GLOBALS[ secondaryIndex ].VARIABLE = ALREADYMATCHED;
+         }
+
+      }
+
+   }
+
+   console.log(`${ foundDuplicates } duplicate(s) detected.`);
+}
+
+function searchForUnusedGlobal( node1GlobalsIndex, node1, node2, node2FileIndex )
 {
    let variable1 = node1.GLOBALS[ node1GlobalsIndex ].VARIABLE;
+   var value1 = node1.GLOBALS[ node1GlobalsIndex ].VALUE;
    let node2Globals = node2.GLOBALS;
 
+   if ( variable1 === FILECOMMENT )
+   {
+      if ( doDebug == true )
+         console.debug(`searchForUnusedGlobal: Ignoring ${ variable1 }`);
+      return true;
+   }
+
    // Global variables like "d1@whatever" will never be in equations, I believe
-   const equationMatch = variable1.match(/([@])/);
-   if ( equationMatch !== null )
+   const equationMatch1 = variable1.match(/([@])/);
+   if ( equationMatch1 !== null )
       return true;
 
    for ( let node2GlobalsIndex = 0; node2GlobalsIndex < node2Globals.length; node2GlobalsIndex++ )
    {
-      const match = node2Globals[ node2GlobalsIndex ].VALUE.match(new RegExp('(' + variable1 + ')'));
-      if ( match !== null )
+      let variable2 = node2Globals[ node2GlobalsIndex ].VARIABLE;
+      var value2 = node2Globals[ node2GlobalsIndex ].VALUE;
+      if ( variable2 == FILECOMMENT )
       {
-         return true;
+         if ( doDebug == true )
+            console.debug(`searchForUnusedGlobal: Ignoring FILECOMMENT in ${ nodes[node2FileIndex].FILENAME } line: ${node2GlobalsIndex } COMMENT: ${node2Globals[ node2GlobalsIndex ].COMMENT}`);
+      } else
+      {
+         if ( value1 == LINKEDVALUE )
+         {
+            const equationMatch2 = variable2.match(/([@])/);
+            if ( equationMatch2 === null )
+            {
+               const match = variable2.match(new RegExp('(' + variable1 + ')'));
+               if ( match === null )
+               {
+                  if ( variable1 != value2 )
+                  {
+                     return true;
+                  }
+               }
+            }
+         } else
+         {
+            const match = value2.match(new RegExp('(' + variable1 + ')'));
+            if ( match !== null )
+            {
+               return true;
+            }
+         }
       }
    }
    return false;
@@ -379,7 +588,7 @@ function doGlobalVariableSearch()
       // Search all files for the variable in the values of the record
       for ( let fileIndex = 0; fileIndex < nodes.length; fileIndex++ )
       {
-         if ( searchForUnusedGlobal( node0GlobalsIndex, node0, nodes[ fileIndex ] ) == true )
+         if ( searchForUnusedGlobal( node0GlobalsIndex, node0, nodes[ fileIndex ], fileIndex ) == true )
          {
             rc = true;
 
@@ -393,8 +602,14 @@ function doGlobalVariableSearch()
          errorCount++;
 
          // The line number happens to be the GLOBALS index but start from zero
-         console.warn( `Line number: ${ node0GlobalsIndex + 1 } of ${ node0.FILENAME }`);
-         console.warn( `variable: ${ node0Globals[ node0GlobalsIndex ].VARIABLE } was unused`);
+         // With -lv this is not true as we push linked variables
+         console.warn( `Around line number: ${ node0GlobalsIndex + 1 } of ${ node0.FILENAME }`);
+         if ( node0Globals[ node0GlobalsIndex ].VALUE == LINKEDVALUE )
+         {
+           console.warn( `Linked variable: ${ node0Globals[ node0GlobalsIndex ].VARIABLE } was undefined`);
+         } else {
+           console.warn( `variable: ${ node0Globals[ node0GlobalsIndex ].VARIABLE } was unused`);
+         }
       }
    }
 
@@ -407,12 +622,36 @@ function doGlobalVariableSearch()
 processOpts();
 readInFile();
 
-if ( doVariables == true)
+if ( command == "-v" )
 {
-  doGlobalVariableSearch();
+   if ( doDebug == true )
+      console.debug("Comparing file variables");
+
+   doGlobalVariableSearch();
 }
-if ( doDiff == true )
+if ( command == "-d" )
 {
+   if ( doLinkedValues == true )
+   {
+      console.error( `-lv not valid with -d`);
+      process.exit( 1 );
+   }
+   if ( doReverse == true && nodes.length != 2 )
+   {
+      console.error( `-r only valid for two files`);
+      process.exit( 1 );
+   }
+
+   if ( doDebug == true )
+      console.debug("Comparing file differences");
+
    compareFiles();
+}
+if ( command == "-dup" )
+{
+   if ( doDebug == true )
+      console.debug("Checking for duplicate entries");
+
+   findDuplicates();
 }
 process.exit(0);

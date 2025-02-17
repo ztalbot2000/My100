@@ -1,22 +1,28 @@
 <div class="image123">
    <div style="float:left;margin-right:5px;">
-      <img src="Screenshots/My100Assembly.png" width="300" height="300" />
+      <img src="Screenshots/My100Assembly.PNG" width="300" height="300" />
       <p style="text-align:center;">Latest Assembly Drawing</p>
    </div>
    <div style="float:left;margin-right:5px;">
-      <img src="docs/images/build/LatestBuildOfTheFrame.png" width="300" height="300" />
+      <img src="Screenshots/ActualMy100Assembly.png" width="300" height="300" />
       <p style="text-align:center;">Latest Build Progress</p>
+   </div>
+   <div style="float:left;margin-right:5px;">
+      <img src="Screenshots/Electronics.PNG" width="300" height="300" />
+      <p style="text-align:center;">Latest Electronics Assembly Drawing</p>
+   </div>
+   <div style="float:left;margin-right:5px;">
+      <img src="Screenshots/ActualElectronics.PNG" width="300" height="300" />
+      <p style="text-align:center;">Latest Electronics Build Progress</p>
    </div>
 </div>
 
 
-# My100 - A version of the100 with a metal frame that is designed to be built using a CNC or mitre saw and a drill press.
+# My100 - A version of the100 with a metal frame.
 
 <BR><BR>
-## &nbsp;&nbsp;&nbsp; As I do not have a 3D printer (Yet) but I do have a CNC that I built in 2007 using just a mitre saw and a drill press; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>
-## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! You can see what I have created so far and are more than welcome to contribute.
-## &nbsp;&nbsp;&nbsp; I spent many many months studying the100 construction and others like the Voron as well. There are things I like about each. Using SolidWorks (Maker Edition) I have created a new fully defined 3D Printer assembly that encorporates what I believe to be the best features. From this the frame has been created and assembled. The electronics are well under way. The steppers are moving!!! Check out the build photos for more.
-## &nbsp;&nbsp;&nbsp; I do have some vested interest in completing the project. To date I have purchased all the parts. I must admit though that the build is a very slow process.
+## &nbsp;&nbsp;&nbsp; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>.
+## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! This is my second complete rebuild. The first failed quad gantry leveling so I decided to start again. You can see what I have created so far and are more than welcome to contribute.
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
 
@@ -26,13 +32,10 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
-* [**Current Build Status My100 1.0 Alpha 5**](#current-build-status-my100-10-alpha-5)
-* [**Current Build Status My100 1.0 Alpha 4**](#current-build-status-my100-10-alpha-4)
-* [**Current Build Status My100 1.0 Alpha 3**](#current-build-status-my100-10-alpha-3)
-* [**Previous Build Status My100 1.0 Alpha 1**](#previous-build-status-my100-10-alpha-1)
+* [**Current Build Status My100 1.0 Alpha 6**](#current-build-status-my100-10-alpha-6)
+* [**Previous Build Status My100 1.0 Alpha 5**](#previous-build-status-my100-10-alpha-5)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
 * [**ChangeLog**](CHANGELOG.TXT)
-* [**Precision Building With Mitre Saw and a Drill Press**](docs/PrecisionBuildingWithMitreSawAndADrillPress.md)
 * [**Bill of Materials**](docs/My100BOM.md)
 * [**Gotchas of building your own 3D printer**](docs/Gotchas.md)
 * [**Contributing**](#contributing)
@@ -42,27 +45,24 @@
 &nbsp;&nbsp;&nbsp; Here are some of what I believe to be My100 improvements.
 <UL>
 <LI>Use cheaper 6061 "L" shaped aluminum for the frame.
-<LI>Linear rails for the X&Y axis for faster operation (Possibly. Hmmm seems this is not so and was a bad idea).
-<LI>Four steppers for Z Axis for self leveling as in the Voron.
 <LI>Wider 350 X 350mm build plate.
 <LI>Keep threaded rod for Z-Axis so bed remains at height when powered off and is a less complicated assembly than gears/belts and pulleys.
 <LI>Use 5mm steel shaft instead of M5 screws to support gantry bearings, eliminating noise and possible wear.
 <LI>Use 20T pulley instead of F695 bearings. These seem to be higher quality. They run smoother around the 5mm steel shaft than a M5 machine screw.
-<LI>Fastening holes are offsets of 2.5 and 3.5 of the aluminum thickness for precise drilling when using a drill press.
 <LI>All parts to be created are fully defined in SolidWorks and have been designed with equations.
 <LI>Fastening holes for an enclosure is mandatory feature. Any fumes from a 3D printer should be externally vented as they are extremely harmful.
-<LI>Build plate is 350 X 350mm. The height is at 200mm as I prove in the design, but is easily changed via equations of VSLength. I decided to increase the width and length now because they affect buying a lot of larger internal components like the build plate, linear rails...
-<LI>I also like the clicky and have purchased one, hopefully to incorporate it into the build later. For now it's more important to get the basics running.
+<LI>Build plate is 350 X 350mm. The height is at 200mm as I prove in the design, but is easily changed via equations of VSLength.
+<LI>End stops and some sort of probe for bed leveling will be added as if you ever used a cheap 3D printer, leveling can be a nightmare.
 </UL>
 <BR><BR>
 
 
 ## Design Strategy
-&nbsp;&nbsp;&nbsp; the100 is a great 3D printer otherwise I would not want to attempt to create one in the first place. It is also open source, as is the Voron. An inexpensive but precise metal frame is the first goal.
+&nbsp;&nbsp;&nbsp; the100 is a great 3D printer otherwise I would not want to attempt to create one in the first place. It is also open source, as is the Voron. An inexpensive metal frame is the first goal.
 
 &nbsp;&nbsp;&nbsp;20/20 extruded aluminum is expensive. Using more common 6061 "L" shaped aluminum is 50% cheaper. Just printing the100 with a 265x265mm bed was going to cost as of Oct 6/2023 $823 Cdn + tax. The aluminum for the frame of the My100 was $172 Cdn, including tax, plus $362 including tax for the Gantry blocks, larger 350 X 350mm bed, rod stabilizers and belt tensioners. Overall a much cheaper option with strength benefits. Further cost savings could be obtained if you created the bed out of metal too, but I splurged on a colorful bed.
 
-&nbsp;&nbsp;&nbsp;To maintain precision, with just a mitre saw and a drill press, there are certain tricks that can be used that are discussed below. Otherwise i olan to use my CNC.
+&nbsp;&nbsp;&nbsp;Surprisingly, the ability to adjust location of parts is key and the primary reason for the second rebuild. Using ready mount stepper mounts turned out to be wiser than using the CNC to put the holes into the frame itself.
 
 
 ### Imperial/Metric and Metal Thickness
@@ -90,44 +90,37 @@
 <LI>The length of the Z-Axis threaded rods at the end of the steppers.
 <LI>The bed at the top of the Z-Axis.
 <LI>The build plate on top of the bed.
-<LI>The tip of the hotend on the build plate.
-<LI>The top of the X-Axis linear guide block.
-<LI>The bottom post of the gantry block equal to the end of the X&Y Axis stepper shaft.
-<LI>The fastening point of the Y-Axis linear rail.
-<LI>The placement of the belt holes to the hot end carrier aligning with the bottom post of the gantry block.
-<LI>The placement of the belt tighteners to align with the bottom post of the gantry block.
-<LI>The height of the hot end to the top of the frame.
+<LI>The tip of the hotend on the build plate equal to the build plate on top of the bed.
+<LI>The middle of the top the X-Axis rod from the hot end tip..
+<LI>The middle of the Y-Axis rod from the middle of the X-Axis rod.
+<LI>The middle of the X-Axis rod to the top pulley of the gantry.
 </UL>
 
 #### Left to Right Alignment.
-&nbsp;&nbsp;&nbsp;It is not the build plate that dictates the width but the length of the X-Axis linear rail so it fits between the left and right gantry blocks. The bed and build plate are then centered between the steppers in this direction.
+&nbsp;&nbsp;&nbsp;It is not the build plate that dictates the width but the length of the X-Axis linear rod so it fits between the left and right gantry blocks. The bed and build plate are then centered between the steppers in this direction.
 
 #### Front to Back Alignment
-&nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are offset from the 45° cut. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
+&nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are by the belt tensioners. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
 
 <BR><BR>
-## Current Build Status My100 1.0 Alpha 5
-&nbsp;&nbsp;&nbsp; The X,Y & Z axis all home! Quad Gantry Levelling (QGL) fails. The printed bed was too flimsy and a change to lifters was unsuccessful. The CAD drawing now uses a metal bed and I'm in the process of installing it to fix QGL.
-
-<BR><BR>
-## Current Build Status My100 1.0 Alpha 4
-&nbsp;&nbsp;&nbsp; It moves!!! Well at least the hot end does. The CAD drawings are not up to date with what I built.  I changed to lifters to hold up the build plate. We will see if it plans out. Figuring out RatOS and Klipper was a real learning experience.
-
-<BR><BR>
-## Current Build Status My100 1.0 Alpha 3
-&nbsp;&nbsp;&nbsp; The Electronics are well under way. The controller is a BigTree Octopus V1.1. It has an STM32F407 and I'm using RATOS. I wish I had bought TMC2209 drivers to start with as there are unsupported versions of RATOS with various controller boards and stepper drivers. Creating the JST-XH cables were a learning experience. To save on cable ends, it would have been wiser to buy steppers with the male ends already attached. Hmm, Maybe I should create a section on what not to do?
-<BR><BR>
-## Previous Build Status My100 1.0 Alpha 1
-&nbsp;&nbsp;&nbsp; The following main steps have been accomplished.
+## Current Build Status My100 1.0 Alpha 6
 <UL>
-<LI>The main SolidWorks design is complete. The electronics will be added later.
-<LI> Fastening holes for an enclosure are added by default. 
-<LI> As the design has partially only been proven in SolidWorks, I had printed the Gantry blocks, Belt fasteners hotend and even the bed. putting them together i noticed that there was no way to push out the pins in the Gantry Block or Belt fastener and having a shelf to hat mated the bed center was not optimal for printing. These issues are fixed in the design, so I'll label this as 1.0Alpha 1.
-<LI>The aluminum has been pre-cut to near exact lengths. I may use my CNC for exactness or my mitre saw following the rules of cutting all the same lengths of pieces at the same time using stop blocks.
-<LI>All the NC files for the frame were created.
-<LI>All the frame pieces except the mid back rail has been machined.
-<LI>The frame from the available parts were assembled.
-<UL>
+   <LI>CAD design is complete.
+   <UL>
+      <LI>I was smarter in using rods as Matt pointed out when he had seen my first designs to solve flexing issues.
+      <LI>Moved to Z-Tilt instead of QGL. Trying to level a four legged chair is not ideal.
+      <LI>Connection points use one 8mm screw to allow for rackig adjustments.
+      <LI>Steppers are mounted with a slot for adjusting.
+   </UL>
+   <LI> Build is complete.
+   <LI> Wiring is tested. All motors move appropriately.
+   <LI> All axis home.
+   <LI> Bed leveling begins. This is where my redesign hopefully fixes things in the previous release.
+</UL>
+
+<BR><BR>
+## Previous Build Status My100 1.0 Alpha 5
+&nbsp;&nbsp;&nbsp; The X,Y & Z axis all home! Quad Gantry Levelling (QGL) fails. The printed bed was too flimsy and a change to lifters was unsuccessful. The CAD drawing now uses a metal bed but it did not fix QGL.
 
 <BR><BR>
 ## Contributing

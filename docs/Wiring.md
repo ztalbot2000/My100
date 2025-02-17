@@ -4,7 +4,7 @@
       <p style="text-align:center;">Latest Assembly Drawing</p>
    </div>
    <div style="float:left;margin-right:5px;">
-      <img src="docs/images/build/LatestBuildOfTheFrame.png" width="300" height="300" />
+      <img src="Screenshots/ActualMy100Assembly.png" width="300" height="300" />
       <p style="text-align:center;">Latest Build Progress</p>
    </div>
 </div>
@@ -26,6 +26,8 @@ THO = HT - Hot End Thermistor<BR>
 Connecting the +24V wire to the heater terminal (Rather than the the PSU) means its protected by the fuse on the board.
 PCF - Print/Part Cooling Fan
 HEF - Hot End Fan
+<BR>
+See: https://docs.vorondesign.com/build/electrical/v1_octopus_wiring.html
 
 <BR><BR>
 # Probe Wiring

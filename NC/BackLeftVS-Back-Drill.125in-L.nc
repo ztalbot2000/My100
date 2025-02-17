@@ -1,64 +1,18 @@
-(BackLeftVS-Back Drilled .125in left side -X)
+(BackleftVS-Back Drilled .125in left side)
 G21
 M3 S5000
 G0X0.00Y0.00Z3.0
-(bottom mount hole)
-G0X-23.8125Y7.9375
+
+(Lower rail hole)
+G0X22.225Y95.4
 G1Z-4.0F10.0
 G0Z3.0
 
-(First bottom rail hole - below)
-G0X-19.05Y81.1125
-G1Z-4.0F10.0
-G0Z3.0
-(Second bottom rail hole - left)
-G0X-14.2875Y87.4625
-G1Z-4.0F10.0
-G0Z3.0
-(Third bottom rail hole - right)
-G0X-23.8125Y87.4625
+(Upper rail hole)
+G0X22.225Y476.25
 G1Z-4.0F10.0
 G0Z3.0
 
-(First case hole)
-G0X-14.2875Y165.00
-G1Z-4.0F10.0
-G0Z3.0
-(Second case hole)
-G0X-14.2875Y260.00
-G1Z-4.0F10.0
-G0Z3.0
-
-(First mid back rail hole - below)
-G0X-19.05Y330.38737
-G1Z-4.0F10.0
-G0Z3.0
-(Second mid back rail hole - left)
-G0X-14.2875Y336.74727
-G1Z-4.0F10.0
-G0Z3.0
-(Third mid back rail hole - right)
-G0X-23.8125Y336.74727
-G1Z-4.0F10.0
-G0Z3.0
-
-(Third case hole)
-G0X-23.8125Y355.00
-G1Z-4.0F10.0
-G0Z3.0
-
-(Second upper rail hole - below)
-G0X-19.05Y426.1875
-G1Z-4.0F10.0
-G0Z3.0
-(First upper rail hole - left)
-G0X-14.2875Y438.8875
-G1Z-4.0F10.0
-G0Z3.0
-(First upper rail hole - right)
-G0X-23.8125Y438.8875
-G1Z-4.0F10.0
-G0Z3.0
 S0
 M5
 M30

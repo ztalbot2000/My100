@@ -109,13 +109,16 @@
    <UL>
       <LI>I was smarter in using rods as Matt pointed out when he had seen my first designs to solve flexing issues.
       <LI>Moved to Z-Tilt instead of QGL. Trying to level a four legged chair is not ideal.
-      <LI>Connection points use one 8mm screw to allow for rackig adjustments.
-      <LI>Steppers are mounted with a slot for adjusting.
+      <LI>Connection points use one 8mm screw to allow for racking adjustments.
+      <LI>Steppers are mounted with brackets and a slot for adjusting.
    </UL>
+   <LI> Drag chains added. (Not in CAD design yet)
+   <LI> Disco lights added.
    <LI> Build is complete.
    <LI> Wiring is tested. All motors move appropriately.
    <LI> All axis home.
-   <LI> Bed leveling begins. This is where my redesign hopefully fixes things in the previous release.
+   <LI> Automatic bed leveling complete. This was the fault with the previous design.
+   <LI> Hot end heats up.
 </UL>
 
 <BR><BR>
@@ -151,6 +154,7 @@ Link References (Not Local)
 [viewstl]:https://viewstl.com/classic/
 [Clicky Installation]:https://3dpblog.com/klicky-probe-installation-voron/
 [BLTouch Installation]:https://www.klipper3d.org/BLTouch.html
+[Ratrig v-core-3]:https://docs.ratrig.com/product-details/v-core3-1
 [Heater Pad installation]:https://www.youtube.com/watch?v=RnCW7-_G2dI
 [Heater Pad installation]:https://www.youtube.com/watch?v=-fMPnBuyxy8
 [Heater Pad installation]:https://www.youtube.com/watch?v=BE1rW7XyXqw
@@ -158,4 +162,5 @@ Link References (Not Local)
 [Hot End Wiring Guide]:https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c
 [Understanding End Stops]:https://www.youtube.com/watch?v=Q2uBK5XzX4I
 [Macros - Ellis Tuning Guide]:https://ellis3dp.com/Print-Tuning-Guide
+[Disco on a Stick]:https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Disco_on_a_stick
 [ztalbot2000]:https://github.com/ztalbot2000

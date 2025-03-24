@@ -1,6 +1,7 @@
 ﻿"RailThickness"= .125in'Spec
 "VSWidth"= 1.25in'Spec
 "SideRailLength"= 21.75in
+"StepperHolePadSize"= "StepperHoleDiameter"
 "D1@Sketch1"="TopRailHeight"
 "D2@Sketch1"="SideRailLength"
 "FrameFastenerHoleDiameter"= 8mm
@@ -23,3 +24,12 @@
 "AngleBracketSlotDistanceFromBack"= 65mm
 "D14@Sketch1"= "AngleBracketSlotDistanceFromCorner" - 2mm'Minus 2mm to get screw hole in middle of slot
 "D15@Sketch1"="AngleBracketSlotDistanceBetweenHoles"
+"D2@Sketch2"= ( "SideRailLength" - "LightStripLength" + "LightStripGuideMountingHoleFromLeftOrRightSide" * 2 ) / 2
+"LightStripLength"= 270mm'Spec
+"LightStripGuideMountingHoleFromLeftOrRightSide"= 50mm
+"D3@Sketch2"=("LightStripLength" - "LightStripGuideMountingHoleFromLeftOrRightSide"*2)/2
+"D1@Sketch2"="LightStripLength" - "LightStripGuideMountingHoleFromLeftOrRightSide" * 2
+"M3HoleDiameter"= 3mm
+"D6@Sketch2"="M3HoleDiameter"
+"LightStripGuideMountingHoleFromTop" = 4.5mm
+"D5@Sketch2"="LightStripGuideMountingHoleFromTop"

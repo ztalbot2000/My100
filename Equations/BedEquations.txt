@@ -18,7 +18,7 @@
 "D6@ThreadedRod'Holes-Sketch2" = "LeadScrewNutMountingHoleDistance" / 2
 "D11@ThreadedRod'Holes-Sketch2" = "LeadScrewNutMountingHoleDistance" / 2
 "D12@ThreadedRod'Holes-Sketch2" = "LeadScrewNutMountingHoleDistance" / 2
-"DistanceBetweenLeftToRightStepperHoles" = "FrontOrBackRailLength" - "Nema17MountStepperHoleDistanceFromBack" * 2 + "GapBetweenVerticalSupportsAndRails"'Equals 467.05
+"DistanceBetweenLeftToRightStepperHoles"= "FrontOrBackRailLength" - "Nema17MountStepperHoleDistanceFromBack" * 2 + "GapBetweenVerticalSupportsAndRails"'Equals 467.05
 "BedWidth"= "DistanceBetweenLeftToRightStepperHoles" + "LeadScrewNutFlangeDiameter" + "BedWidthBeyondFlangeNut" * 2'Equals 493.05
 "D2@ThreadedRod'Holes-Sketch2" = "DistanceBetweenLeftToRightStepperHoles"
 "BuildPlateWidth"= 352mm'Spec
@@ -37,7 +37,7 @@
 "D15@ThreadedRod'Holes-Sketch2" = "BedLength" / 2
 "GapBetweenVerticalSupportsAndRails"= "RailThickness" * 2
 "D17@ThreadedRod'Holes-Sketch2"="DistanceFromLeadScrewNutToBedSide"
-"DistanceFromLeadScrewNutToBedSide"= "LeadScrewNutFlangeDiameter" / 2 + "BedWidthBeyondFlangeNut"
+"DistanceFromLeadScrewNutToBedSide"= "LeadScrewNutFlangeDiameter" / 2 + "BedWidthBeyondFlangeNut"'Equals 13
 "D21@ThreadedRod'Holes-Sketch2"="DistanceBetweenFrontToBackStepperHoles"
 "D16@ThreadedRod'Holes-Sketch2"="BuildPlateStandoffHolesDistanceFromFrontOrBackSide"
 "BedWidthBeyondFlangeNut"= 2mm

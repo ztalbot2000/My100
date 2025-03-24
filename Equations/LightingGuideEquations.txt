@@ -1,0 +1,12 @@
+﻿"LightStripLength"= 270mm'From Step file
+"D1@ProfileBoss-Extrude1"="LightStripLength"
+"LightStripMountHoleFromLeftOrRightSide"= ( "LightStripLength" - "LightStripDistanceBetweenMountingHoles" ) / 2
+"D3@Sketch2"="LightStripMountHoleFromLeftOrRightSide"
+"LightStripWidth"= 11.5mm'Spec
+"D3@Sketch1"="LightStripWidth"
+"D4@Sketch2"="LightStripWidth"/2
+"D3@Sketch3"="LightStripGuideMountingHoleFromLeftOrRightSide"
+"D2@Sketch2"="LightStripMountHoleFromLeftOrRightSide"
+"LightStripGuideMountingHoleFromLeftOrRightSide"= 50mm
+"D2@Sketch3"="LightStripGuideMountingHoleFromLeftOrRightSide"
+"LightStripDistanceBetweenMountingHoles"= 197.7mm'From Step file

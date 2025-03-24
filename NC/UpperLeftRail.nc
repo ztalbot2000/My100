@@ -17,6 +17,19 @@ G0X13Y89.825
 G1Z-4.0F10.0
 G0Z3.0
 
+
+(First Light Support Hole)
+G0X4.5Y191.225
+G1Z-4.0F10.0
+G0Z3.0
+(Middle Light Support Hole)
+G0X4.5Y276.225
+G1Z-4.0F10.0
+(Right Light Support Hole)
+G0X4.5Y361.225
+G1Z-4.0F10.0
+
+
 (First Angle mount at Right)
 G0X13Y462.625
 G1Z-4.0F10.0

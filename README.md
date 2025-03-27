@@ -22,7 +22,7 @@
 
 <BR><BR>
 ## &nbsp;&nbsp;&nbsp; The **My100** is a meant to be built using common metal materials for a frame instead of the more expensive 20/20 extruded aluminum of the Voron or 3D printed frame of the100. This project is based primarily upon the great work of <A HREF="https://github.com/MSzturc/the100">the100</A>.
-## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! This is my second complete rebuild. The first failed quad gantry leveling so I decided to start again. You can see what I have created so far and are more than welcome to contribute.
+## &nbsp;&nbsp;&nbsp; BEWARE THIS WORK IS IN PROGRESS !! This is my second complete rebuild. The first failed quad gantry leveling so I decided to start again. You can see what I have created so far and are more than welcome to contribute. At the moment its just getting ready to try its first print. Wish me luck!
 ## &nbsp;&nbsp;&nbsp; Will the My100 be faster than the100, We shall see.
 
 
@@ -119,11 +119,9 @@
    <LI> All axis home.
    <LI> Automatic bed leveling complete. This was the fault with the previous design.
    <LI> Hot end heats up.
+   <LI> Bed heats up.
+   <LI> Working on Tidying up build, Tuning klipper config under RatOS 1.20.
 </UL>
-
-<BR><BR>
-## Previous Build Status My100 1.0 Alpha 5
-&nbsp;&nbsp;&nbsp; The X,Y & Z axis all home! Quad Gantry Levelling (QGL) fails. The printed bed was too flimsy and a change to lifters was unsuccessful. The CAD drawing now uses a metal bed but it did not fix QGL.
 
 <BR><BR>
 ## Contributing
@@ -163,4 +161,5 @@ Link References (Not Local)
 [Understanding End Stops]:https://www.youtube.com/watch?v=Q2uBK5XzX4I
 [Macros - Ellis Tuning Guide]:https://ellis3dp.com/Print-Tuning-Guide
 [Disco on a Stick]:https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Disco_on_a_stick
+[Bigtree Octopus v1 prep and wiring]:https://www.youtube.com/watch?v=_4YpUzo18Lc
 [ztalbot2000]:https://github.com/ztalbot2000

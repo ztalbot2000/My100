@@ -96,28 +96,15 @@ G0X-216.7Y468.25
 G1Z-4.0F10.0
 G0Z3.0
 
-(EdgeHoles Bottom Left 1)
-G0X-70Y19
-G1Z-4.0F10.0
-G0Z3.0
-(EdgeHoles Bottom Left 2)
-G0X-90Y10
-G1Z-4.0F10.0
-G0Z3.0
-(EdgeHole Upper Left 2)
-G0X-463.4Y10
-G1Z-4.0F10.0
-G0Z3.0
-
 (Drag Chain Mount Hole 1)
-G0X-286.2Y20
+G0X-293.2Y20
 G1Z-4.0F10.0
 (Drag Chain Cable Hole)
-G0X-292.2Y1-
+G0X-299.2Y10
 G1Z-4.0F10.0
 G0Z3.0
 (Drag Chain Mount Hole 2)
-G0X-298.2Y20
+G0X-305.2Y20
 G1Z-4.0F10.0
 G0Z3.0
 
@@ -167,56 +154,80 @@ G0Z3.0
 //G0X-246.7Y418.75
 //G1Z-4.0F10.0
 //G0Z3.0
-//(Routing Holes 8 - Stepper Z1)
-//G0X-246.7Y432.75
+(Routing Holes 8 - Stepper Z1)
+G0X-246.7Y432.75
+G1Z-4.0F10.0
+G0Z3.0
+//(Routing Holes 9 - Stepper Z2)
+//G0X-246.7Y446.75
 //G1Z-4.0F10.0
 //G0Z3.0
-(Routing Holes 9 - Stepper Z2)
-G0X-246.7Y446.75
+
+(SSR Control)
+G0X-134.2Y237
+G1Z-4.0F10.0
+G0Z3.0
+(Pi Power)
+G0X-460.5Y155
 G1Z-4.0F10.0
 G0Z3.0
 
-(Corner Clamp holes Between Z & Z2)
-G0X-33.175Y375
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Between Z & Z2)
-G0X-70Y362.75
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Between Z & Z2)
-G0X-90Y334.75
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Between Z & Z2)
-G0X-90Y418.75
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Above Z)
-G0X-90Y469.275
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Between Z & Z2)
-G0X-120Y375
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Between Z & Z2)
-G0X-120Y446.75
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Right of Z)
-G0X-155Y460.5
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Above and Between Z & Z2)
-G0X-463.4Y348.75
-G1Z-4.0F10.0
-G0Z3.0
-(Corner Clamp holes Right of Z1)
+
+(Corner Clamp holes For Z1)
 G0X-500.225Y432.75
 G1Z-4.0F10.0
 G0Z3.0
 
+
+(Corner Clamp holes for Z2)
+G0X-33.175Y380
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes For Z2)
+G0X-120Y380
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes for Z2)
+G0X-120Y446.75
+G1Z-4.0F10.0
+G0Z3.0
+
+
+(Corner Clamp holes for Z)
+G0X-90Y469.275
+G1Z-4.0F10.0
+G0Z3.0
+G0X-90Y418.75
+G1Z-4.0F10.0
+G0Z3.0
+
+
+(Corner Clamp holes for Left Gatry and Extruder)
+G0X-70Y19
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes for Left Gantry and Extruder)
+G0X-90Y10
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes for Left Gantry and Extruder)
+G0X-70Y362.75
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes for Left Gantry and Extruder)
+G0X-90Y348.75
+G1Z-4.0F10.0
+G0Z3.0
+
+
+(Corner Clamp holes for Right Gantry)
+G0X-463.4Y10
+G1Z-4.0F10.0
+G0Z3.0
+(Corner Clamp holes for Right Gantry)
+G0X-463.4Y334.75
+G1Z-4.0F10.0
+G0Z3.0
 
 
 S0

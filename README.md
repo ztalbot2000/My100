@@ -32,8 +32,8 @@
 * [**Design Strategy**](#design-strategy)
 * [***Imperial/Metric and Metal Thickness***](#imperialmetric-and-metal-thickness)
 * [**SolidWorks 2023 Maker Edition and Equations**](#solidworks-2023-maker-edition-and-equations)
+* [**Current Build Status My100 1.0 Alpha 7**](#current-build-status-my100-10-alpha-7)
 * [**Current Build Status My100 1.0 Alpha 6**](#current-build-status-my100-10-alpha-6)
-* [**Previous Build Status My100 1.0 Alpha 5**](#previous-build-status-my100-10-alpha-5)
 * [**Current Build Photos**](docs/CurrentBuildPhotos.md)
 * [**ChangeLog**](CHANGELOG.TXT)
 * [**Bill of Materials**](docs/My100BOM.md)
@@ -101,6 +101,15 @@
 
 #### Front to Back Alignment
 &nbsp;&nbsp;&nbsp;The front steppers for the Z-Axis are by the belt tensioners. The build plate size dictates everything else. Similiarly the Y-Axis linear rail placement traverses the length of the build plate so that the hot end tip can reach the whole area.
+
+<BR><BR>
+## Current Build Status My100 1.0 Alpha 7
+(In progress)
+<UL>
+   <LI> Bed Mesh works
+   <LI> Added larger Z endstop switch
+   <LI> Trying to print... Oooooh
+</UL>
 
 <BR><BR>
 ## Current Build Status My100 1.0 Alpha 6

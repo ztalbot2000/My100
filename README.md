@@ -53,6 +53,7 @@
 <LI>Fastening holes for an enclosure is mandatory feature. Any fumes from a 3D printer should be externally vented as they are extremely harmful.
 <LI>Build plate is 350 X 350mm. The height is at 200mm as I prove in the design, but is easily changed via equations of VSLength.
 <LI>End stops and some sort of probe for bed leveling will be added as if you ever used a cheap 3D printer, leveling can be a nightmare.
+<LI>Gantry steppers moved from within frame to electronics below so steppers will not be susceptible to heat issues.
 </UL>
 <BR><BR>
 
@@ -108,6 +109,8 @@
 <UL>
    <LI> Bed Mesh works
    <LI> Added larger Z endstop switch
+   <LI> Moved gantry steppers to electronics below.
+   <LI> Moved drag chain to middle of hot end carrier to remove the possability of any lever affect to the hot end.
    <LI> Trying to print... Oooooh
 </UL>
 

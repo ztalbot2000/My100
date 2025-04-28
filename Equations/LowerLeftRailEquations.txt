@@ -2,6 +2,7 @@
 "VSWidth"= 1.25in'Spec
 "SideRailLength"= 21.75in
 "LowerRailHeight"= 2.0in
+"StepperHolePadSize"= "StepperHoleDiameter"
 "DistanceFromFrontSideToFirstLeftStepperHoleMountYSValue"= 74.025mm
 "DistanceBetweenFrontToBackStepperHoles"= "BedLength" - "BuildPlateStandoffHolesDistanceFromFrontOrBackSide" * 2'Equals 270
 "BedLength"= "BuildPlateLength"
@@ -15,7 +16,7 @@
 "D8@Sketch1"="StepperMountSlotDiameterOnRails"
 "D11@Sketch1"="DistanceBetweenFrontToBackStepperHoles"
 "D1@Boss-Extrude2"="RailThickness"
-"FrameFastenerHoleOffsetFromEdge" = "VSWidth" / 2 - "GapBetweenVerticalSupportsAndRails" / 2
+"FrameFastenerHoleOffsetFromEdge"= "VSWidth" / 2 - "GapBetweenVerticalSupportsAndRails" / 2
 "StepperMountSlotDiameterOnRails"= 4.2mm
 "StepperMountSlotWidth"= 6mm
 "D7@Sketch1"="StepperMountSlotWidth"
@@ -33,9 +34,9 @@
 "AngleBracketSmallHoleDiameter"= 4mm
 "AngleBracketSlotDistanceBetweenHoles"= 30mm
 "AngleBracketSlotDistanceFromTop"= 13mm
-"AngleBracketSlotDistanceFromCorner" = "AngleBracketSlotDistanceFromBack" - "GapBetweenVerticalSupportsAndRails" / 2'Equals 61.825
+"AngleBracketSlotDistanceFromCorner"= "AngleBracketSlotDistanceFromBack" - "GapBetweenVerticalSupportsAndRails" / 2'Equals 61.825
 "AngleBracketSlotDistanceFromBack"= 65mm
-"D18@Sketch1"="AngleBracketSlotDistanceBetweenHoles"
-"D19@Sketch1"="AngleBracketSlotDistanceFromCorner" - 2mm
-"D20@Sketch1"="AngleBracketSmallHoleDiameter"
-"D21@Sketch1"="AngleBracketSlotDistanceFromTop"
+"D23@Sketch1"="Nema17StepperMountSlotDistance"
+"DistanceFromBackToFirstGantryStepperHole"= "VSWidth" - "RailThickness" + ( "Nema17MountWidth" - "Nema17StepperMountSlotDistance" ) / 2 - "GapBetweenVerticalSupportsAndRails" / 2'Equals 34.9. Push Gantry stepper as far back as possible
+"Nema17MountWidth"= 50mm
+"D24@Sketch1"="DistanceFromBackToFirstGantryStepperHole"

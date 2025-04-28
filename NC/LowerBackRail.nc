@@ -9,16 +9,6 @@ G1Z-4.0F10.0
 G0Z3.0
 
 
-(First Angle mount at Left)
-G0X13Y59.825
-G1Z-4.0F10.0
-G0Z3.0
-(Second Angle mount at Left)
-G0X13Y89.825
-G1Z-4.0F10.0
-G0Z3.0
-
-
 (First Power Cover mount from Left)
 G0X25.4Y337.3
 G1Z-4.0F10.0
@@ -53,16 +43,6 @@ G0Z3.0
 
 (Second Power Cover mount from Left)
 G0X25.4Y417.3
-G1Z-4.0F10.0
-G0Z3.0
-
-
-(First Angle mount at Right)
-G0X13Y430.875
-G1Z-4.0F10.0
-G0Z3.0
-(Second Angle mount at Right)
-G0X13Y460.875
 G1Z-4.0F10.0
 G0Z3.0
 

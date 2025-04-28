@@ -20,5 +20,8 @@ test/tmp/*
 # Solidworks swap files
 \~*
 
+# Solidworks debug log files
+debug.log
+
 # work in progress folder
 local

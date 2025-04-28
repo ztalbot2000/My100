@@ -207,7 +207,7 @@ G0X-70Y19
 G1Z-4.0F10.0
 G0Z3.0
 (Corner Clamp holes for Left Gantry and Extruder)
-G0X-90Y10
+G0X-90Y56.75
 G1Z-4.0F10.0
 G0Z3.0
 (Corner Clamp holes for Left Gantry and Extruder)
@@ -221,7 +221,7 @@ G0Z3.0
 
 
 (Corner Clamp holes for Right Gantry)
-G0X-463.4Y10
+G0X-463.4Y56.75
 G1Z-4.0F10.0
 G0Z3.0
 (Corner Clamp holes for Right Gantry)

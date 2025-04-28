@@ -35,12 +35,29 @@ G1Z-4.0F10.0
 G0Z3.0
 
 
-(First Angle mount at Right)
-G0X13Y462.625
+(Stepper Right Gantry hole-1 Slot via hole 1L)
+G0X39.1Y484.55
 G1Z-4.0F10.0
 G0Z3.0
-(Second Angle mount at Right)
-G0X13Y492.625
+(Stepper Right Gantry hole-1 Slot via hole 1M)
+G0X39.1Y486.55
+G1Z-4.0F10.0
+G0Z3.0
+(Stepper Right Gantry hole-1 Slot via hole 1R)
+G0X39.1Y488.55
+G1Z-4.0F10.0
+G0Z3.0
+
+(Stepper Right Gantry hole-2 Slot via hole 2L)
+G0X39.1Y515.55
+G1Z-4.0F10.0
+G0Z3.0
+(Stepper Right Gantry hole-2 Slot via hole 2M)
+G0X39.1Y517.55
+G1Z-4.0F10.0
+G0Z3.0
+(Stepper Right Gantry hole-2 Slot via hole 2R)
+G0X39.1Y519.55
 G1Z-4.0F10.0
 G0Z3.0
 
